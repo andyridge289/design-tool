@@ -1,0 +1,1773 @@
+var ds4 = {
+				id: "category4",
+				name: "1: Service DS"
+				,data: {
+					type: "category",
+					description: "Properties of the services used by the EUSC tool.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "1",
+				},
+	children: [{
+				id: "decision76",
+				name: "3: Service interactions"
+				,data: {
+					type: "decision",
+					description: "Interactions that users can have with services through the tool.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "decision79",
+				name: "3: Service attributes"
+				,data: {
+					type: "decision",
+					description: "Attributes of services that are presented to the user of the tool",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "decision84",
+				name: "3: Component attributes"
+				,data: {
+					type: "decision",
+					description: "Attributes of components that are presented to users of the tool.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "decision85",
+				name: "3: Component popularity attributes"
+				,data: {
+					type: "decision",
+					description: "Attributes of components that allow users to assess the popularity of a component.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "option205",
+				name: "3: Component num downloads"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option204",
+				name: "3: Component num SNS shares"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option203",
+				name: "3: Component age"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option202",
+				name: "3: Component num uses"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option221",
+				name: "4: Component num users"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option222",
+				name: "4: Component num ratings"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option206",
+				name: "3: Component reviews"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option207",
+				name: "3: Component ratings"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision86",
+				name: "3: Component other attributes"
+				,data: {
+					type: "decision",
+					description: "Attributes of components that neither present function or popularity.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "option198",
+				name: "3: Component related actions"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option196",
+				name: "3: Component version"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option208",
+				name: "3: Component copyright"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option209",
+				name: "3: Component creator"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option212",
+				name: "3: Component notes"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option213",
+				name: "3: Component location"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision87",
+				name: "3: Component functional attributes"
+				,data: {
+					type: "decision",
+					description: "Attributes of components that are presented to users so that they can determine its function.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "option220",
+				name: "4: Component type"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option191",
+				name: "3: Component example usage"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option190",
+				name: "3: Component options"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option189",
+				name: "3: Component output(s)/result(s)"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option188",
+				name: "3: Component input(s)"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option187",
+				name: "3: Component requirements/prerequisites"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option211",
+				name: "3: Component icon"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option217",
+				name: "3: Component categories"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option214",
+				name: "3: Component tags"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option215",
+				name: "3: Component description"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option216",
+				name: "3: Component name"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]}
+		]}
+		]},{
+				id: "decision82",
+				name: "3: Composite attributes"
+				,data: {
+					type: "decision",
+					description: "Attributes of composites that are presented in the tool.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "decision80",
+				name: "3: Composite Popularity attributes"
+				,data: {
+					type: "decision",
+					description: "Attributes of composites that users can use to determine how popular they are.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "option227",
+				name: "5: Composite num ratings"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option182",
+				name: "3: Composite num uses"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option181",
+				name: "3: Composite age"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option180",
+				name: "3: Composite num SNS shares"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option156",
+				name: "2: Composite num downloads"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "2",
+				},
+	children: [
+		]},{
+				id: "option150",
+				name: "1: Composite reviews"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option77",
+				name: "1: Composite ratings"
+				,data: {
+					type: "option",
+					description: "Composites present the rating that they have been given by users of the tool.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option231",
+				name: "5: Composite num users"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision83",
+				name: "3: Composite Other attributes"
+				,data: {
+					type: "decision",
+					description: "Attributes of composites that are neither functional or popularity-based.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "option197",
+				name: "3: Composite copyright"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option195",
+				name: "3: Composite creator"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option194",
+				name: "3: Composite properties"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option201",
+				name: "3: Composite icon"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option199",
+				name: "3: Composite notes"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option200",
+				name: "3: Composite location"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option228",
+				name: "5: Composite version"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option275",
+				name: "11: Composite execution status"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision81",
+				name: "3: Composite Functional attributes"
+				,data: {
+					type: "decision",
+					description: "Attributes of composites that help users determine the function of that composite.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "option192",
+				name: "3: Component icons"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option193",
+				name: "3: Component descriptions"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option186",
+				name: "3: Composite categories"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option185",
+				name: "3: Composite Tags"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option184",
+				name: "3: Composite description"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option183",
+				name: "3: Composite name"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option218",
+				name: "4: Component names"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "4",
+				},
+	children: [
+		]}
+		]}
+		]}
+		]},{
+				id: "decision78",
+				name: "3: Composite interactions"
+				,data: {
+					type: "decision",
+					description: "Interactions that users can have with composites through the tool.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "decision105",
+				name: "11: Parameters"
+				,data: {
+					type: "decision",
+					description: "Parameters of components, such as usernames and passwords.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [{
+				id: "decision106",
+				name: "11: Set parameters"
+				,data: {
+					type: "decision",
+					description: "The time and/or method that is used to set the parameters of services.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [{
+				id: "option269",
+				name: "11: Set at composition time"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option270",
+				name: "11: Set at runtime"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [
+		]}
+		]},{
+				id: "option271",
+				name: "11: Default parameters"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [
+		]}
+		]},{
+				id: "option234",
+				name: "5: Review composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option233",
+				name: "5: Rate composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option219",
+				name: "4: Assign tags to composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option179",
+				name: "3: Upload/Publish composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option178",
+				name: "3: Copy composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option177",
+				name: "3: Export composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option176",
+				name: "3: Rename composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option175",
+				name: "3: Save composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option173",
+				name: "3: Delete composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option172",
+				name: "3: Turn on/off composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option171",
+				name: "3: Acquire composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option169",
+				name: "3: Share composite on SNS"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option168",
+				name: "3: Edit composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option167",
+				name: "3: Execute composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option268",
+				name: "11: Choose icon"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision77",
+				name: "3: Component interactions"
+				,data: {
+					type: "decision",
+					description: "Interactions that users can have with components through the tool.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [{
+				id: "option235",
+				name: "5: Rate component"
+				,data: {
+					type: "option",
+					description: "The user is able to rate components.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option166",
+				name: "3: Activate component"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option165",
+				name: "3: Set/Edit component parameters"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option164",
+				name: "3: Use in composition"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option229",
+				name: "5: View example usage"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option230",
+				name: "5: Import component"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option236",
+				name: "5: Review component"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]}
+		]}
+		]}
+		]};
+var opt4 = [{
+				id: "option205",
+				name: "3: Component num downloads"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option204",
+				name: "3: Component num SNS shares"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option203",
+				name: "3: Component age"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option202",
+				name: "3: Component num uses"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option221",
+				name: "4: Component num users"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option222",
+				name: "4: Component num ratings"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option206",
+				name: "3: Component reviews"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option207",
+				name: "3: Component ratings"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option198",
+				name: "3: Component related actions"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option196",
+				name: "3: Component version"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option208",
+				name: "3: Component copyright"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option209",
+				name: "3: Component creator"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option212",
+				name: "3: Component notes"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option213",
+				name: "3: Component location"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option220",
+				name: "4: Component type"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option191",
+				name: "3: Component example usage"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option190",
+				name: "3: Component options"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option189",
+				name: "3: Component output(s)/result(s)"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option188",
+				name: "3: Component input(s)"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option187",
+				name: "3: Component requirements/prerequisites"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option211",
+				name: "3: Component icon"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option217",
+				name: "3: Component categories"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option214",
+				name: "3: Component tags"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option215",
+				name: "3: Component description"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option216",
+				name: "3: Component name"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option227",
+				name: "5: Composite num ratings"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option182",
+				name: "3: Composite num uses"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option181",
+				name: "3: Composite age"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option180",
+				name: "3: Composite num SNS shares"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option156",
+				name: "2: Composite num downloads"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "2",
+				},
+	children: [
+		]},{
+				id: "option150",
+				name: "1: Composite reviews"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option77",
+				name: "1: Composite ratings"
+				,data: {
+					type: "option",
+					description: "Composites present the rating that they have been given by users of the tool.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option231",
+				name: "5: Composite num users"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option197",
+				name: "3: Composite copyright"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option195",
+				name: "3: Composite creator"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option194",
+				name: "3: Composite properties"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option201",
+				name: "3: Composite icon"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option199",
+				name: "3: Composite notes"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option200",
+				name: "3: Composite location"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option228",
+				name: "5: Composite version"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option275",
+				name: "11: Composite execution status"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option192",
+				name: "3: Component icons"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option193",
+				name: "3: Component descriptions"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option186",
+				name: "3: Composite categories"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option185",
+				name: "3: Composite Tags"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option184",
+				name: "3: Composite description"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option183",
+				name: "3: Composite name"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option218",
+				name: "4: Component names"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option234",
+				name: "5: Review composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option233",
+				name: "5: Rate composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option219",
+				name: "4: Assign tags to composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option179",
+				name: "3: Upload/Publish composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option178",
+				name: "3: Copy composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option177",
+				name: "3: Export composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option176",
+				name: "3: Rename composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option175",
+				name: "3: Save composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option173",
+				name: "3: Delete composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option172",
+				name: "3: Turn on/off composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option171",
+				name: "3: Acquire composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option169",
+				name: "3: Share composite on SNS"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option168",
+				name: "3: Edit composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option167",
+				name: "3: Execute composite"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option268",
+				name: "11: Choose icon"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option271",
+				name: "11: Default parameters"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option269",
+				name: "11: Set at composition time"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option270",
+				name: "11: Set at runtime"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option235",
+				name: "5: Rate component"
+				,data: {
+					type: "option",
+					description: "The user is able to rate components.",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option166",
+				name: "3: Activate component"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option165",
+				name: "3: Set/Edit component parameters"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option164",
+				name: "3: Use in composition"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option229",
+				name: "5: View example usage"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option230",
+				name: "5: Import component"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option236",
+				name: "5: Review component"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Service",
+					dsCode: "serv",
+					step: "5",
+				},
+	children: [
+		]}];

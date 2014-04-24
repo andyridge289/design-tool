@@ -1,0 +1,663 @@
+digraph bob {node [color="047b35",fillcolor="#8df2b6",style=filled, shape=house];
+"Functional"
+
+node[shape=box,color="#004a63",fillcolor=lightblue2,style=filled,fontcolor="#444444"];
+"Inception","Analysis","Specification type","Specification creator","Specification time","Specification method","Specification Plicitness","Textual DSL","Evaluation"
+
+node [color="#aaaaaa", style="rounded,filled", shape=rect, fontcolor="#444444", fillcolor="#ffffff"];
+"Feasibility","Project planning","Domain","Activity","Needs","QoS requirements","Users","Application developers","Runtime specification","Development time","User interaction","Source code","Implicit specification","Explicit specification","User goal/requirement mapping","Design","Automatic UI Generation","Selecting & customising UI","Textual UI composition","Advanced UI generation","Infinite composition","Textual DSL editors","Textual DSLs in Dialog fields","Visual workflow/process oriented languages","Iconic","Story-based composition","Collaborative composition","PbD","Spreadsheets","Web Page customisation","Save sections of composition","Execute sections of composition","Search by technology","Search by effect","Group by cost","Group by recently used","Group by network requirement","Context-specific suggestions","Feature prompts","Recommendations from friends","Contextual discovery","Scenario","Performance","Usability","Version control","Simulate testing of triggers","Test mode for components","Dummy test data","Change Request Management","Monitoring","Adaptation","Request components","Update components","Favourite components","Duplicate component removal","Automatic composite management","Code generation","Compilation","Provide component wrapper"
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"SC Lifecycle"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Specification"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Realisation"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Construct composition"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Composition type"
+
+node[shape=box,color="#000000",fillcolor="#f4e9ff",fontcolor="#000000",style=filled];
+"Presentation/UI composition"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Composition technique"
+
+node[shape=box,color="#000000",fillcolor="#e9d4ff",fontcolor="#000000",style=filled];
+"Language"
+
+node[shape=box,color="#000000",fillcolor="#f4e9ff",fontcolor="#000000",style=filled];
+"DSL"
+
+node[shape=box,color="#000000",fillcolor="#f4e9ff",fontcolor="#000000",style=filled];
+"Visual DSL"
+
+node[shape=box,color="#000000",fillcolor="#f4e9ff",fontcolor="#000000",style=filled];
+"Full language"
+
+node[shape=box,color="#000000",fillcolor="#8615ff",fontcolor="#000000",style=filled];
+"Non-language"
+
+node[shape=box,color="#000000",fillcolor="#9c3fff",fontcolor="#000000",style=filled];
+"Composition editing"
+
+node[shape=box,color="#000000",fillcolor="#d3aaff",fontcolor="#000000",style=filled];
+"Edit sections of composition"
+
+node[shape=box,color="#000000",fillcolor="#9c3fff",fontcolor="#000000",style=filled];
+"Edit components in composition"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Discovery"
+
+node[shape=box,color="#000000",fillcolor="#bd7fff",fontcolor="#000000",style=filled];
+"Search"
+
+node[shape=box,color="#000000",fillcolor="#c894ff",fontcolor="#000000",style=filled];
+"Search metrics"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Browsing"
+
+node[shape=box,color="#000000",fillcolor="#912aff",fontcolor="#000000",style=filled];
+"Grouping/categorisation"
+
+node[shape=box,color="#000000",fillcolor="#912aff",fontcolor="#000000",style=filled];
+"Grouping metrics"
+
+node[shape=box,color="#000000",fillcolor="#bd7fff",fontcolor="#000000",style=filled];
+"Filter"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"Ranking/sorting/ordering"
+
+node[shape=box,color="#000000",fillcolor="#debfff",fontcolor="#000000",style=filled];
+"Suggestions"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Discoverable entities"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"Verify/Validate"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"Software engineering techniques"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"Testing"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"Provisioning"
+
+node[shape=box,color="#000000",fillcolor="#debfff",fontcolor="#000000",style=filled];
+"Annotation"
+
+node[shape=box,color="#000000",fillcolor="#9c3fff",fontcolor="#000000",style=filled];
+"Management"
+
+node[shape=box,color="#000000",fillcolor="#e9d4ff",fontcolor="#000000",style=filled];
+"Component management"
+
+node[shape=box,color="#000000",fillcolor="#a755ff",fontcolor="#000000",style=filled];
+"Composite management"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"Composite execution"
+
+node[shape=box,color="#000000",fillcolor="#f4e9ff",fontcolor="#000000",style=filled];
+"Drafts"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Deployment/execution"
+
+node[shape=box,color="#000000",fillcolor="#bd7fff",fontcolor="#000000",style=filled];
+"Output types"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Interpretation"
+
+node[shape=box,color="#000000",fillcolor="#7b00ff",fontcolor="#000000",style=filled];
+"Tool functions"
+
+node[shape=box,color="#000000",fillcolor="#bd7fff",fontcolor="#000000",style=filled];
+"Browse"
+
+node[shape=box,color="#000000",fillcolor="#debfff",fontcolor="#000000",style=filled];
+"Add"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"User management"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"User information"
+
+node[shape=box,color="#000000",fillcolor="#d3aaff",fontcolor="#000000",style=filled];
+"Social functions"
+
+node[shape=box,color="#000000",fillcolor="#f4e9ff",fontcolor="#000000",style=filled];
+"Account usage"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"Device management"
+
+node[shape=box,color="#000000",fillcolor="#d3aaff",fontcolor="#000000",style=filled];
+"Backup/Restore"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"Settings"
+
+node[shape=box,color="#000000",fillcolor="#bd7fff",fontcolor="#000000",style=filled];
+"Global service settings"
+
+node[shape=box,color="#000000",fillcolor="#e9d4ff",fontcolor="#000000",style=filled];
+"Non-service functions"
+
+node[shape=box,color="#000000",fillcolor="#d3aaff",fontcolor="#000000",style=filled];
+"Tool state settings"
+
+node[shape=box,color="#000000",fillcolor="#b26aff",fontcolor="#000000",style=filled];
+"View Tool Information"
+
+node [color="#9400ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#7b00ff"];
+"No specification"
+
+node [color="#9d15ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#8615ff"];
+"Logic/process composition"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"UI Customisation"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Visual UI composition"
+
+node [color="#c97fff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#bd7fff"];
+"Data composition"
+
+node [color="#d294ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#c894ff"];
+"Editable example"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Visual data flow languages"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Scripting language"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Programming environment"
+
+node [color="#af3fff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#9c3fff"];
+"Form-based"
+
+node [color="#e4bfff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#debfff"];
+"Drag-and-drop"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Dialog-based wiring of widgets"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Live composition"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Select sections of composition"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Remove sections of composition"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Copy sections of composition"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Paste sections of composition"
+
+node [color="#b855ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#a755ff"];
+"Select component in composition"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Copy component in composition"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Paste component in composition"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Activate/deactivate component in composition"
+
+node [color="#e4bfff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#debfff"];
+"Insert component in composition"
+
+node [color="#c16aff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#b26aff"];
+"Remove component"
+
+node [color="#c97fff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#bd7fff"];
+"Text-based search"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Search by function (description)"
+
+node [color="#d294ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#c894ff"];
+"Search by name"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Component-based search (i.e. search for Trigger or action)"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Browsing composites by structural properties"
+
+node [color="#c16aff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#b26aff"];
+"Simple categorisation of components"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Sub-categories"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Manual grouping"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Customisation of grouping"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Group by location"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Group by rating"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Grouping by service provider"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Group by popularity"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Group by age"
+
+node [color="#e4bfff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#debfff"];
+"Group by type"
+
+node [color="#c16aff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#b26aff"];
+"Group by function"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Group by featured/not"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Filter by tag"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Filter by name"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Filter by components"
+
+node [color="#af3fff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#9c3fff"];
+"Basic browsing (list)"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Ranking alphabetically"
+
+node [color="#e4bfff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#debfff"];
+"Rank by popularity"
+
+node [color="#e4bfff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#debfff"];
+"Rank by age"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Suggestions of composites created by other users"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Suggestions based on matching components"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Featured suggestions"
+
+node [color="#9d15ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#8615ff"];
+"Components discoverable"
+
+node [color="#c16aff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#b26aff"];
+"Composites discoverable"
+
+node [color="#e4bfff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#debfff"];
+"Debugging output"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Real-time execution"
+
+node [color="#e4bfff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#debfff"];
+"Stepped execution"
+
+node [color="#c97fff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#bd7fff"];
+"Test execution"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Automatic composite description generation"
+
+node [color="#c16aff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#b26aff"];
+"Deployment"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Notifications of new components"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Moderators for composite repository"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Execution confirmation"
+
+node [color="#c16aff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#b26aff"];
+"Enable composite execution"
+
+node [color="#c16aff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#b26aff"];
+"Disable composite execution"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"View execution history"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Save data from composition"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Auto-save drafts"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"View drafts"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Web application"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Standalone application"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"File"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"External feed"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Delayed execution"
+
+node [color="#9400ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#7b00ff"];
+"Instant/triggered execution"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Execution timer"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Change pricing plan"
+
+node [color="#c97fff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#bd7fff"];
+"View all available components"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Active channels"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Add API"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Create component"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Add plug-ins"
+
+node [color="#c97fff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#bd7fff"];
+"User profiles"
+
+node [color="#c16aff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#b26aff"];
+"User username"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"User nickname"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"User gender"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"User date of birth"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"User company"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"User time zone"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"User points"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Connect social network accounts"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Invite friends"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Number or composites remaining"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Backup composites"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Restore composites"
+
+node [color="#d294ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#c894ff"];
+"Background notification on/off"
+
+node [color="#e4bfff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#debfff"];
+"Setting - location granularity"
+
+node [color="#e4bfff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#debfff"];
+"Setting - units"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Setting - sampling rates"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Show tutorial on startup"
+
+node [color="#e4bfff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#debfff"];
+"Anonymous data collection"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Notification of successful execution"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Assign variables"
+
+node [color="#dbaaff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#d3aaff"];
+"Tool enabled"
+
+node [color="#edd4ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#e9d4ff"];
+"Tool enable at startup"
+
+node [color="#f6e9ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#f4e9ff"];
+"Rate tool"
+
+node [color="#c16aff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#b26aff"];
+"About tool"
+
+node [color="#d294ff", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#c894ff"];
+"T&Cs"
+
+
+
+
+"Functional"->"SC Lifecycle" [arrowhead=none]
+"Functional"->"Tool functions" [arrowhead=none]
+"Functional" [arrowhead=none]
+"SC Lifecycle"->"Inception" [arrowhead=none]
+"SC Lifecycle"->"Analysis" [arrowhead=none]
+"SC Lifecycle"->"Specification" [arrowhead=none]
+"SC Lifecycle"->"Realisation" [arrowhead=none]
+"SC Lifecycle"->"Provisioning" [arrowhead=none]
+"SC Lifecycle"->"Management" [arrowhead=none]
+"SC Lifecycle"->"Deployment/execution" [arrowhead=none]
+"SC Lifecycle" [arrowhead=none]
+"Inception" [arrowhead=none]
+"Inception"->"Feasibility"->"Project planning" [arrowhead=none,color="#888888",style="dashed"]
+"Analysis" [arrowhead=none]
+"Analysis"->"Domain"->"Activity" [arrowhead=none,color="#888888",style="dashed"]
+"Specification"->"Specification type" [arrowhead=none]
+"Specification"->"Specification creator" [arrowhead=none]
+"Specification"->"Specification time" [arrowhead=none]
+"Specification"->"Specification method" [arrowhead=none]
+"Specification"->"Specification Plicitness" [arrowhead=none]
+"Specification" [arrowhead=none]
+"Specification"->"User goal/requirement mapping"->"No specification" [arrowhead=none,color="#888888",style="dashed"]
+"Specification type" [arrowhead=none]
+"Specification type"->"Needs"->"QoS requirements" [arrowhead=none,color="#888888",style="dashed"]
+"Specification creator" [arrowhead=none]
+"Specification creator"->"Users"->"Application developers" [arrowhead=none,color="#888888",style="dashed"]
+"Specification time" [arrowhead=none]
+"Specification time"->"Runtime specification"->"Development time" [arrowhead=none,color="#888888",style="dashed"]
+"Specification method" [arrowhead=none]
+"Specification method"->"User interaction"->"Source code" [arrowhead=none,color="#888888",style="dashed"]
+"Specification Plicitness" [arrowhead=none]
+"Specification Plicitness"->"Implicit specification"->"Explicit specification" [arrowhead=none,color="#888888",style="dashed"]
+"Realisation"->"Construct composition" [arrowhead=none]
+"Realisation"->"Discovery" [arrowhead=none]
+"Realisation"->"Verify/Validate" [arrowhead=none]
+"Realisation" [arrowhead=none]
+"Realisation"->"Design" [arrowhead=none,color="#888888",style="dashed"]
+"Construct composition"->"Composition type" [arrowhead=none]
+"Construct composition"->"Composition technique" [arrowhead=none]
+"Construct composition"->"Composition editing" [arrowhead=none]
+"Construct composition" [arrowhead=none]
+"Construct composition"->"Infinite composition" [arrowhead=none,color="#888888",style="dashed"]
+"Composition type"->"Presentation/UI composition" [arrowhead=none]
+"Composition type" [arrowhead=none]
+"Composition type"->"Logic/process composition"->"Data composition" [arrowhead=none,color="#888888",style="dashed"]
+"Presentation/UI composition" [arrowhead=none]
+"Presentation/UI composition"->"UI Customisation"->"Automatic UI Generation"->"Selecting & customising UI"->"Visual UI composition"->"Textual UI composition"->"Advanced UI generation" [arrowhead=none,color="#888888",style="dashed"]
+"Composition technique"->"Language" [arrowhead=none]
+"Composition technique"->"Non-language" [arrowhead=none]
+"Composition technique" [arrowhead=none]
+"Composition technique"->"Editable example"->"Story-based composition"->"Collaborative composition" [arrowhead=none,color="#888888",style="dashed"]
+"Language"->"DSL" [arrowhead=none]
+"Language"->"Full language" [arrowhead=none]
+"Language" [arrowhead=none]
+"DSL"->"Textual DSL" [arrowhead=none]
+"DSL"->"Visual DSL" [arrowhead=none]
+"DSL" [arrowhead=none]
+"Textual DSL" [arrowhead=none]
+"Textual DSL"->"Textual DSL editors"->"Textual DSLs in Dialog fields" [arrowhead=none,color="#888888",style="dashed"]
+"Visual DSL" [arrowhead=none]
+"Visual DSL"->"Visual data flow languages"->"Visual workflow/process oriented languages"->"Iconic" [arrowhead=none,color="#888888",style="dashed"]
+"Full language" [arrowhead=none]
+"Full language"->"Scripting language"->"Programming environment" [arrowhead=none,color="#888888",style="dashed"]
+"Non-language" [arrowhead=none]
+"Non-language"->"Form-based"->"Drag-and-drop"->"PbD"->"Spreadsheets"->"Web Page customisation"->"Dialog-based wiring of widgets"->"Live composition" [arrowhead=none,color="#888888",style="dashed"]
+"Composition editing"->"Edit sections of composition" [arrowhead=none]
+"Composition editing"->"Edit components in composition" [arrowhead=none]
+"Composition editing" [arrowhead=none]
+"Edit sections of composition" [arrowhead=none]
+"Edit sections of composition"->"Select sections of composition"->"Remove sections of composition"->"Copy sections of composition"->"Paste sections of composition"->"Save sections of composition"->"Execute sections of composition" [arrowhead=none,color="#888888",style="dashed"]
+"Edit components in composition" [arrowhead=none]
+"Edit components in composition"->"Select component in composition"->"Copy component in composition"->"Paste component in composition"->"Activate/deactivate component in composition"->"Insert component in composition"->"Remove component" [arrowhead=none,color="#888888",style="dashed"]
+"Discovery"->"Search" [arrowhead=none]
+"Discovery"->"Browsing" [arrowhead=none]
+"Discovery"->"Suggestions" [arrowhead=none]
+"Discovery"->"Discoverable entities" [arrowhead=none]
+"Discovery" [arrowhead=none]
+"Discovery"->"Contextual discovery" [arrowhead=none,color="#888888",style="dashed"]
+"Search"->"Search metrics" [arrowhead=none]
+"Search" [arrowhead=none]
+"Search"->"Text-based search" [arrowhead=none,color="#888888",style="dashed"]
+"Search metrics" [arrowhead=none]
+"Search metrics"->"Search by function (description)"->"Search by name"->"Component-based search (i.e. search for Trigger or action)"->"Search by technology"->"Search by effect" [arrowhead=none,color="#888888",style="dashed"]
+"Browsing"->"Grouping/categorisation" [arrowhead=none]
+"Browsing"->"Filter" [arrowhead=none]
+"Browsing"->"Ranking/sorting/ordering" [arrowhead=none]
+"Browsing" [arrowhead=none]
+"Browsing"->"Basic browsing (list)" [arrowhead=none,color="#888888",style="dashed"]
+"Grouping/categorisation"->"Grouping metrics" [arrowhead=none]
+"Grouping/categorisation" [arrowhead=none]
+"Grouping/categorisation"->"Browsing composites by structural properties"->"Simple categorisation of components"->"Sub-categories"->"Manual grouping"->"Customisation of grouping" [arrowhead=none,color="#888888",style="dashed"]
+"Grouping metrics" [arrowhead=none]
+"Grouping metrics"->"Group by location"->"Group by cost"->"Group by rating"->"Group by recently used"->"Grouping by service provider"->"Group by popularity"->"Group by age"->"Group by type"->"Group by function"->"Group by network requirement"->"Group by featured/not" [arrowhead=none,color="#888888",style="dashed"]
+"Filter" [arrowhead=none]
+"Filter"->"Filter by tag"->"Filter by name"->"Filter by components" [arrowhead=none,color="#888888",style="dashed"]
+"Ranking/sorting/ordering" [arrowhead=none]
+"Ranking/sorting/ordering"->"Ranking alphabetically"->"Rank by popularity"->"Rank by age" [arrowhead=none,color="#888888",style="dashed"]
+"Suggestions" [arrowhead=none]
+"Suggestions"->"Context-specific suggestions"->"Feature prompts"->"Suggestions of composites created by other users"->"Suggestions based on matching components"->"Recommendations from friends"->"Featured suggestions" [arrowhead=none,color="#888888",style="dashed"]
+"Discoverable entities" [arrowhead=none]
+"Discoverable entities"->"Components discoverable"->"Composites discoverable" [arrowhead=none,color="#888888",style="dashed"]
+"Verify/Validate"->"Evaluation" [arrowhead=none]
+"Verify/Validate"->"Software engineering techniques" [arrowhead=none]
+"Verify/Validate" [arrowhead=none]
+"Evaluation" [arrowhead=none]
+"Evaluation"->"Scenario"->"Performance"->"Usability" [arrowhead=none,color="#888888",style="dashed"]
+"Software engineering techniques"->"Testing" [arrowhead=none]
+"Software engineering techniques" [arrowhead=none]
+"Software engineering techniques"->"Debugging output"->"Version control"->"Change Request Management" [arrowhead=none,color="#888888",style="dashed"]
+"Testing" [arrowhead=none]
+"Testing"->"Real-time execution"->"Stepped execution"->"Test execution"->"Simulate testing of triggers"->"Test mode for components"->"Dummy test data" [arrowhead=none,color="#888888",style="dashed"]
+"Provisioning"->"Annotation" [arrowhead=none]
+"Provisioning" [arrowhead=none]
+"Provisioning"->"Deployment" [arrowhead=none,color="#888888",style="dashed"]
+"Annotation" [arrowhead=none]
+"Annotation"->"Automatic composite description generation" [arrowhead=none,color="#888888",style="dashed"]
+"Management"->"Component management" [arrowhead=none]
+"Management"->"Composite management" [arrowhead=none]
+"Management" [arrowhead=none]
+"Management"->"Monitoring"->"Adaptation" [arrowhead=none,color="#888888",style="dashed"]
+"Component management" [arrowhead=none]
+"Component management"->"Request components"->"Notifications of new components"->"Update components"->"Favourite components"->"Duplicate component removal" [arrowhead=none,color="#888888",style="dashed"]
+"Composite management"->"Composite execution" [arrowhead=none]
+"Composite management"->"Drafts" [arrowhead=none]
+"Composite management" [arrowhead=none]
+"Composite management"->"Moderators for composite repository"->"Automatic composite management"->"Execution confirmation"->"View execution history"->"Save data from composition" [arrowhead=none,color="#888888",style="dashed"]
+"Composite execution" [arrowhead=none]
+"Composite execution"->"Enable composite execution"->"Disable composite execution" [arrowhead=none,color="#888888",style="dashed"]
+"Drafts" [arrowhead=none]
+"Drafts"->"Auto-save drafts"->"View drafts" [arrowhead=none,color="#888888",style="dashed"]
+"Deployment/execution"->"Output types" [arrowhead=none]
+"Deployment/execution"->"Interpretation" [arrowhead=none]
+"Deployment/execution" [arrowhead=none]
+"Deployment/execution"->"Code generation"->"Compilation" [arrowhead=none,color="#888888",style="dashed"]
+"Output types" [arrowhead=none]
+"Output types"->"Web application"->"Standalone application"->"File"->"External feed" [arrowhead=none,color="#888888",style="dashed"]
+"Interpretation" [arrowhead=none]
+"Interpretation"->"Delayed execution"->"Instant/triggered execution"->"Execution timer" [arrowhead=none,color="#888888",style="dashed"]
+"Tool functions"->"Browse" [arrowhead=none]
+"Tool functions"->"Add" [arrowhead=none]
+"Tool functions"->"User management" [arrowhead=none]
+"Tool functions"->"Device management" [arrowhead=none]
+"Tool functions"->"Non-service functions" [arrowhead=none]
+"Tool functions"->"Tool state settings" [arrowhead=none]
+"Tool functions"->"View Tool Information" [arrowhead=none]
+"Tool functions" [arrowhead=none]
+"Tool functions"->"Change pricing plan"->"Rate tool" [arrowhead=none,color="#888888",style="dashed"]
+"Browse" [arrowhead=none]
+"Browse"->"View all available components"->"Active channels" [arrowhead=none,color="#888888",style="dashed"]
+"Add" [arrowhead=none]
+"Add"->"Add API"->"Create component"->"Provide component wrapper"->"Add plug-ins" [arrowhead=none,color="#888888",style="dashed"]
+"User management"->"User information" [arrowhead=none]
+"User management"->"Social functions" [arrowhead=none]
+"User management"->"Account usage" [arrowhead=none]
+"User management" [arrowhead=none]
+"User management"->"User profiles"->"User points" [arrowhead=none,color="#888888",style="dashed"]
+"User information" [arrowhead=none]
+"User information"->"User username"->"User nickname"->"User gender"->"User date of birth"->"User company"->"User time zone" [arrowhead=none,color="#888888",style="dashed"]
+"Social functions" [arrowhead=none]
+"Social functions"->"Connect social network accounts"->"Invite friends" [arrowhead=none,color="#888888",style="dashed"]
+"Account usage" [arrowhead=none]
+"Account usage"->"Number or composites remaining" [arrowhead=none,color="#888888",style="dashed"]
+"Device management"->"Backup/Restore" [arrowhead=none]
+"Device management"->"Settings" [arrowhead=none]
+"Device management" [arrowhead=none]
+"Backup/Restore" [arrowhead=none]
+"Backup/Restore"->"Backup composites"->"Restore composites" [arrowhead=none,color="#888888",style="dashed"]
+"Settings"->"Global service settings" [arrowhead=none]
+"Settings" [arrowhead=none]
+"Settings"->"Background notification on/off"->"Show tutorial on startup"->"Anonymous data collection"->"Notification of successful execution" [arrowhead=none,color="#888888",style="dashed"]
+"Global service settings" [arrowhead=none]
+"Global service settings"->"Setting - location granularity"->"Setting - units"->"Setting - sampling rates" [arrowhead=none,color="#888888",style="dashed"]
+"Non-service functions" [arrowhead=none]
+"Non-service functions"->"Assign variables" [arrowhead=none,color="#888888",style="dashed"]
+"Tool state settings" [arrowhead=none]
+"Tool state settings"->"Tool enabled"->"Tool enable at startup" [arrowhead=none,color="#888888",style="dashed"]
+"View Tool Information" [arrowhead=none]
+"View Tool Information"->"About tool"->"T&Cs" [arrowhead=none,color="#888888",style="dashed"]}

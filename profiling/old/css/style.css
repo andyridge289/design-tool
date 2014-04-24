@@ -1,0 +1,41 @@
+ul
+{
+  list-style: none;
+  margin: 10px 0px 10px 0px;
+  padding: 0;
+}
+
+li.connection
+{
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+li.connection:hover
+{
+  background-color: #eee;
+}
+
+.label
+{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.bob
+{
+  cursor: pointer;
+}
+
+.bob:hover
+{
+  background-color: #eee;
+}
+
+.bob:active
+{
+  background-color: #aaa;
+}

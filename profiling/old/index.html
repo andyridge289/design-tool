@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8">
+		
+		<title>Design Tool!</title>
+		
+		<meta name="description" content="">
+		<meta name="author" content="">
+		
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/bootstrap-responsive.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+	</head>
+	<body onload="init()">
+		
+		<div id="content" class="container-fluid">
+			<div  class="row-fluid">
+		
+				<div id="nav_span" class="span3">
+
+					<div class="btn-group" style="position:relative;">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+								<span id="ds_num" style="margin-right:5px;">1</span><span class="caret"></span>
+						</button>
+						<ul id="tool_selector" class="dropdown-menu" role="menu">
+							
+						</ul>
+						
+					</div>
+					
+				</div>
+				
+				<div id="canvas_container" class="span9">
+					
+					<div id="status_bar" class="alert" style="display:none;">
+						<span id="status_text"></span>
+						<button type="button" class="close" onclick="clearStatus()">&times;</button>
+					</div>
+
+					<div id="canvas" class="well" style="padding:0px;overflow:hidden;">
+						<div id="functional_canvas" class="ds_canvas"></div>
+						<div id="nonfunctional_canvas" class="ds_canvas"></div>
+						<div id="structural_canvas" class="ds_canvas"></div>
+						<div id="service_canvas" class="ds_canvas"></div>	
+					</div>
+					
+					
+			</div> <!-- end row fluid -->
+			
+		</div> <!-- end content -->
+		
+		<script type="text/javascript" src="php/get_things.php"></script>
+		<!-- // <script type="text/javascript" src="php/out_json.php?c=3"></script>
+		// <script type="text/javascript" src="php/out_json.php?c=4"></script> -->
+		
+		<script src="jquery-2.0.0.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		
+		<script src="jit.js"></script>
+		<script src="main.js"></script>
+		
+		
+	</body>
+</html>

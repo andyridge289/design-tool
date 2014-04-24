@@ -1,0 +1,547 @@
+var ds3 = {
+	id: 3,
+	name: "Structural DS",
+	data: {
+		type: "category"
+	},
+	children: [{
+	id: 65,
+	name: "Composition structure",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 45,
+	name: "Liveness",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 80,
+	name: "Level 1",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 81,
+	name: "Level 2",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 82,
+	name: "Level 3",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 83,
+	name: "Level 4",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 53,
+	name: "Programming structures",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 97,
+	name: "Branches",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 98,
+	name: "Loops",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 52,
+	name: "Component types",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 94,
+	name: "Triggers",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 95,
+	name: "Actions",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 96,
+	name: "Filters",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 46,
+	name: "Technologies",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 47,
+	name: "Communication protocol",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 84,
+	name: "SOAP",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 85,
+	name: "REST",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 48,
+	name: "Data retrieval",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 49,
+	name: "Syndication format",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 86,
+	name: "RSS",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 87,
+	name: "ATOM",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 88,
+	name: "Widget",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 89,
+	name: "Scraping/DOM",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 50,
+	name: "Message data format",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 137,
+	name: "JSON message format",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 138,
+	name: "XML message format",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 51,
+	name: "Service description format",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 90,
+	name: "JSON",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 91,
+	name: "XML",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 92,
+	name: "WSDL",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 93,
+	name: "WADL",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]},{
+	id: 54,
+	name: "Templates",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 99,
+	name: "Tool-level",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 100,
+	name: "Composition level",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 55,
+	name: "Automation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 101,
+	name: "Full automation",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 102,
+	name: "Semi-automation",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 103,
+	name: "No automation",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 56,
+	name: "Composition layer",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 104,
+	name: "Service layer",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 105,
+	name: "Application layer",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 106,
+	name: "Presentation layer",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 57,
+	name: "Flow present",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 123,
+	name: "Data flow present",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 152,
+	name: "Control flow present",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 71,
+	name: "Inputs and outputs",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 97,
+	name: "Data types",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 48,
+	name: "Low",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 161,
+	name: "Multiple atomic I&Os",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 162,
+	name: "Single composite I&Os",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]},{
+	id: 64,
+	name: "Tool structure",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 98,
+	name: "System integration",
+	data: {
+		type: "decision"
+	},
+	children: [
+]},{
+	id: 89,
+	name: "Extensions",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 238,
+	name: "Extension APIs",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 58,
+	name: "Application type",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 111,
+	name: "Application",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 112,
+	name: "Plug-in",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 113,
+	name: "Platform",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 114,
+	name: "Webpage/webapp",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 243,
+	name: "Framework",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 59,
+	name: "Application location",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 64,
+	name: "Mobile",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 65,
+	name: "Desktop",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 66,
+	name: "Web",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 60,
+	name: "Repositories",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 115,
+	name: "Component repository",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 116,
+	name: "Composite repository",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 61,
+	name: "Infrastructure",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 117,
+	name: "Ad hoc",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 118,
+	name: "Fixed",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 62,
+	name: "Topology",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 119,
+	name: "Centralised",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 120,
+	name: "Decentralised",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 63,
+	name: "Sharing",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 124,
+	name: "Sharing components",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 125,
+	name: "Sharing composites",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 96,
+	name: "Customisation",
+	data: {
+		type: "decision"
+	},
+	children: [
+]}
+]}
+]}

@@ -1,0 +1,16 @@
+var ds1 = 
+{
+	id: 1,
+	name: "Functional DS",
+	data: {
+		type: "category"
+	},
+	children: [
+	{
+		id: 2,
+		name: "SC Lifecycle Activities",
+		data: {
+			type: "decision"
+		}
+	}]
+};	

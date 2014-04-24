@@ -1,0 +1,407 @@
+var ds1 = {
+	id: "category1",
+	name: "Functional DS",
+	data: {
+		type: "category"
+	},
+	children: [{
+	id: "decision1",
+	name: "SC Lifecycle Activities",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "decision2",
+	name: "Specification",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "option141",
+	name: "No specification",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "decision3",
+	name: "Request",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "decision100",
+	name: "Search",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "decision99",
+	name: "Search metrics",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "option249",
+	name: "Search by fuction",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option250",
+	name: "Search by name",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]}
+]},{
+	id: "decision4",
+	name: "Discovery",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "decision5",
+	name: "Discovery mechanism",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "decision67",
+	name: "Browsing",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "decision101",
+	name: "Grouping",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "decision102",
+	name: "Grouping metrics",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "option253",
+	name: "Group by function",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option254",
+	name: "Group by location",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option255",
+	name: "Group by cost",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option256",
+	name: "Group by service provider",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option257",
+	name: "Group by rating",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option258",
+	name: "Group by recently used",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "option251",
+	name: "Customisation of grouping",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option252",
+	name: "Manual grouping",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "option155",
+	name: "Browse + filter/search",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option154",
+	name: "Browse list",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "decision66",
+	name: "Suggestions",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "option4",
+	name: "Context-specific suggestions",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option151",
+	name: "Other recommendations",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option259",
+	name: "Recommendations from friends",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option260",
+	name: "Matching components",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "option153",
+	name: "Text entry",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "decision6",
+	name: "Discoverable entities",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "option5",
+	name: "Components",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option6",
+	name: "Composites",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]},{
+	id: "decision88",
+	name: "Composition stage",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "decision8",
+	name: "UI composition method",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "option9",
+	name: "Automatic UI generation",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option10",
+	name: "Webpage composition",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option11",
+	name: "Widget composition",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option12",
+	name: "Visual UI composition",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option13",
+	name: "Textual UI composition",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option237",
+	name: "Selecting & customising UI",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "option7",
+	name: "Process composition",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option8",
+	name: "Data composition",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option239",
+	name: "UI composition",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "decision9",
+	name: "Verification/validation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "decision103",
+	name: "Testing",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "option261",
+	name: "Simulate testing of triggers",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option262",
+	name: "Test mode for components",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "option15",
+	name: "Debugging",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option149",
+	name: "Dummy test data",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "decision10",
+	name: "Annotation/deployment",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "option16",
+	name: "Code generation",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option17",
+	name: "Interpretation",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option18",
+	name: "Compilation",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option224",
+	name: "Export",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: "decision11",
+	name: "Execution",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: "option142",
+	name: "In-app execution",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: "option148",
+	name: "Create new app",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]}
+]}

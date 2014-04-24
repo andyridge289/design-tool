@@ -1,0 +1,44 @@
+digraph output {node [color="047b35",fillcolor="#8df2b6",style=filled, shape=house];
+"Functional DS"
+
+node[shape=box,color="#004a63",fillcolor=lightblue2,style=filled];
+"SC Lifecycle Activities","Specification","Request","Discovery","Discovery mechanism","Discoverable entities","Composition stage","UI composition method","Verification / validation","Annotation / deployment","Execution","Browsing","Suggestions","Creation and Publication","Search metrics","Search","Grouping","Grouping metrics","Testing"
+
+node [color="#444444", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#DDDDDD"];
+"Browse + filter/search","Components","Composites","Process composition","Data composition","Automatic UI generation","Webpage composition","Visual UI composition","Textual UI composition","Debugging","Code generation","Interpretation","Compilation","No specification","In-app execution","Create new app","Dummy test data","Browse list","Context-specific suggestions","Other recommendations","Text entry","UI composition","Search by fuction","Search by name","Customisation of grouping","Manual grouping","Group by function","Group by location","Group by cost","Group by service provider","Group by rating","Group by recently used","Recommendations from friends","Matching components","Simulate testing of triggers","Test mode for components","Tagging"
+
+
+
+"Functional DS"->"SC Lifecycle Activities" [arrowhead=none]
+"SC Lifecycle Activities"->"Specification" [arrowhead=none]
+"SC Lifecycle Activities"->"Request" [arrowhead=none]
+"SC Lifecycle Activities"->"Discovery" [arrowhead=none]
+"Discovery"->"Discovery mechanism" [arrowhead=none]
+"Discovery"->"Discoverable entities" [arrowhead=none]
+"SC Lifecycle Activities"->"Composition stage" [arrowhead=none]
+"Composition stage"->"UI composition method" [arrowhead=none]
+"SC Lifecycle Activities"->"Verification / validation" [arrowhead=none]
+"SC Lifecycle Activities"->"Annotation / deployment" [arrowhead=none]
+"SC Lifecycle Activities"->"Execution" [arrowhead=none]
+"Discovery mechanism"->"Browsing" [arrowhead=none]
+"Discovery mechanism"->"Suggestions" [arrowhead=none]
+"SC Lifecycle Activities"->"Creation and Publication" [arrowhead=none]
+"Search"->"Search metrics" [arrowhead=none]
+"Request"->"Search" [arrowhead=none]
+"Browsing"->"Grouping" [arrowhead=none]
+"Grouping"->"Grouping metrics" [arrowhead=none]
+"Verification / validation"->"Testing" [arrowhead=none]
+"Browsing"->"Browse + filter/search"->"Browse list"->"Tagging" [arrowhead=none]
+"Discoverable entities"->"Components"->"Composites" [arrowhead=none]
+"Composition stage"->"Process composition"->"Data composition"->"UI composition" [arrowhead=none]
+"UI composition method"->"Automatic UI generation"->"Webpage composition"->"Visual UI composition"->"Textual UI composition" [arrowhead=none]
+"Verification / validation"->"Debugging" [arrowhead=none]
+"Annotation / deployment"->"Code generation"->"Interpretation"->"Compilation" [arrowhead=none]
+"Specification"->"No specification" [arrowhead=none]
+"Execution"->"In-app execution"->"Create new app" [arrowhead=none]
+"Testing"->"Dummy test data"->"Simulate testing of triggers"->"Test mode for components" [arrowhead=none]
+"Suggestions"->"Context-specific suggestions"->"Other recommendations"->"Recommendations from friends"->"Matching components" [arrowhead=none]
+"Discovery mechanism"->"Text entry" [arrowhead=none]
+"Search metrics"->"Search by fuction"->"Search by name" [arrowhead=none]
+"Grouping"->"Customisation of grouping"->"Manual grouping" [arrowhead=none]
+"Grouping metrics"->"Group by function"->"Group by location"->"Group by cost"->"Group by service provider"->"Group by rating"->"Group by recently used" [arrowhead=none]}

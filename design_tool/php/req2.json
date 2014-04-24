@@ -1,0 +1,1015 @@
+var dsreq2 = {
+	id: 2,
+	name: "Non-functional DS",
+	data: {
+		type: "category"
+	},
+	children: [{
+	id: 12,
+	name: "Interaction technique",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 13,
+	name: "Non-language",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 19,
+	name: "Spreadsheet",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 20,
+	name: "Dialog/form",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 21,
+	name: "WYSIWYG",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 22,
+	name: "PbD",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 23,
+	name: "Drag & drop",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 173,
+	name: "Drag and drop editing of composition",
+	data: {
+		type: "code"
+	},requirements:[]}]}
+],codes:[]},{
+	id: 14,
+	name: "Language",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 15,
+	name: "DSL",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 42,
+	name: "Visual DSL",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 25,
+	name: "Textual DSL",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 26,
+	name: "Full language",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 106,
+	name: "Composition as coding",
+	data: {
+		type: "code"
+	},requirements:[]}]}
+],codes:[]},{
+	id: 16,
+	name: "Collaboration",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 17,
+	name: "Community",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 18,
+	name: "Community support",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 27,
+	name: "Forum",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 131,
+	name: "Forum or blog",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 131,
+	name: "Forum or blog",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 28,
+	name: "Wiki",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 226,
+	name: "SNS support",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 214,
+	name: "View friends' composites",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 122,
+	name: "Sharing/publishing of composites on Social networks",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 122,
+	name: "Sharing/publishing of composites on Social networks",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 214,
+	name: "View friends' composites",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 143,
+	name: "Blog",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 131,
+	name: "Forum or blog",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 131,
+	name: "Forum or blog",
+	data: {
+		type: "code"
+	},requirements:[]}]}
+],codes:[]},{
+	id: 19,
+	name: "Online access",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 29,
+	name: "Public",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 30,
+	name: "Private",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]}
+],codes:[]},{
+	id: 31,
+	name: "PbEM",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 32,
+	name: "Blackboard",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]}
+],codes:[]},{
+	id: 74,
+	name: "Representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 20,
+	name: "Composition Representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 75,
+	name: "Component representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 127,
+	name: "WYSIWYG representation",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 34,
+	name: "Textual",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 33,
+	name: "Icon",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 223,
+	name: "Form element",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 35,
+	name: "Flow diagram component",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 156,
+	name: "Flow diagram",
+	data: {
+		type: "code"
+	},requirements:[]}]}
+],codes:[{
+	id: 78,
+	name: "Components as black boxes",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 22,
+	name: "Flow representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 23,
+	name: "Control flow representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 36,
+	name: "Explicit control flow",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 37,
+	name: "Implicit control flow",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[{
+	id: 109,
+	name: "Control flow",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 24,
+	name: "Data flow representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 130,
+	name: "Explicit data flow",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 131,
+	name: "Implicit data flow",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]}
+],codes:[{
+	id: 150,
+	name: "Ambiguity of flow",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 25,
+	name: "Component links",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 27,
+	name: "Graphical links",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 40,
+	name: "Wires",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 41,
+	name: "Non-wire graphics",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 132,
+	name: "Visual DSL representation",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 26,
+	name: "Textual links",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 128,
+	name: "Textual DSL representation",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 129,
+	name: "Full language representation",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 145,
+	name: "No link",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 138,
+	name: "Implicit connections between components",
+	data: {
+		type: "code"
+	},requirements:[]}]}
+],codes:[{
+	id: 108,
+	name: "Explicit connections between components",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 143,
+	name: "Indicator of successful connection between components",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 7,
+	name: "Composition",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 43,
+	name: "Flow diagram",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 156,
+	name: "Flow diagram",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 126,
+	name: "Spreadsheet representation",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 44,
+	name: "Form",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 45,
+	name: "Page flow",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 225,
+	name: "Plain list",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 146,
+	name: "Text editor",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 95,
+	name: "Abstraction",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 30,
+	name: "Abstraction level",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 46,
+	name: "High",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 47,
+	name: "Average",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 48,
+	name: "Low",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 147,
+	name: "No abstraction",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 272,
+	name: "Metaphor",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[{
+	id: 60,
+	name: "Metaphor",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 148,
+	name: "Disagrees with metaphor",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 124,
+	name: "Would prefer different metaphor",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 175,
+	name: "Ambiguity of metaphor",
+	data: {
+		type: "code"
+	},requirements:[]}]}
+],codes:[]},{
+	id: 94,
+	name: "Aesthetics",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 263,
+	name: "Colour",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 264,
+	name: "Visual",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[{
+	id: 151,
+	name: "Use of colour",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 27,
+	name: "Customisation of tool views",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 13,
+	name: "Visual",
+	data: {
+		type: "code"
+	},requirements:[]}]}
+],codes:[]},{
+	id: 31,
+	name: "Target user",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 32,
+	name: "User expertise",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 91,
+	name: "Technical expertise",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 51,
+	name: "Technical expert",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 244,
+	name: "Non-technical",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 93,
+	name: "Programming expertise",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 246,
+	name: "Non-programmer",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 247,
+	name: "Programmer",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 92,
+	name: "Domain expertise",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 50,
+	name: "Domain expert",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 245,
+	name: "Domain newbie",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]}
+],codes:[]},{
+	id: 33,
+	name: "User context",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 53,
+	name: "Consumer/Individual",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 54,
+	name: "Enterprise/Organisation",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 90,
+	name: "Learning curve",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 240,
+	name: "Low learning curve",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 241,
+	name: "Medium learning curve",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 242,
+	name: "High learning curve",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]}
+],codes:[{
+	id: 229,
+	name: "Terminology",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 34,
+	name: "Terminology confusion",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 31,
+	name: "Two versions: high tech and low tech",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 31,
+	name: "Two versions: high tech and low tech",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 222,
+	name: "Boredom",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 185,
+	name: "Learnability",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 224,
+	name: "Simplicity",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 163,
+	name: "Take inspiration from non-SC tools",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 36,
+	name: "Domain specificity",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 60,
+	name: "Generic",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 61,
+	name: "Context-specific",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 62,
+	name: "Domain-specific",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 63,
+	name: "Specialised",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[{
+	id: 55,
+	name: "Familiar services",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 37,
+	name: "Execution context",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 134,
+	name: "Mobile context",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 135,
+	name: "Desktop context",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 136,
+	name: "Web context",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[{
+	id: 107,
+	name: "Two versions: mobile and desktop",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 38,
+	name: "Usability",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 39,
+	name: "Prompts/Suggestions",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 67,
+	name: "Incompatibility prompts",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 135,
+	name: "Warnings",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 68,
+	name: "Suggestions",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 40,
+	name: "Internal help systems",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 69,
+	name: "Help",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 70,
+	name: "User goal/requirement mapping",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 71,
+	name: "VCS",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 274,
+	name: "Scenarios",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[{
+	id: 100,
+	name: "Tutorial/instruction page",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 41,
+	name: "External aides",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 42,
+	name: "Documentation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 72,
+	name: "Screencasts",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 73,
+	name: "API/component documentation",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 163,
+	name: "Tool documentation",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 74,
+	name: "Tutorials",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]},{
+	id: 75,
+	name: "Discussion forums",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 131,
+	name: "Forum or blog",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 131,
+	name: "Forum or blog",
+	data: {
+		type: "code"
+	},requirements:[]}]},{
+	id: 144,
+	name: "External help/FAQ",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[]}
+],codes:[]},{
+	id: 43,
+	name: "Re-use",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 79,
+	name: "Examples",
+	data: {
+		type: "option"
+	},
+	children: [
+],codes:[{
+	id: 7,
+	name: "Examples",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 43,
+	name: "Examples don't re-invent the wheel",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 219,
+	name: "Examples for inspiration",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 220,
+	name: "Examples for clarity/instruction",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 76,
+	name: "Examples first",
+	data: {
+		type: "code"
+	},requirements:[]}]}
+],codes:[]}
+],codes:[{
+	id: 71,
+	name: "Assistance provided",
+	data: {
+		type: "code"
+	},requirements:[]},{
+	id: 77,
+	name: "Scenarios",
+	data: {
+		type: "code"
+	},requirements:[]}]}
+],codes:[]}

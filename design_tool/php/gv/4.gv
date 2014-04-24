@@ -1,0 +1,33 @@
+digraph output {node [color="047b35",fillcolor="#8df2b6",style=filled, shape=house];
+"Service DS"
+
+node[shape=box,color="#004a63",fillcolor=lightblue2,style=filled];
+"Service interactions","Service attributes","Component attributes","Composite attributes","Composite Popularity attributes","Composite Other attributes","Composite Functional attributes","Composite interactions","Component interactions","Component popularity attributes","Component other attributes","Component functional attributes","Parameters"
+
+node [color="#444444", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#DDDDDD"];
+"Rate component","Component type","Composite num ratings","Review composite","Rate composite","Component num downloads","Component num SNS shares","Component age","Component num uses","Assign tags to composite","Component num users","Component num ratings","Component related actions","Composite copyright","Component version","Composite creator","Composite icon","Component icons","Component descriptions","Component example usage","Component output(s)/result(s)","Component input(s)","Component requirements/prerequisites","Composite categories","Composite Tags","Composite description","Composite name","Composite num uses","Composite age","Composite num SNS shares","Composite num downloads","Composite reviews","Composite ratings","Upload/Publish composite","Copy composite","Export composite","Rename composite","Save composite","Component names","Delete composite","Turn on/off composite","Acquire composite","Share composite on SNS","Edit composite","Execute composite","Activate component","Set/Edit component parameters","Use in composition","Composite notes","Composite location","Component reviews","Component ratings","Component copyright","Component creator","Composite version","Component icon","Component notes","Component location","Component categories","Component tags","Component description","Component name","View example usage","Import component","Composite num users","Review component","Choose icon","Set at composition time","Set at runtime","Default parameters","Composite execution status","Tag component","Tag composite"
+
+
+
+"Service DS"->"Service interactions" [arrowhead=none]
+"Service DS"->"Service attributes" [arrowhead=none]
+"Service attributes"->"Component attributes" [arrowhead=none]
+"Service attributes"->"Composite attributes" [arrowhead=none]
+"Composite attributes"->"Composite Popularity attributes" [arrowhead=none]
+"Composite attributes"->"Composite Other attributes" [arrowhead=none]
+"Composite attributes"->"Composite Functional attributes" [arrowhead=none]
+"Service interactions"->"Composite interactions" [arrowhead=none]
+"Service interactions"->"Component interactions" [arrowhead=none]
+"Component attributes"->"Component popularity attributes" [arrowhead=none]
+"Component attributes"->"Component other attributes" [arrowhead=none]
+"Component attributes"->"Component functional attributes" [arrowhead=none]
+"Composite interactions"->"Parameters" [arrowhead=none]
+"Component interactions"->"Rate component"->"Activate component"->"Set/Edit component parameters"->"Use in composition"->"View example usage"->"Import component"->"Review component"->"Tag component" [arrowhead=none]
+"Component functional attributes"->"Component type"->"Component example usage"->"Component output(s)/result(s)"->"Component input(s)"->"Component requirements/prerequisites"->"Component icon"->"Component categories"->"Component tags"->"Component description"->"Component name" [arrowhead=none]
+"Composite Popularity attributes"->"Composite num ratings"->"Composite num uses"->"Composite age"->"Composite num SNS shares"->"Composite num downloads"->"Composite reviews"->"Composite ratings"->"Composite num users" [arrowhead=none]
+"Composite interactions"->"Review composite"->"Rate composite"->"Assign tags to composite"->"Upload/Publish composite"->"Copy composite"->"Export composite"->"Rename composite"->"Save composite"->"Delete composite"->"Turn on/off composite"->"Acquire composite"->"Share composite on SNS"->"Edit composite"->"Execute composite"->"Choose icon"->"Tag composite" [arrowhead=none]
+"Component popularity attributes"->"Component num downloads"->"Component num SNS shares"->"Component age"->"Component num uses"->"Component num users"->"Component num ratings"->"Component reviews"->"Component ratings" [arrowhead=none]
+"Component other attributes"->"Component related actions"->"Component version"->"Component copyright"->"Component creator"->"Component notes"->"Component location" [arrowhead=none]
+"Composite Other attributes"->"Composite copyright"->"Composite creator"->"Composite icon"->"Composite notes"->"Composite location"->"Composite version"->"Composite execution status" [arrowhead=none]
+"Composite Functional attributes"->"Component icons"->"Component descriptions"->"Composite categories"->"Composite Tags"->"Composite description"->"Composite name"->"Component names" [arrowhead=none]
+"Parameters"->"Set at composition time"->"Set at runtime"->"Default parameters" [arrowhead=none]}

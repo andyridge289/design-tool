@@ -1,0 +1,453 @@
+C Functional
+
+D SC Lifecycle
+	D Inception 4
+		O Feasibility 4
+		O Project planning 4
+	D Analysis 4
+		O Domain 4
+		O Activity 4
+	D Specification 4
+		D Specification type
+			O Needs 4
+		 	O Requirements 4
+			O QoS requirements 4,9
+		D Specification creator 4,9
+			O Users 9
+			O Application developers 9
+		D Specification time 9
+			O Runtime specification 9
+			O Development time 9
+		D Specification method 9
+			O User interaction 9
+			O Specification Configuration 9
+			O Source code 9
+		D Specification Plicitness 9
+			O Implicit specification 9
+			O Explicit specification 9
+	D Realisation 4
+		D Discovery 4,2
+			D Search
+				O Text-based search 2
+				O Component-based search (i.e. search for Trigger or action) 19
+			D Browsing
+				D Grouping/categorisation
+					O Browsing composites by structural properties 2
+					O Simple categorisation of components 2
+					O Grouping by service provider 21
+					O Sub-categories 18
+					O Group by popularity 19
+					O Group by age 18
+					O Group by type 19
+				D Search/Filter
+					O Filter by tag 18
+					O Filter by name 25
+			D Suggestions
+				O Context-specific suggestions 2
+				O Feature prompts 6
+				O Suggestions of composites created by other users 21
+				O Suggestions based on components 22
+		O Design 4
+		D Construct 4
+			D Composition type 5
+			 	O Data composition 3,5,6
+				O Logic/process composition 3,5,6
+				D Presentation/UI composition 5,6
+					O UI Customisation 3
+					O Automatic UI Generation 2
+					O Selecting & customising UI 2
+					O Visual UI composition 2
+					O Textual UI composition 2
+					O Advanced UI generation 3
+			D Composition technique
+				O Editable example 1,2
+				O Form-based 1
+				O Drag-and-drop 8
+				O PbD 1,3,7,10
+				O Spreadsheets 1,3,7
+				O Web Page customisation 3
+				D Textual DSL 1
+					O Textual DSL editors 2
+					O Textual DSLs in Dialog fields 2
+				D Visual language 1,2,6
+					O Visual data flow languages 2
+					O Visual workflow/process oriented languages 2
+					O Iconic 1
+				O Dialog-based wiring of widgets 2,6,10
+				D Full language
+					O Scripting language 7
+					O Programming environment 6,7,8
+				O Live composition 8
+					D Verify/Validate 4
+						D Evaluation 9
+							O Scenario 9
+							O Performance 9
+							O Example 9
+							O Usability 9
+			D Software engineering techniques 2
+				D Testing 2
+					O Test execution 20
+					O Real-time execution 25
+					O Stepped execution 26
+					O Stop execution 26
+				O Debugging output 2
+				O Version control 2
+				O Change Request Management 2
+	D Provisioning 4
+		O Annotation 4
+		O Deployment 4
+	D Management 4
+		O Monitoring 4
+		O Adaptation 4
+	D Deployment/execution 8
+		O Code generation 8
+		D Interpretation 8
+			O Delayed execution 19
+			O Intepretation 8
+		O Compilation 8
+		D Output types 8
+			O Data service 8
+			O Application service 8
+			O Web application 8
+			O Standalone application 20
+			O File 26
+			O External feed 24
+D Tool functions
+	D Social functions
+		O Connect social network accounts 18
+		O Invite friends 21
+	D Composite execution 19
+		O Enable composite execution 19
+		O Disable composite execution 19
+	D Browse
+		O View all available components 21
+		O Active channels 21
+	D Add
+		O Add API 22
+		O Create component 25
+	O View execution history 22
+	O Change pricing plan 22
+		
+C Non-Functional
+
+D Representation
+	D Composition representation 3
+		O Wire paradigm 1,2,3,7,8
+		O Spreadsheet representation 1,3,7
+		O Form 18
+		O Flow diagram 25
+		D Visual Language representation
+			O Visual data flow languages representation 2
+			O Visual workflow/process oriented languages representation 2
+		D Textual DSL representation
+			O Textual DSL in text editor 2
+			O Textual DSLs as dialog fields 2
+		D Full language representation
+			O Script/language-based 3
+	D Component links
+		O Textual links 21
+		D Graphical links
+			O Wire links 24
+			O Non-wire links 21
+	D Component representation
+		O Icons 18
+		O Text 18
+		O Form dialog 24
+		O Flow diagram component 25
+D Domain Specificity 1
+	O Generic 1
+	D Specialised 1
+		O Mobile domain 18
+		D Web-services 18
+			O SNS 18
+			D Utilities 18
+				O Weather 18
+				O Calendar 18
+				O Location 20
+				O News 21
+				O Notes 21
+			O Business services 22
+			O RSS domain 24
+			O Chat 21
+		O Home automation 21
+		O Desktop multimedia services 25
+D Flow plicitness
+	D Control flow Plicitness 1
+		O Implicit control flow 1
+		O Explicit control flow 1
+	D Data flow plicitness
+		O Implicit data flow 24
+		O Explicit data flow 25
+D Community features 2
+	D Sharable entities 6,2
+		O Composites 2,6
+		O Components 2
+	D Forums 2
+		O Community forums 2
+		O Artefact-centred discussion 2
+	D Online Community 1
+		O Private 1
+		O Public 1
+	D Collaboration 1
+		O Blackboard 1
+		O Fork & Edit 1
+		O Wiki 1
+	O Tagging 2
+	O Rating 2
+	O Social networks 2
+D Usability features 3
+	D Learning support 2
+		O Tutorials 2
+		O Help
+		O API documentation 2
+		O Discussion forums 2
+		O Examples 26
+		O Incompatibility prompts 3
+		D External help systems
+			O Help forum/group 18
+			O FAQ 20
+			O Blog 18
+			O Video tutorials 24
+	D Learning curve 3
+		D Learning curve depth 
+			O Low 3,6
+			O Low-medium 3
+			O Medium 3,6
+			O Medium-high 3
+			O High 3,6
+		O Incremental programming paradigms 6
+D User
+	D Target user group 3
+		O Enterprise oriented 3,6
+		O Consumer oriented 3,6
+	D User types 5
+		O Casual users 5,6,7
+		O Power users 5,7
+		O Domain expert 25
+		O Developers 5,7
+	D Programming skill requirement 6
+		O Non-programmer 1,6,8
+		O Average 1,6
+		O Expert 1,6,8
+
+C Structural
+D Component types 18
+	O Triggers 18
+	O Actions 18
+	O Recurring event 19
+	D Component Inputs and outputs 21
+		O Single "composite" I/O 26
+		O Multiple "atomic" I/O 21
+D Composition structure
+	D Automation degree 1,7
+		O Full-automation 1,7
+		O Semi-automation 1,7
+		O Manual creation 7
+	D Composition Layer 11
+		O Service Layer 11
+		O Application Layer 11
+		O Presentation Layer 11
+	D Liveness 1
+		O Level 1 1
+		O Level 2 1
+		O Level 3 1
+		O Level 4 1
+	D Internal component model 8
+		O Native model 8
+		O Abstract model 8
+	D Composition logic 8
+		O Configuration 8
+		O Event-based 8
+		O Control flow 8
+		O Data flow 8
+		O Blackboard-based 8
+		O Logical AND 18
+		O Loops 23
+	D Layout logic 8
+		D Templates
+			D Template customisation 
+				O Predefined template(s) 8
+				O Customisable template(s) 8
+			D Template "level"
+				O Tool-level template 21
+				O Composition-level template
+		O Custom layouts 8
+		O Screen/page flow 8
+		O Text editor 23
+D Tool structure
+	D Tool type 3
+		O Framework 3
+		O Application 3
+		O Platform 6
+		O Personal web portal 6
+		O Web page 21
+		O Browser based tools widgets 6
+		O Toolbars 6
+		O Virtual browser 6
+		O Extension client to Firefox 6
+		D Minimum device for framework 9
+			O Server (framework) 9
+			O PDA (framework) 9
+			O J2SE (framework) 9
+		D Minimum device for service 9
+			O PDA (service) 9
+			O Mote (service) 9
+		D Platform choice
+			O Desktop 6
+			O Mobile 18
+			O Tablet 18
+			O Web 21
+	D Data sources for components
+		D Source modelling 10
+			O Manual source modelling 10
+			O Tag source modelling 10
+			O Database 10
+		D Data integration 10
+			O Manual data integration 10
+			O Join only 10
+			O Union only 10
+			O Widgets 10
+		D Data sources 10
+			O One simple source 10
+			O Two or more sources 10
+			O One source with a form 10
+			O Combining two or more using DB join 10
+			O ETL data migration to SQL 6
+		D Data retrieval strategy 3
+			O DOM 3,10
+			O Widget 3,6,10
+			O RDF 10
+			O Tag 10
+			O Other 3
+		D Data message format 8
+			O XML 8
+			O JSON 8
+			O Parameter-value pairs 8
+	D Architecture 6
+		O Client 6
+		O Server 6
+	D Infrastructure 9
+		O Fixed 9
+		O Ad hoc 9
+	D Topology 9
+		O Centralised 9
+		O Decentralised 9
+	D Reuse
+		O Component repository 8
+		O Composition repository 8
+		O Automatic reuse of data extractors 2
+	D Extensions
+		O Extension APIs 2,6
+	D Contingency management 9
+		O Automatic 9,8
+		O None 9
+		O Runtime 9
+		O Detection 9
+	D Execution context
+		O Mobile execution context 18
+		O Web execution context 21
+		O Desktop execution context 25
+
+D Technologies
+	D Component Communication protocol 3
+		O SOAP 3,8
+		O REST 3,8
+	D Syndication format 3
+		O RSS 3,8
+		O ATOM 3,8
+	D Implementation language 8
+		O JavaScript 8
+		O Android Dalvik Java 18
+		O Additional 8
+	D Description language 8
+		O WSDL 8
+		O WADL 8
+		O Proprietary description 8
+		O No description 8
+		D Semantic description Language 
+			D HTML Microformat
+				O hRESTS 17
+				O MicroWSMO 17
+			D "Full" Semantic Description Language
+				O OWL-S 12
+				O WSMO/WSML 13
+				O WSMO-Lite 14
+				O SAWSDL 15
+				O WSDL-S 16
+
+C Entity
+
+D Service Interactions 
+	D Composite actions 18
+		D SNS share 18
+			O Facebook 18
+			O Twitter 18
+		O Turn on/off 18
+		O Rate composite 19
+		O Download composite 19
+		O Edit 20
+		O Delete 20
+		O Rename 20
+		O Export as app 20
+		O Execute 20
+		O Favourite 21
+		O Flag 21
+		O View composite execution history 22
+		O Share 22
+		O Copy 22
+		O Assign tag to composite
+	D Component actions 18
+		O Use in composition 18
+		O Set parameters 18
+		O Activate 21
+		O Edit channel 21
+		O View example 24
+		O Assign tag to component
+D Service attributes
+	D Component attributes
+		O WYSIWYG 1
+		O Component icon 18
+		O Component name 18
+		O Component description 19
+		O Form element 24
+		O Component inputs/outputs/parameters 25
+		O Execution order 25
+		O Component trigger fields 21
+		O Component action fields 21
+		O Component example usage 21
+		O Component parameter description 23
+		O Component copyright 25
+		O Component location 25
+		O Component version 26
+		O Component num uses
+		O Component age
+		O Component num SNS shares
+		O Component num downloads
+		O Component reviews
+		O Component ratings
+		O Component tags
+	D Composite attributes 18
+		O Composite icon 18
+		O Composite name 18
+		O Composite age 18
+		O Composite creator 18
+		O Composite category 18
+		O Composite activation status 18
+		O Composite num times used 21
+		O Composite ratings 19
+		O Composite num ratings 19
+		O Composite num downloads 19
+		O Composite num clones 24
+		O Composite reviews 19
+		O Compostie starred 21
+		O Composite tags
+		D Composite components contained 18
+			O Contained component names 18
+			O Contained component icons 18
+			O Contained component categories 18
+			O Contained component category icons 18
+			O Contained component descriptions 19
+
+-------
+
+Composition-level template: If the tool can provide one template for every composition, then different templates can be provided for each composition.

@@ -1,0 +1,1498 @@
+var ds3 = {
+				id: "category3",
+				name: "1: Structural DS"
+				,data: {
+					type: "category",
+					description: "Properties relating to the structure and architecture of the EUSC tool.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "decision65",
+				name: "1: Composition structure"
+				,data: {
+					type: "decision",
+					description: "Features of the composition structure.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "decision45",
+				name: "1: Liveness"
+				,data: {
+					type: "decision",
+					description: "The level of \"liveness\" that is supported in a flow diagram representation of composition.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option80",
+				name: "1: Level 1"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option81",
+				name: "1: Level 2"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option82",
+				name: "1: Level 3"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option83",
+				name: "1: Level 4"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision53",
+				name: "1: Programming structures"
+				,data: {
+					type: "decision",
+					description: "The structures normally used in programming languages that the tool supports.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option97",
+				name: "1: Branches"
+				,data: {
+					type: "option",
+					description: "Composition allows branching - when one component finished, two or more others can start in parallel.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option98",
+				name: "1: Loops"
+				,data: {
+					type: "option",
+					description: "Looping is allowed in composition - selections of components can be executed iteratively.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision52",
+				name: "1: Component types"
+				,data: {
+					type: "decision",
+					description: "The types of component that are supported by the tool.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option94",
+				name: "1: Triggers"
+				,data: {
+					type: "option",
+					description: "Triggers are services that are executed when some external condition is met, rather than being executed by the tool itself. For example a trigger might be executed when a SMS is received.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option95",
+				name: "1: Actions"
+				,data: {
+					type: "option",
+					description: "An action is a component that is activated when it is called by the tool.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option96",
+				name: "1: Filters"
+				,data: {
+					type: "option",
+					description: "Filters prevent later components from executing if certain conditions are met.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option265",
+				name: "11: Pervasive services"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "11",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision46",
+				name: "1: Technologies"
+				,data: {
+					type: "decision",
+					description: "The technologies that the tool uses to support composition.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "decision47",
+				name: "1: Communication protocol"
+				,data: {
+					type: "decision",
+					description: "The protocol that the tool uses to allow the components in the composition to coordinate and pass data between one another.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option84",
+				name: "1: SOAP"
+				,data: {
+					type: "option",
+					description: "Messages are passed between each other using SOAP - the Simple Object Access Protocol: http://www.w3.org/TR/soap/",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option85",
+				name: "1: REST"
+				,data: {
+					type: "option",
+					description: "The components use REST - REpresentational State Transfer (but can send/receive any data format) http://en.wikipedia.org/wiki/Representational_state_transfer",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision48",
+				name: "1: Data retrieval"
+				,data: {
+					type: "decision",
+					description: "The method that is used by components to retrieve data from their data source.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "decision49",
+				name: "1: Syndication format"
+				,data: {
+					type: "decision",
+					description: "The syndication format that is used to pass data in components (i.e. RSS/ATOM)",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option86",
+				name: "1: RSS"
+				,data: {
+					type: "option",
+					description: "The syndication used is RSS - Really Simple Syndication. (This is where the component gets its data from)",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option87",
+				name: "1: ATOM"
+				,data: {
+					type: "option",
+					description: "The syndication format used is ATOM (http://www.ietf.org/rfc/rfc4287)",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "option88",
+				name: "1: Widget"
+				,data: {
+					type: "option",
+					description: "Components get their data via various widgets.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option89",
+				name: "1: Web scraping"
+				,data: {
+					type: "option",
+					description: "Components get their data by scraping Web pages.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision50",
+				name: "1: Message data format"
+				,data: {
+					type: "decision",
+					description: "The data format that is used to pass messages between components.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option137",
+				name: "1: JSON message format"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option138",
+				name: "1: XML message format"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision51",
+				name: "1: Service description format"
+				,data: {
+					type: "decision",
+					description: "The data format of the description of the components.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option90",
+				name: "1: JSON"
+				,data: {
+					type: "option",
+					description: "Services are described using JSON - JavaScript Object Notation. http://www.json.org/",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option91",
+				name: "1: XML"
+				,data: {
+					type: "option",
+					description: "Services are described using plain XML - eXtensible Markup Lanugage.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option92",
+				name: "1: WSDL"
+				,data: {
+					type: "option",
+					description: "Services are described using the Web Services Description Language - WSDL. http://www.w3.org/TR/wsdl",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option93",
+				name: "1: WADL"
+				,data: {
+					type: "option",
+					description: "Services are described using the Web Application Description Language (WADL)",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]}
+		]},{
+				id: "decision54",
+				name: "1: Templates"
+				,data: {
+					type: "decision",
+					description: "The use of templates in the tool that the user can use to make composition easier.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "decision104",
+				name: "11: Template level"
+				,data: {
+					type: "decision",
+					description: "The level at which the template is applied.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "11",
+				},
+	children: [{
+				id: "option100",
+				name: "1: Composition level"
+				,data: {
+					type: "option",
+					description: "The template is at the composition-level, the user can selected different templates to follow when performing composition.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option99",
+				name: "1: Tool-level"
+				,data: {
+					type: "option",
+					description: "The template is at the tool-level - all composites created with the tool must follow the same template.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "option266",
+				name: "11: Linear template"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option267",
+				name: "11: No template"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "11",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision55",
+				name: "1: Automation"
+				,data: {
+					type: "decision",
+					description: "The level of automation that the tool supports - how much influence the user has on the process vs. the tool.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option101",
+				name: "1: Full automation"
+				,data: {
+					type: "option",
+					description: "The tool provides fully-automated composition: the user provides a specification and the tool performs composition for them to give the desired output.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option102",
+				name: "1: Semi-automation"
+				,data: {
+					type: "option",
+					description: "The tool provides semi-automated composition - some elements of composition are performed automatically, but other elements are manual. For example, inputs and outputs could be matched up based on their data type.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option103",
+				name: "1: No automation"
+				,data: {
+					type: "option",
+					description: "The tool provides no automation - the user must perform all composition tasks manually.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision56",
+				name: "1: Composition layer"
+				,data: {
+					type: "decision",
+					description: "The \"layer\" at which composition operates - i.e. the part of the component that is connected together - it\'s data, it\'s interface, etc.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option104",
+				name: "1: Service layer"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option105",
+				name: "1: Application layer"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option106",
+				name: "1: Presentation layer"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision57",
+				name: "1: Flow present"
+				,data: {
+					type: "decision",
+					description: "Whether flow is present in the tool",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option123",
+				name: "1: Data flow present"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option152",
+				name: "1: Control flow present"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision71",
+				name: "3: Inputs and outputs"
+				,data: {
+					type: "decision",
+					description: "The inputs to and outputs from components (the data that they pass to one another).",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "3",
+				},
+	children: [{
+				id: "decision97",
+				name: "10: Data types"
+				,data: {
+					type: "decision",
+					description: "The data types of the inputs and outputs of the components in the composition.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "10",
+				},
+	children: [
+		]},{
+				id: "option161",
+				name: "3: Multiple atomic I&Os"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option162",
+				name: "3: Single composite I&Os"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "3",
+				},
+	children: [
+		]}
+		]},{
+				id: "option273",
+				name: "11: Infinite composition"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "11",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision64",
+				name: "1: Tool structure"
+				,data: {
+					type: "decision",
+					description: "How the composition stage itself is structured.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "decision98",
+				name: "10: System integration"
+				,data: {
+					type: "decision",
+					description: "Integrating the tool with the OS on which it is running.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "10",
+				},
+	children: [
+		]},{
+				id: "decision89",
+				name: "1: Extensions"
+				,data: {
+					type: "decision",
+					description: "Any extensions to the services.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option238",
+				name: "1: Extension APIs"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision58",
+				name: "1: Application type"
+				,data: {
+					type: "decision",
+					description: "The type of application that the tool is.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option111",
+				name: "1: Application"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option112",
+				name: "1: Plug-in"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option113",
+				name: "1: Platform"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option114",
+				name: "1: Webpage/webapp"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option243",
+				name: "1: Framework"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision59",
+				name: "1: Application location"
+				,data: {
+					type: "decision",
+					description: "The location of the tool.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option64",
+				name: "1: Mobile"
+				,data: {
+					type: "option",
+					description: "The composition tool operates on mobile.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option65",
+				name: "1: Desktop"
+				,data: {
+					type: "option",
+					description: "The tool operates as a desktop application.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option66",
+				name: "1: Web"
+				,data: {
+					type: "option",
+					description: "The tool operates on the Web.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision60",
+				name: "1: Repositories"
+				,data: {
+					type: "decision",
+					description: "The repositories that are provided in the tool.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option115",
+				name: "1: Component repository"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option116",
+				name: "1: Composite repository"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision61",
+				name: "1: Infrastructure"
+				,data: {
+					type: "decision",
+					description: "The infrastructure that is required for the tool to operate.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option117",
+				name: "1: Ad hoc"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option118",
+				name: "1: Fixed"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision62",
+				name: "1: Topology"
+				,data: {
+					type: "decision",
+					description: "The topology of the different instances of the tool.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option119",
+				name: "1: Centralised"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option120",
+				name: "1: Decentralised"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision63",
+				name: "1: Sharing"
+				,data: {
+					type: "decision",
+					description: "The entities that can be shared with other users of the tool.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [{
+				id: "option124",
+				name: "1: Sharing components"
+				,data: {
+					type: "option",
+					description: "The system allows the user to share components.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option125",
+				name: "1: Sharing composites"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision96",
+				name: "10: Customisation"
+				,data: {
+					type: "decision",
+					description: "The ways that the user can customise the tool.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "10",
+				},
+	children: [
+		]}
+		]}
+		]};
+var opt3 = [{
+				id: "option273",
+				name: "11: Infinite composition"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option80",
+				name: "1: Level 1"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option81",
+				name: "1: Level 2"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option82",
+				name: "1: Level 3"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option83",
+				name: "1: Level 4"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option97",
+				name: "1: Branches"
+				,data: {
+					type: "option",
+					description: "Composition allows branching - when one component finished, two or more others can start in parallel.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option98",
+				name: "1: Loops"
+				,data: {
+					type: "option",
+					description: "Looping is allowed in composition - selections of components can be executed iteratively.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option94",
+				name: "1: Triggers"
+				,data: {
+					type: "option",
+					description: "Triggers are services that are executed when some external condition is met, rather than being executed by the tool itself. For example a trigger might be executed when a SMS is received.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option95",
+				name: "1: Actions"
+				,data: {
+					type: "option",
+					description: "An action is a component that is activated when it is called by the tool.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option96",
+				name: "1: Filters"
+				,data: {
+					type: "option",
+					description: "Filters prevent later components from executing if certain conditions are met.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option265",
+				name: "11: Pervasive services"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option84",
+				name: "1: SOAP"
+				,data: {
+					type: "option",
+					description: "Messages are passed between each other using SOAP - the Simple Object Access Protocol: http://www.w3.org/TR/soap/",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option85",
+				name: "1: REST"
+				,data: {
+					type: "option",
+					description: "The components use REST - REpresentational State Transfer (but can send/receive any data format) http://en.wikipedia.org/wiki/Representational_state_transfer",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option88",
+				name: "1: Widget"
+				,data: {
+					type: "option",
+					description: "Components get their data via various widgets.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option89",
+				name: "1: Web scraping"
+				,data: {
+					type: "option",
+					description: "Components get their data by scraping Web pages.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option86",
+				name: "1: RSS"
+				,data: {
+					type: "option",
+					description: "The syndication used is RSS - Really Simple Syndication. (This is where the component gets its data from)",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option87",
+				name: "1: ATOM"
+				,data: {
+					type: "option",
+					description: "The syndication format used is ATOM (http://www.ietf.org/rfc/rfc4287)",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option137",
+				name: "1: JSON message format"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option138",
+				name: "1: XML message format"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option90",
+				name: "1: JSON"
+				,data: {
+					type: "option",
+					description: "Services are described using JSON - JavaScript Object Notation. http://www.json.org/",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option91",
+				name: "1: XML"
+				,data: {
+					type: "option",
+					description: "Services are described using plain XML - eXtensible Markup Lanugage.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option92",
+				name: "1: WSDL"
+				,data: {
+					type: "option",
+					description: "Services are described using the Web Services Description Language - WSDL. http://www.w3.org/TR/wsdl",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option93",
+				name: "1: WADL"
+				,data: {
+					type: "option",
+					description: "Services are described using the Web Application Description Language (WADL)",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option266",
+				name: "11: Linear template"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option267",
+				name: "11: No template"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option100",
+				name: "1: Composition level"
+				,data: {
+					type: "option",
+					description: "The template is at the composition-level, the user can selected different templates to follow when performing composition.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option99",
+				name: "1: Tool-level"
+				,data: {
+					type: "option",
+					description: "The template is at the tool-level - all composites created with the tool must follow the same template.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option101",
+				name: "1: Full automation"
+				,data: {
+					type: "option",
+					description: "The tool provides fully-automated composition: the user provides a specification and the tool performs composition for them to give the desired output.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option102",
+				name: "1: Semi-automation"
+				,data: {
+					type: "option",
+					description: "The tool provides semi-automated composition - some elements of composition are performed automatically, but other elements are manual. For example, inputs and outputs could be matched up based on their data type.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option103",
+				name: "1: No automation"
+				,data: {
+					type: "option",
+					description: "The tool provides no automation - the user must perform all composition tasks manually.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option104",
+				name: "1: Service layer"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option105",
+				name: "1: Application layer"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option106",
+				name: "1: Presentation layer"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option123",
+				name: "1: Data flow present"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option152",
+				name: "1: Control flow present"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option161",
+				name: "3: Multiple atomic I&Os"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option162",
+				name: "3: Single composite I&Os"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "3",
+				},
+	children: [
+		]},{
+				id: "option238",
+				name: "1: Extension APIs"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option111",
+				name: "1: Application"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option112",
+				name: "1: Plug-in"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option113",
+				name: "1: Platform"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option114",
+				name: "1: Webpage/webapp"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option243",
+				name: "1: Framework"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option64",
+				name: "1: Mobile"
+				,data: {
+					type: "option",
+					description: "The composition tool operates on mobile.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option65",
+				name: "1: Desktop"
+				,data: {
+					type: "option",
+					description: "The tool operates as a desktop application.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option66",
+				name: "1: Web"
+				,data: {
+					type: "option",
+					description: "The tool operates on the Web.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option115",
+				name: "1: Component repository"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option116",
+				name: "1: Composite repository"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option117",
+				name: "1: Ad hoc"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option118",
+				name: "1: Fixed"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option119",
+				name: "1: Centralised"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option120",
+				name: "1: Decentralised"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option124",
+				name: "1: Sharing components"
+				,data: {
+					type: "option",
+					description: "The system allows the user to share components.",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option125",
+				name: "1: Sharing composites"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Structural",
+					dsCode: "struct",
+					step: "1",
+				},
+	children: [
+		]}];

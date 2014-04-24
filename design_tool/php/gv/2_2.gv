@@ -1,0 +1,32 @@
+digraph output {
+
+
+node [color="047b35",fillcolor="#8df2b6",style=filled fontsize="20"];
+"Non-functional DS"
+
+node[shape=box,color="#004a63",fillcolor=lightblue2,style=filled fontsize="15"];
+"Target user","User expertise","Domain expertise","User context","Learning curve","Domain specificity","Usability","Prompts / Suggestions","Internal help systems","External help systems","Documentation","Re-use"
+
+node [color="#888888", style="filled,dashed", shape=rect, fontcolor="#888888", fillcolor="#FFFFFF"];
+"Interaction technique","Representation","Execution context"
+
+node [color="#222222", style="rounded,filled", shape=rect, fontcolor="#000000", fillcolor="#CC99CC"];
+"Domain expert","Domain newbie","Consumer/Individual","Enterprise/Organisation","Shallow learning curve","Medium learning curve","Steep learning curve","Generic","Context-specific","Domain-specific","Specialised","Incompatibility prompts","Suggestions","Help","User goal / requirement mapping","VCS","Scenarios","Screencasts","API / component documentation","Tool documentation","Tutorials","Discussion forums","External help/FAQ","Examples"
+
+
+"Non-functional DS"->"Interaction technique","Representation","Execution context" [style=dashed,arrowhead=none]
+"Non-functional DS"->"Usability","Target user","Domain specificity" [arrowhead=none]
+"Usability"->"Prompts / Suggestions","Internal help systems","External help systems","Re-use" [arrowhead=none]
+"Prompts / Suggestions"->"Incompatibility prompts"->"Suggestions" [arrowhead=none]
+"Internal help systems"->"Help"->"User goal / requirement mapping"->"VCS"->"Scenarios" [arrowhead=none]
+"External help systems"->"Documentation" [arrowhead=none]
+"External help systems"->"Tutorials"->"Discussion forums"->"External help/FAQ" [arrowhead=none]
+"Documentation"->"Screencasts"->"API / component documentation"->"Tool documentation" [arrowhead=none]
+"Re-use"->"Examples" [arrowhead=none]
+"Target user"->"User expertise","User context","Learning curve" [arrowhead=none]
+"User expertise"->"Domain expertise" [arrowhead=none]
+"Domain expertise"->"Domain expert"->"Domain newbie" [arrowhead=none]
+"User context"->"Consumer/Individual"->"Enterprise/Organisation" [arrowhead=none]
+"Learning curve"->"Shallow learning curve"->"Medium learning curve"->"Steep learning curve" [arrowhead=none]
+"Domain specificity"->"Generic"->"Context-specific"->"Domain-specific"->"Specialised" [arrowhead=none]
+}

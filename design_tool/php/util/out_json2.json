@@ -1,0 +1,2059 @@
+var ds2 = {
+				id: "category2",
+				name: "1: Non-functional DS"
+				,data: {
+					type: "category",
+					description: "Properties of the EUSC tool that don't relate to its function - like interactions and representation.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision12",
+				name: "1: Interaction technique"
+				,data: {
+					type: "decision",
+					description: "How the system allows the user to interact with the composition stage of the process.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision13",
+				name: "1: Non-language"
+				,data: {
+					type: "decision",
+					description: "The interaction method doesn\'t involve any form of language - users interact with the components directly.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option19",
+				name: "1: Spreadsheet"
+				,data: {
+					type: "option",
+					description: "The user interacts with the composition process by manipulating a spreadsheet.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option20",
+				name: "1: Dialog / form"
+				,data: {
+					type: "option",
+					description: "The user interacts with the composition by using elements from a form or dialog.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option21",
+				name: "1: WYSIWYG"
+				,data: {
+					type: "option",
+					description: "The user interacts with the composition in a What-You-See-Is-What-You-Get manner.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option22",
+				name: "1: PbD"
+				,data: {
+					type: "option",
+					description: "The interaction with the composition is by demonstration. (For example, recording macros)",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option23",
+				name: "1: Drag & drop"
+				,data: {
+					type: "option",
+					description: "The interaction with the components and the composition allows the user to drag-and-drop the components to connect them.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision14",
+				name: "1: Language"
+				,data: {
+					type: "decision",
+					description: "The method of interaction involves the user using some form of language to indirectly interact with components.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision15",
+				name: "1: DSL"
+				,data: {
+					type: "decision",
+					description: "The language is a domain specific language - not a full language.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option42",
+				name: "1: Visual DSL"
+				,data: {
+					type: "option",
+					description: "The interaction with the composition process is via a graphical domain-specific language (a subset of a full programming language).",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option25",
+				name: "1: Textual DSL"
+				,data: {
+					type: "option",
+					description: "The interaction with the composition process is via a textual domain-specific language (a subset of a full programming language).",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "option26",
+				name: "1: Full language"
+				,data: {
+					type: "option",
+					description: "Interaction with the composition process is by way of a full programming language.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision16",
+				name: "1: Collaboration"
+				,data: {
+					type: "decision",
+					description: "How the EUSC tool supports collaboration between different users.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision17",
+				name: "1: Community"
+				,data: {
+					type: "decision",
+					description: "The community of users of the EUSC tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision18",
+				name: "1: Community support"
+				,data: {
+					type: "decision",
+					description: "How the community is supported by the EUSC tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option27",
+				name: "1: Forum"
+				,data: {
+					type: "option",
+					description: "There is a forum associated with the tool where users can get feedback from employees and other users of the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option28",
+				name: "1: Wiki"
+				,data: {
+					type: "option",
+					description: "The system provides a wiki where the user can get assistance with the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option226",
+				name: "5: SNS support"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option143",
+				name: "1: Blog"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision19",
+				name: "1: Online access"
+				,data: {
+					type: "decision",
+					description: "The level of access that is provided to the online community of the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option29",
+				name: "1: Public"
+				,data: {
+					type: "option",
+					description: "The online portion of the tool is publicly accessible - anyone can join.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option30",
+				name: "1: Private"
+				,data: {
+					type: "option",
+					description: "The online portion of the tool is private and is only accessible to a particular group of people, for example employees of a particular company.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]}
+		]},{
+				id: "option31",
+				name: "1: PbEM"
+				,data: {
+					type: "option",
+					description: "Users can perform composition by acquiring examples (either those created by the system creator, or other others), and then modifies those examples.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option32",
+				name: "1: Blackboard"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]}
+		]},{
+				id: "decision74",
+				name: "3: Representation"
+				,data: {
+					type: "decision",
+					description: "Representation in general.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "3",
+				},
+	children: [{
+				id: "decision20",
+				name: "1: Composition Representation"
+				,data: {
+					type: "decision",
+					description: "The representation of the composition step.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision75",
+				name: "3: Component representation"
+				,data: {
+					type: "decision",
+					description: "The representation of components.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "3",
+				},
+	children: [{
+				id: "option127",
+				name: "1: WYSIWYG representation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option34",
+				name: "1: Textual"
+				,data: {
+					type: "option",
+					description: "Components are represented by a piece of text.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option33",
+				name: "1: Icon"
+				,data: {
+					type: "option",
+					description: "Components are represented by their icon.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option223",
+				name: "4: Form element"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option35",
+				name: "1: Flow diagram component"
+				,data: {
+					type: "option",
+					description: "Components are represented as if they are entities in a flow diagram.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision22",
+				name: "1: Flow representation"
+				,data: {
+					type: "decision",
+					description: "The use of flow in composition.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision23",
+				name: "1: Control flow representation"
+				,data: {
+					type: "decision",
+					description: "The representation of the passing of control between services (i.e. ordering)",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option36",
+				name: "1: Explicit control flow"
+				,data: {
+					type: "option",
+					description: "Control flow - the passing of control between the components in the composition - is represented explicitly.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option37",
+				name: "1: Implicit control flow"
+				,data: {
+					type: "option",
+					description: "Control flow - the passing of control between the components - isn't represented explicitly.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision24",
+				name: "1: Data flow representation"
+				,data: {
+					type: "decision",
+					description: "The representation of the passing of data between components.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option130",
+				name: "1: Explicit data flow"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option131",
+				name: "1: Implicit data flow"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]}
+		]},{
+				id: "decision25",
+				name: "1: Component links"
+				,data: {
+					type: "decision",
+					description: "The representation of the links between the components.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision27",
+				name: "1: Graphical links"
+				,data: {
+					type: "decision",
+					description: "The links between components are graphical, such as icons or lines, etc.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option40",
+				name: "1: Wires"
+				,data: {
+					type: "option",
+					description: "The connections between the components in the composition are represented as wires.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option41",
+				name: "1: Non-wire graphics"
+				,data: {
+					type: "option",
+					description: "The connections between components are represented as graphics, but are not wires.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option132",
+				name: "1: Visual DSL representation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision26",
+				name: "1: Textual links"
+				,data: {
+					type: "decision",
+					description: "The links between components are based on text rather than graphics.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option128",
+				name: "1: Textual DSL representation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option129",
+				name: "1: Full language representation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "option145",
+				name: "1: No link"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision7",
+				name: "1: Composition"
+				,data: {
+					type: "decision",
+					description: "The composition part of the process - where the user connects the services together.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option43",
+				name: "1: Flow diagram"
+				,data: {
+					type: "option",
+					description: "Composition is represented as if it were a flow diagram.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option126",
+				name: "1: Spreadsheet representation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option44",
+				name: "1: Form"
+				,data: {
+					type: "option",
+					description: "Composition is represented as a form that the user fills in to perform the composition.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option45",
+				name: "1: Page flow"
+				,data: {
+					type: "option",
+					description: "The composition process has a series of pages.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option225",
+				name: "5: Plain list"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option146",
+				name: "1: Text editor"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision95",
+				name: "10: Abstraction"
+				,data: {
+					type: "decision",
+					description: "The abstraction employed by the tool to represent composition to the user.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "10",
+				},
+	children: [{
+				id: "decision30",
+				name: "1: Abstraction level"
+				,data: {
+					type: "decision",
+					description: "The level to which the composition is abstracted to try to relate the concept of composition to the user.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option46",
+				name: "1: High"
+				,data: {
+					type: "option",
+					description: "The composition process is abstracted to a high level, relating it to something that is not closely linked to composition.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option47",
+				name: "1: Average"
+				,data: {
+					type: "option",
+					description: "The composition process has some abstraction, but still resembles composition.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option48",
+				name: "1: Low"
+				,data: {
+					type: "option",
+					description: "The composition process is not abstracted very much.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option147",
+				name: "1: No abstraction"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "option272",
+				name: "11: Metaphor"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "11",
+				},
+	children: [
+		]}
+		]}
+		]},{
+				id: "decision94",
+				name: "10: Aesthetics"
+				,data: {
+					type: "decision",
+					description: "The general aesthetics of the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "10",
+				},
+	children: [{
+				id: "option263",
+				name: "11: Colour"
+				,data: {
+					type: "option",
+					description: "The use of colour in the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option264",
+				name: "11: Visual"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "11",
+				},
+	children: [
+		]}
+		]}
+		]},{
+				id: "decision31",
+				name: "1: Target user"
+				,data: {
+					type: "decision",
+					description: "The target user of the EUSC tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision32",
+				name: "1: User expertise"
+				,data: {
+					type: "decision",
+					description: "The expertise that the user of the tool is required to have before they should be able to use the EUSC tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision91",
+				name: "6: Technical expertise"
+				,data: {
+					type: "decision",
+					description: "The technical expertise of the target user.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [{
+				id: "option51",
+				name: "1: Technical expert"
+				,data: {
+					type: "option",
+					description: "The target user is required to be a technical expert.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option244",
+				name: "6: Non-technical"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision93",
+				name: "6: Programming expertise"
+				,data: {
+					type: "decision",
+					description: "The amount of previous programming experience the target user of the tool should have.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [{
+				id: "option246",
+				name: "6: Non-programmer"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [
+		]},{
+				id: "option247",
+				name: "6: Programmer"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision92",
+				name: "6: Domain expertise"
+				,data: {
+					type: "decision",
+					description: "The knowledge of the domain of the target user of the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [{
+				id: "option50",
+				name: "1: Domain expert"
+				,data: {
+					type: "option",
+					description: "The target user is required to be an expert in the domain of the composite service.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option245",
+				name: "6: Domain newbie"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [
+		]}
+		]}
+		]},{
+				id: "decision33",
+				name: "1: User context"
+				,data: {
+					type: "decision",
+					description: "The context that the user is in - in terms of either as a business or a consumer.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option53",
+				name: "1: Consumer/Individual"
+				,data: {
+					type: "option",
+					description: "The target user is a normal consumer, or member of the public.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option54",
+				name: "1: Enterprise/Organisation"
+				,data: {
+					type: "option",
+					description: "The target user of the tool is a member of an enterprise organisation.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision90",
+				name: "1: Learning curve"
+				,data: {
+					type: "decision",
+					description: "How steep the learning curve is for new users learning to use the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option240",
+				name: "1: Low learning curve"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option241",
+				name: "1: Medium learning curve"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option242",
+				name: "1: High learning curve"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]}
+		]},{
+				id: "decision36",
+				name: "1: Domain specificity"
+				,data: {
+					type: "decision",
+					description: "How versatile the tool is in terms of the domain in which it operates.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option60",
+				name: "1: Generic"
+				,data: {
+					type: "option",
+					description: "The tool works across multiple domains and contexts.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option61",
+				name: "1: Context-specific"
+				,data: {
+					type: "option",
+					description: "The tool works in multiple domains, but is specific to one context. For example, a mobile tool that can create composites in multiple domains.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option62",
+				name: "1: Domain-specific"
+				,data: {
+					type: "option",
+					description: "The tool works in multiple contexts, but only one domain. For example, a tool might be able to operate both on mobile or web contexts, but limited to a single domain, e.g. productivity.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option63",
+				name: "1: Specialised"
+				,data: {
+					type: "option",
+					description: "The tool works in a single context (e.g. mobile) and a single domain (e.g. travel)",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision37",
+				name: "1: Execution context"
+				,data: {
+					type: "decision",
+					description: "The context (i.e. mobile or fixed/desktop) that the composite operates in when it is executed.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option134",
+				name: "1: Mobile context"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option135",
+				name: "1: Desktop context"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option136",
+				name: "1: Web context"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision38",
+				name: "1: Usability"
+				,data: {
+					type: "decision",
+					description: "The features that the tool provides to help with its usability.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision39",
+				name: "1: Prompts / Suggestions"
+				,data: {
+					type: "decision",
+					description: "The use of prompts or suggestions to the user to provide some form of assistance.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option67",
+				name: "1: Incompatibility prompts"
+				,data: {
+					type: "option",
+					description: "The tool highlights incompatible components to the user.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option68",
+				name: "1: Suggestions"
+				,data: {
+					type: "option",
+					description: "The tool makes suggestions to the user as to which components they should use.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision40",
+				name: "1: Internal help systems"
+				,data: {
+					type: "decision",
+					description: "The help systems that are built into the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option69",
+				name: "1: Help"
+				,data: {
+					type: "option",
+					description: "The system provides help to the user whilst they are performing composition.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option70",
+				name: "1: User goal / requirement mapping"
+				,data: {
+					type: "option",
+					description: "The system maps the user's goals and requirements to potential solutions.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option71",
+				name: "1: VCS"
+				,data: {
+					type: "option",
+					description: "The tool provides version control.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option274",
+				name: "11: Scenarios"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "11",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision41",
+				name: "1: External help systems"
+				,data: {
+					type: "decision",
+					description: "Help systems provided that are external to the tool, for example on an accompanying website.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "decision42",
+				name: "1: Documentation"
+				,data: {
+					type: "decision",
+					description: "Documentation provided to explain how the tool works and how to use it.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option72",
+				name: "1: Screencasts"
+				,data: {
+					type: "option",
+					description: "The tool provides screencasts to show users and potential users what is possible with the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option73",
+				name: "1: API / component documentation"
+				,data: {
+					type: "option",
+					description: "Documentation is provided about the interfaces of each of the components.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option163",
+				name: "1: Tool documentation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "option74",
+				name: "1: Tutorials"
+				,data: {
+					type: "option",
+					description: "The tool provides tutorials for its users.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option75",
+				name: "1: Discussion forums"
+				,data: {
+					type: "option",
+					description: "Discussion forums are provided where users can discuss problems, ideas, etc.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option144",
+				name: "1: External help/FAQ"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]},{
+				id: "decision43",
+				name: "1: Re-use"
+				,data: {
+					type: "decision",
+					description: "The support for re-use of composites or components that have been created by other users of the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [{
+				id: "option79",
+				name: "1: Examples"
+				,data: {
+					type: "option",
+					description: "The system provides examples of potential composites to users.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}
+		]}
+		]}
+		]};
+var opt2 = [{
+				id: "option19",
+				name: "1: Spreadsheet"
+				,data: {
+					type: "option",
+					description: "The user interacts with the composition process by manipulating a spreadsheet.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option20",
+				name: "1: Dialog / form"
+				,data: {
+					type: "option",
+					description: "The user interacts with the composition by using elements from a form or dialog.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option21",
+				name: "1: WYSIWYG"
+				,data: {
+					type: "option",
+					description: "The user interacts with the composition in a What-You-See-Is-What-You-Get manner.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option22",
+				name: "1: PbD"
+				,data: {
+					type: "option",
+					description: "The interaction with the composition is by demonstration. (For example, recording macros)",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option23",
+				name: "1: Drag & drop"
+				,data: {
+					type: "option",
+					description: "The interaction with the components and the composition allows the user to drag-and-drop the components to connect them.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option26",
+				name: "1: Full language"
+				,data: {
+					type: "option",
+					description: "Interaction with the composition process is by way of a full programming language.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option42",
+				name: "1: Visual DSL"
+				,data: {
+					type: "option",
+					description: "The interaction with the composition process is via a graphical domain-specific language (a subset of a full programming language).",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option25",
+				name: "1: Textual DSL"
+				,data: {
+					type: "option",
+					description: "The interaction with the composition process is via a textual domain-specific language (a subset of a full programming language).",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option31",
+				name: "1: PbEM"
+				,data: {
+					type: "option",
+					description: "Users can perform composition by acquiring examples (either those created by the system creator, or other others), and then modifies those examples.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option32",
+				name: "1: Blackboard"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option27",
+				name: "1: Forum"
+				,data: {
+					type: "option",
+					description: "There is a forum associated with the tool where users can get feedback from employees and other users of the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option28",
+				name: "1: Wiki"
+				,data: {
+					type: "option",
+					description: "The system provides a wiki where the user can get assistance with the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option226",
+				name: "5: SNS support"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option143",
+				name: "1: Blog"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option29",
+				name: "1: Public"
+				,data: {
+					type: "option",
+					description: "The online portion of the tool is publicly accessible - anyone can join.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option30",
+				name: "1: Private"
+				,data: {
+					type: "option",
+					description: "The online portion of the tool is private and is only accessible to a particular group of people, for example employees of a particular company.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option127",
+				name: "1: WYSIWYG representation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option34",
+				name: "1: Textual"
+				,data: {
+					type: "option",
+					description: "Components are represented by a piece of text.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option33",
+				name: "1: Icon"
+				,data: {
+					type: "option",
+					description: "Components are represented by their icon.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option223",
+				name: "4: Form element"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "4",
+				},
+	children: [
+		]},{
+				id: "option35",
+				name: "1: Flow diagram component"
+				,data: {
+					type: "option",
+					description: "Components are represented as if they are entities in a flow diagram.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option36",
+				name: "1: Explicit control flow"
+				,data: {
+					type: "option",
+					description: "Control flow - the passing of control between the components in the composition - is represented explicitly.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option37",
+				name: "1: Implicit control flow"
+				,data: {
+					type: "option",
+					description: "Control flow - the passing of control between the components - isn't represented explicitly.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option130",
+				name: "1: Explicit data flow"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option131",
+				name: "1: Implicit data flow"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option145",
+				name: "1: No link"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option40",
+				name: "1: Wires"
+				,data: {
+					type: "option",
+					description: "The connections between the components in the composition are represented as wires.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option41",
+				name: "1: Non-wire graphics"
+				,data: {
+					type: "option",
+					description: "The connections between components are represented as graphics, but are not wires.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option132",
+				name: "1: Visual DSL representation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option128",
+				name: "1: Textual DSL representation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option129",
+				name: "1: Full language representation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option43",
+				name: "1: Flow diagram"
+				,data: {
+					type: "option",
+					description: "Composition is represented as if it were a flow diagram.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option126",
+				name: "1: Spreadsheet representation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option44",
+				name: "1: Form"
+				,data: {
+					type: "option",
+					description: "Composition is represented as a form that the user fills in to perform the composition.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option45",
+				name: "1: Page flow"
+				,data: {
+					type: "option",
+					description: "The composition process has a series of pages.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option225",
+				name: "5: Plain list"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "5",
+				},
+	children: [
+		]},{
+				id: "option146",
+				name: "1: Text editor"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option272",
+				name: "11: Metaphor"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option46",
+				name: "1: High"
+				,data: {
+					type: "option",
+					description: "The composition process is abstracted to a high level, relating it to something that is not closely linked to composition.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option47",
+				name: "1: Average"
+				,data: {
+					type: "option",
+					description: "The composition process has some abstraction, but still resembles composition.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option48",
+				name: "1: Low"
+				,data: {
+					type: "option",
+					description: "The composition process is not abstracted very much.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option147",
+				name: "1: No abstraction"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option263",
+				name: "11: Colour"
+				,data: {
+					type: "option",
+					description: "The use of colour in the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option264",
+				name: "11: Visual"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option51",
+				name: "1: Technical expert"
+				,data: {
+					type: "option",
+					description: "The target user is required to be a technical expert.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option244",
+				name: "6: Non-technical"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [
+		]},{
+				id: "option246",
+				name: "6: Non-programmer"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [
+		]},{
+				id: "option247",
+				name: "6: Programmer"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [
+		]},{
+				id: "option50",
+				name: "1: Domain expert"
+				,data: {
+					type: "option",
+					description: "The target user is required to be an expert in the domain of the composite service.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option245",
+				name: "6: Domain newbie"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "6",
+				},
+	children: [
+		]},{
+				id: "option53",
+				name: "1: Consumer/Individual"
+				,data: {
+					type: "option",
+					description: "The target user is a normal consumer, or member of the public.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option54",
+				name: "1: Enterprise/Organisation"
+				,data: {
+					type: "option",
+					description: "The target user of the tool is a member of an enterprise organisation.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option240",
+				name: "1: Low learning curve"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option241",
+				name: "1: Medium learning curve"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option242",
+				name: "1: High learning curve"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option60",
+				name: "1: Generic"
+				,data: {
+					type: "option",
+					description: "The tool works across multiple domains and contexts.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option61",
+				name: "1: Context-specific"
+				,data: {
+					type: "option",
+					description: "The tool works in multiple domains, but is specific to one context. For example, a mobile tool that can create composites in multiple domains.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option62",
+				name: "1: Domain-specific"
+				,data: {
+					type: "option",
+					description: "The tool works in multiple contexts, but only one domain. For example, a tool might be able to operate both on mobile or web contexts, but limited to a single domain, e.g. productivity.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option63",
+				name: "1: Specialised"
+				,data: {
+					type: "option",
+					description: "The tool works in a single context (e.g. mobile) and a single domain (e.g. travel)",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option134",
+				name: "1: Mobile context"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option135",
+				name: "1: Desktop context"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option136",
+				name: "1: Web context"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option67",
+				name: "1: Incompatibility prompts"
+				,data: {
+					type: "option",
+					description: "The tool highlights incompatible components to the user.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option68",
+				name: "1: Suggestions"
+				,data: {
+					type: "option",
+					description: "The tool makes suggestions to the user as to which components they should use.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option69",
+				name: "1: Help"
+				,data: {
+					type: "option",
+					description: "The system provides help to the user whilst they are performing composition.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option70",
+				name: "1: User goal / requirement mapping"
+				,data: {
+					type: "option",
+					description: "The system maps the user's goals and requirements to potential solutions.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option71",
+				name: "1: VCS"
+				,data: {
+					type: "option",
+					description: "The tool provides version control.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option274",
+				name: "11: Scenarios"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "11",
+				},
+	children: [
+		]},{
+				id: "option74",
+				name: "1: Tutorials"
+				,data: {
+					type: "option",
+					description: "The tool provides tutorials for its users.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option75",
+				name: "1: Discussion forums"
+				,data: {
+					type: "option",
+					description: "Discussion forums are provided where users can discuss problems, ideas, etc.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option144",
+				name: "1: External help/FAQ"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option72",
+				name: "1: Screencasts"
+				,data: {
+					type: "option",
+					description: "The tool provides screencasts to show users and potential users what is possible with the tool.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option73",
+				name: "1: API / component documentation"
+				,data: {
+					type: "option",
+					description: "Documentation is provided about the interfaces of each of the components.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option163",
+				name: "1: Tool documentation"
+				,data: {
+					type: "option",
+					description: "",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]},{
+				id: "option79",
+				name: "1: Examples"
+				,data: {
+					type: "option",
+					description: "The system provides examples of potential composites to users.",
+					ds: "Non-functional",
+					dsCode: "nfxn",
+					step: "1",
+				},
+	children: [
+		]}];

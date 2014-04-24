@@ -1,0 +1,65 @@
+digraph output {node [color="047b35",fillcolor="#8df2b6",style=filled, shape=house];
+"Structural DS"
+
+node[shape=box,color="#004a63",fillcolor=lightblue2,style=filled];
+"Composition structure","Tool structure","System integration","HTML Microformat","Semantic description language","Liveness","Programming structures","Component types","Technologies","Communication protocol","Data retrieval","Syndication format","Message data format","Service description format","Templates","Automation","Composition layer","Flow present","Application type","Application location","Repositories","Infrastructure","Topology","Sharing","Inputs and outputs","Customisation","Data types","Template level","Full description langauge","WSDL-based language"
+
+node [color="#444444", style="rounded,filled", shape=rect, fontcolor="black", fillcolor="#DDDDDD"];
+"WSMO/WSML","Level 1","Level 2","Level 3","Level 4","Branches","Loops","Triggers","Actions","OWL-S","SOAP","REST","Widget","Web scraping","RSS","ATOM","JSON message format","XML message format","JSON","XML","WSDL","WADL","Composition level","Tool-level","Full automation","Semi-automation","No automation","Service layer","Application layer","Presentation layer","Data flow present","Application","Plug-in","Webpage/webapp","Mobile","Desktop","Web","Component repository","Composite repository","Ad hoc","Fixed","Centralised","Decentralised","Sharing components","Sharing composites","SAWSDL","Control flow present","Multiple atomic I&Os","Single composite I&Os","WSDL-S","Platform / Framework","Pervasive services","Linear template","No template","Infinite composition","WSMO-Lite","MicroWSMO"
+
+
+
+"Structural DS"->"Composition structure" [arrowhead=none]
+"Structural DS"->"Tool structure" [arrowhead=none]
+"Tool structure"->"System integration" [arrowhead=none]
+"Semantic description language"->"HTML Microformat" [arrowhead=none]
+"Composition structure"->"Liveness" [arrowhead=none]
+"Composition structure"->"Programming structures" [arrowhead=none]
+"Composition structure"->"Component types" [arrowhead=none]
+"Composition structure"->"Technologies" [arrowhead=none]
+"Technologies"->"Communication protocol" [arrowhead=none]
+"Technologies"->"Data retrieval" [arrowhead=none]
+"Data retrieval"->"Syndication format" [arrowhead=none]
+"Communication protocol"->"Message data format" [arrowhead=none]
+"Technologies"->"Service description format" [arrowhead=none]
+"Composition structure"->"Templates" [arrowhead=none]
+"Composition structure"->"Automation" [arrowhead=none]
+"Composition structure"->"Composition layer" [arrowhead=none]
+"Composition structure"->"Flow present" [arrowhead=none]
+"Tool structure"->"Application type" [arrowhead=none]
+"Tool structure"->"Application location" [arrowhead=none]
+"Tool structure"->"Repositories" [arrowhead=none]
+"Tool structure"->"Infrastructure" [arrowhead=none]
+"Tool structure"->"Topology" [arrowhead=none]
+"Tool structure"->"Sharing" [arrowhead=none]
+"Composition structure"->"Inputs and outputs" [arrowhead=none]
+"Tool structure"->"Customisation" [arrowhead=none]
+"Inputs and outputs"->"Data types" [arrowhead=none]
+"Templates"->"Template level" [arrowhead=none]
+"Service description format"->"Semantic description language" [arrowhead=none]
+"Semantic description language"->"Full description langauge" [arrowhead=none]
+"Semantic description language"->"WSDL-based language" [arrowhead=none]
+"Full description langauge"->"WSMO/WSML"->"OWL-S" [arrowhead=none]
+"Liveness"->"Level 1"->"Level 2"->"Level 3"->"Level 4" [arrowhead=none]
+"Programming structures"->"Branches"->"Loops" [arrowhead=none]
+"Component types"->"Triggers"->"Actions"->"Pervasive services" [arrowhead=none]
+"Communication protocol"->"SOAP"->"REST" [arrowhead=none]
+"Data retrieval"->"Widget"->"Web scraping" [arrowhead=none]
+"Syndication format"->"RSS"->"ATOM" [arrowhead=none]
+"Message data format"->"JSON message format"->"XML message format" [arrowhead=none]
+"Service description format"->"JSON"->"XML"->"WSDL"->"WADL" [arrowhead=none]
+"Template level"->"Composition level"->"Tool-level" [arrowhead=none]
+"Automation"->"Full automation"->"Semi-automation"->"No automation" [arrowhead=none]
+"Composition layer"->"Service layer"->"Application layer"->"Presentation layer" [arrowhead=none]
+"Flow present"->"Data flow present"->"Control flow present" [arrowhead=none]
+"Application type"->"Application"->"Plug-in"->"Webpage/webapp"->"Platform / Framework" [arrowhead=none]
+"Application location"->"Mobile"->"Desktop"->"Web" [arrowhead=none]
+"Repositories"->"Component repository"->"Composite repository" [arrowhead=none]
+"Infrastructure"->"Ad hoc"->"Fixed" [arrowhead=none]
+"Topology"->"Centralised"->"Decentralised" [arrowhead=none]
+"Sharing"->"Sharing components"->"Sharing composites" [arrowhead=none]
+"WSDL-based language"->"SAWSDL"->"WSDL-S"->"WSMO-Lite" [arrowhead=none]
+"Inputs and outputs"->"Multiple atomic I&Os"->"Single composite I&Os" [arrowhead=none]
+"Templates"->"Linear template"->"No template" [arrowhead=none]
+"Composition structure"->"Infinite composition" [arrowhead=none]
+"HTML Microformat"->"MicroWSMO" [arrowhead=none]}

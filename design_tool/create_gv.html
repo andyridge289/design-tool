@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-2.0.0.js"></script>
+		<script type="text/javascript">
+			function createGV()
+			{
+				for(var i = 0; i < 4; i++)
+				{
+					var url = "http://localhost/~andyridge/thesis_stuff/design_tool/php/out_gv.php?c=" + (i + 1);		
+					
+					$.ajax(url).done(function(){
+						$("#container").append("<p>Done!</p>");
+					});
+				}
+			}
+		</script>
+	</head>
+	<body onload="createGV()">
+		<div id="container"></div>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+1 Aghaee				1
+2 Grammel				1
+3 Minhas				1
+4 Mehandjiev			1
+5 Albinola				1
+6 Na					1
+7 Fischer				1
+8 Pietschmann			1
+9 Bronsted				1
+10 Tuchinda				1
+11 Paterno layers		4
+12 OWL-S				4
+13 WSMO/WSMO 			4
+14 WSMO-Lite			4
+15 SAWSDL				4
+16 WSDL-S				4
+17 MicroWSMO			4
+
+Tools
+Android
+	18 Atooma			6 7 10 11
+	19 AutomateIt		6 7 10 11
+	20 Tasker			6 7 10 11
+Web
+	21 IFTTT			6 7 10 11
+	22 Zapier			6 7 10 11
+	23 On{X}			6 7 10 11
+	24 Yahoo! Pipes		6 7 10 11
+Desktop (Mac)
+	25 Quartz Composer	6 7 10 11
+	26 Automator		6 7 10 11
+
+Second go (post DS study)
+	27 Condi
+	28 E-Robot

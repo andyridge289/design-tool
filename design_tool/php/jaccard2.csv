@@ -1,0 +1,1429 @@
+0.5,0.666666666667,6,Components,12,Composites,6
+0.916666666667,0.95652173913,11,Components,12,Process composition,11
+0.666666666667,0.8,8,Components,12,Data composition,8
+1,1,12,Components,12,Interpretation,12
+0.666666666667,0.8,8,Components,12,Dialog / form,8
+0.416666666667,0.588235294118,5,Components,12,Drag & drop,5
+0.416666666667,0.588235294118,5,Components,12,Forum,5
+0.666666666667,0.8,8,Components,12,Public,8
+0.666666666667,0.8,8,Components,12,PbEM,8
+0.583333333333,0.736842105263,7,Components,12,Icon,7
+0.666666666667,0.8,8,Components,12,Textual,8
+0.666666666667,0.8,8,Components,12,Explicit control flow,8
+0.666666666667,0.8,8,Components,12,Form,8
+0.5,0.666666666667,6,Components,12,Average,6
+0.916666666667,0.95652173913,11,Components,12,Domain expert,11
+1,1,12,Components,12,Technical expert,12
+1,1,12,Components,12,Consumer/Individual,12
+0.5,0.666666666667,6,Components,12,Context-specific,6
+0.416666666667,0.588235294118,5,Components,12,Domain-specific,5
+0.5,0.666666666667,6,Components,12,Web,6
+0.416666666667,0.588235294118,5,Components,12,Suggestions,5
+0.583333333333,0.736842105263,7,Components,12,Help,7
+0.416666666667,0.588235294118,5,Components,12,Screencasts,5
+0.416666666667,0.588235294118,5,Components,12,API / component documentation,5
+0.5,0.666666666667,6,Components,12,Tutorials,6
+0.666666666667,0.8,8,Components,12,Examples,8
+0.5,0.666666666667,6,Components,12,Level 3,6
+0.416666666667,0.588235294118,5,Components,12,Triggers,5
+1,1,12,Components,12,Actions,12
+0.416666666667,0.588235294118,5,Components,12,Branches,5
+0.5,0.666666666667,6,Components,12,Tool-level,6
+0.666666666667,0.8,8,Components,12,Semi-automation,8
+0.583333333333,0.736842105263,7,Components,12,Sharing composites,7
+0.666666666667,0.8,8,Components,12,Data flow present,8
+0.5,0.666666666667,6,Components,12,Application,6
+0.5,0.666666666667,6,Components,12,Webpage/webapp,6
+0.916666666667,0.95652173913,11,Components,12,Component repository,11
+0.5,0.666666666667,6,Components,12,Composite repository,6
+0.5,0.666666666667,6,Components,12,Ad hoc,6
+0.5,0.666666666667,6,Components,12,Fixed,6
+0.666666666667,0.8,8,Components,12,Centralised,8
+0.416666666667,0.588235294118,5,Components,12,Web context,5
+0.75,0.857142857143,9,Components,12,Composite name,9
+0.416666666667,0.588235294118,5,Components,12,Upload/Publish composite,5
+0.666666666667,0.8,8,Components,12,Rename composite,8
+0.75,0.857142857143,9,Components,12,Save composite,9
+0.666666666667,0.8,8,Components,12,Delete composite,8
+0.5,0.666666666667,6,Components,12,Turn on/off composite,6
+0.416666666667,0.588235294118,5,Components,12,Acquire composite,5
+0.416666666667,0.588235294118,5,Components,12,Share composite on SNS,5
+0.75,0.857142857143,9,Components,12,Edit composite,9
+0.416666666667,0.588235294118,5,Components,12,Execute composite,5
+0.833333333333,0.909090909091,10,Components,12,Activate component,10
+1,1,12,Components,12,Set/Edit component parameters,12
+1,1,12,Components,12,Use in composition,12
+0.833333333333,0.909090909091,10,Components,12,Tool documentation,10
+0.416666666667,0.588235294118,5,Components,12,Multiple atomic I&Os,5
+0.75,0.857142857143,9,Components,12,Browse list,9
+0.545454545455,0.705882352941,6,Composites,6,Process composition,11
+0.4,0.571428571429,4,Composites,6,Data composition,8
+0.5,0.666666666667,6,Composites,6,Interpretation,12
+0.4,0.571428571429,4,Composites,6,Dialog / form,8
+0.375,0.545454545455,3,Composites,6,Forum,5
+0.75,0.857142857143,6,Composites,6,Public,8
+0.75,0.857142857143,6,Composites,6,PbEM,8
+0.625,0.769230769231,5,Composites,6,Icon,7
+0.555555555556,0.714285714286,5,Composites,6,Textual,8
+0.555555555556,0.714285714286,5,Composites,6,Explicit control flow,8
+0.4,0.571428571429,4,Composites,6,Form,8
+0.714285714286,0.833333333333,5,Composites,6,Average,6
+0.416666666667,0.588235294118,5,Composites,6,Domain expert,11
+0.5,0.666666666667,6,Composites,6,Technical expert,12
+0.5,0.666666666667,6,Composites,6,Consumer/Individual,12
+0.333333333333,0.5,3,Composites,6,Context-specific,6
+0.571428571429,0.727272727273,4,Composites,6,Domain-specific,5
+0.5,0.666666666667,4,Composites,6,Web,6
+0.571428571429,0.727272727273,4,Composites,6,Suggestions,5
+0.444444444444,0.615384615385,4,Composites,6,Help,7
+0.375,0.545454545455,3,Composites,6,Screencasts,5
+0.375,0.545454545455,3,Composites,6,API / component documentation,5
+0.5,0.666666666667,4,Composites,6,Tutorials,6
+0.75,0.857142857143,6,Composites,6,Examples,8
+0.833333333333,0.909090909091,5,Composites,6,Triggers,5
+0.5,0.666666666667,6,Composites,6,Actions,12
+0.375,0.545454545455,3,Composites,6,Branches,5
+0.5,0.666666666667,4,Composites,6,Tool-level,6
+0.555555555556,0.714285714286,5,Composites,6,Semi-automation,8
+0.857142857143,0.923076923077,6,Composites,6,Sharing composites,7
+0.4,0.571428571429,4,Composites,6,Data flow present,8
+0.333333333333,0.5,3,Composites,6,Application,6
+0.5,0.666666666667,4,Composites,6,Webpage/webapp,6
+0.545454545455,0.705882352941,6,Composites,6,Component repository,11
+1,1,6,Composites,6,Composite repository,6
+0.5,0.666666666667,4,Composites,6,Fixed,6
+0.75,0.857142857143,6,Composites,6,Centralised,8
+0.375,0.545454545455,3,Composites,6,Web context,5
+0.5,0.666666666667,5,Composites,6,Composite name,9
+0.833333333333,0.909090909091,5,Composites,6,Upload/Publish composite,5
+0.555555555556,0.714285714286,5,Composites,6,Rename composite,8
+0.666666666667,0.8,6,Composites,6,Save composite,9
+0.75,0.857142857143,6,Composites,6,Delete composite,8
+0.714285714286,0.833333333333,5,Composites,6,Turn on/off composite,6
+0.833333333333,0.909090909091,5,Composites,6,Acquire composite,5
+0.833333333333,0.909090909091,5,Composites,6,Share composite on SNS,5
+0.666666666667,0.8,6,Composites,6,Edit composite,9
+0.6,0.75,6,Composites,6,Activate component,10
+0.5,0.666666666667,6,Composites,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Composites,6,Use in composition,12
+0.454545454545,0.625,5,Composites,6,Tool documentation,10
+0.375,0.545454545455,3,Composites,6,Multiple atomic I&Os,5
+0.363636363636,0.533333333333,4,Composites,6,Browse list,9
+0.727272727273,0.842105263158,8,Process composition,11,Data composition,8
+0.916666666667,0.95652173913,11,Process composition,11,Interpretation,12
+0.583333333333,0.736842105263,7,Process composition,11,Dialog / form,8
+0.333333333333,0.5,4,Process composition,11,Drag & drop,5
+0.454545454545,0.625,5,Process composition,11,Forum,5
+0.583333333333,0.736842105263,7,Process composition,11,Public,8
+0.727272727273,0.842105263158,8,Process composition,11,PbEM,8
+0.636363636364,0.777777777778,7,Process composition,11,Icon,7
+0.727272727273,0.842105263158,8,Process composition,11,Textual,8
+0.727272727273,0.842105263158,8,Process composition,11,Explicit control flow,8
+0.583333333333,0.736842105263,7,Process composition,11,Form,8
+0.545454545455,0.705882352941,6,Process composition,11,Average,6
+0.833333333333,0.909090909091,10,Process composition,11,Domain expert,11
+0.916666666667,0.95652173913,11,Process composition,11,Technical expert,12
+0.916666666667,0.95652173913,11,Process composition,11,Consumer/Individual,12
+0.545454545455,0.705882352941,6,Process composition,11,Context-specific,6
+0.454545454545,0.625,5,Process composition,11,Domain-specific,5
+0.416666666667,0.588235294118,5,Process composition,11,Web,6
+0.333333333333,0.5,4,Process composition,11,Suggestions,5
+0.5,0.666666666667,6,Process composition,11,Help,7
+0.454545454545,0.625,5,Process composition,11,Screencasts,5
+0.454545454545,0.625,5,Process composition,11,API / component documentation,5
+0.416666666667,0.588235294118,5,Process composition,11,Tutorials,6
+0.727272727273,0.842105263158,8,Process composition,11,Examples,8
+0.545454545455,0.705882352941,6,Process composition,11,Level 3,6
+0.454545454545,0.625,5,Process composition,11,Triggers,5
+0.916666666667,0.95652173913,11,Process composition,11,Actions,12
+0.454545454545,0.625,5,Process composition,11,Branches,5
+0.545454545455,0.705882352941,6,Process composition,11,Tool-level,6
+0.727272727273,0.842105263158,8,Process composition,11,Semi-automation,8
+0.636363636364,0.777777777778,7,Process composition,11,Sharing composites,7
+0.727272727273,0.842105263158,8,Process composition,11,Data flow present,8
+0.545454545455,0.705882352941,6,Process composition,11,Application,6
+0.416666666667,0.588235294118,5,Process composition,11,Webpage/webapp,6
+0.833333333333,0.909090909091,10,Process composition,11,Component repository,11
+0.545454545455,0.705882352941,6,Process composition,11,Composite repository,6
+0.545454545455,0.705882352941,6,Process composition,11,Ad hoc,6
+0.416666666667,0.588235294118,5,Process composition,11,Fixed,6
+0.583333333333,0.736842105263,7,Process composition,11,Centralised,8
+0.333333333333,0.5,4,Process composition,11,Web context,5
+0.818181818182,0.9,9,Process composition,11,Composite name,9
+0.454545454545,0.625,5,Process composition,11,Upload/Publish composite,5
+0.727272727273,0.842105263158,8,Process composition,11,Rename composite,8
+0.818181818182,0.9,9,Process composition,11,Save composite,9
+0.727272727273,0.842105263158,8,Process composition,11,Delete composite,8
+0.545454545455,0.705882352941,6,Process composition,11,Turn on/off composite,6
+0.454545454545,0.625,5,Process composition,11,Acquire composite,5
+0.454545454545,0.625,5,Process composition,11,Share composite on SNS,5
+0.818181818182,0.9,9,Process composition,11,Edit composite,9
+0.454545454545,0.625,5,Process composition,11,Execute composite,5
+0.75,0.857142857143,9,Process composition,11,Activate component,10
+0.916666666667,0.95652173913,11,Process composition,11,Set/Edit component parameters,12
+0.916666666667,0.95652173913,11,Process composition,11,Use in composition,12
+0.75,0.857142857143,9,Process composition,11,Tool documentation,10
+0.454545454545,0.625,5,Process composition,11,Multiple atomic I&Os,5
+0.666666666667,0.8,8,Process composition,11,Browse list,9
+0.666666666667,0.8,8,Data composition,8,Interpretation,12
+0.333333333333,0.5,4,Data composition,8,Dialog / form,8
+0.444444444444,0.615384615385,4,Data composition,8,Drag & drop,5
+0.454545454545,0.625,5,Data composition,8,Public,8
+0.6,0.75,6,Data composition,8,PbEM,8
+0.363636363636,0.533333333333,4,Data composition,8,Icon,7
+0.6,0.75,6,Data composition,8,Textual,8
+0.454545454545,0.625,5,Data composition,8,Explicit control flow,8
+0.333333333333,0.5,4,Data composition,8,Form,8
+0.583333333333,0.736842105263,7,Data composition,8,Domain expert,11
+0.666666666667,0.8,8,Data composition,8,Technical expert,12
+0.666666666667,0.8,8,Data composition,8,Consumer/Individual,12
+0.625,0.769230769231,5,Data composition,8,Domain-specific,5
+0.555555555556,0.714285714286,5,Data composition,8,Web,6
+0.5,0.666666666667,5,Data composition,8,Help,7
+0.444444444444,0.615384615385,4,Data composition,8,API / component documentation,5
+0.6,0.75,6,Data composition,8,Examples,8
+0.555555555556,0.714285714286,5,Data composition,8,Level 3,6
+0.666666666667,0.8,8,Data composition,8,Actions,12
+0.444444444444,0.615384615385,4,Data composition,8,Branches,5
+0.454545454545,0.625,5,Data composition,8,Semi-automation,8
+0.5,0.666666666667,5,Data composition,8,Sharing composites,7
+1,1,8,Data composition,8,Data flow present,8
+0.555555555556,0.714285714286,5,Data composition,8,Webpage/webapp,6
+0.583333333333,0.736842105263,7,Data composition,8,Component repository,11
+0.4,0.571428571429,4,Data composition,8,Composite repository,6
+0.555555555556,0.714285714286,5,Data composition,8,Fixed,6
+0.454545454545,0.625,5,Data composition,8,Centralised,8
+0.444444444444,0.615384615385,4,Data composition,8,Web context,5
+0.545454545455,0.705882352941,6,Data composition,8,Composite name,9
+0.454545454545,0.625,5,Data composition,8,Rename composite,8
+0.545454545455,0.705882352941,6,Data composition,8,Save composite,9
+0.454545454545,0.625,5,Data composition,8,Delete composite,8
+0.545454545455,0.705882352941,6,Data composition,8,Edit composite,9
+0.444444444444,0.615384615385,4,Data composition,8,Execute composite,5
+0.5,0.666666666667,6,Data composition,8,Activate component,10
+0.666666666667,0.8,8,Data composition,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Data composition,8,Use in composition,12
+0.5,0.666666666667,6,Data composition,8,Tool documentation,10
+0.625,0.769230769231,5,Data composition,8,Multiple atomic I&Os,5
+0.7,0.823529411765,7,Data composition,8,Browse list,9
+0.666666666667,0.8,8,Interpretation,12,Dialog / form,8
+0.416666666667,0.588235294118,5,Interpretation,12,Drag & drop,5
+0.416666666667,0.588235294118,5,Interpretation,12,Forum,5
+0.666666666667,0.8,8,Interpretation,12,Public,8
+0.666666666667,0.8,8,Interpretation,12,PbEM,8
+0.583333333333,0.736842105263,7,Interpretation,12,Icon,7
+0.666666666667,0.8,8,Interpretation,12,Textual,8
+0.666666666667,0.8,8,Interpretation,12,Explicit control flow,8
+0.666666666667,0.8,8,Interpretation,12,Form,8
+0.5,0.666666666667,6,Interpretation,12,Average,6
+0.916666666667,0.95652173913,11,Interpretation,12,Domain expert,11
+1,1,12,Interpretation,12,Technical expert,12
+1,1,12,Interpretation,12,Consumer/Individual,12
+0.5,0.666666666667,6,Interpretation,12,Context-specific,6
+0.416666666667,0.588235294118,5,Interpretation,12,Domain-specific,5
+0.5,0.666666666667,6,Interpretation,12,Web,6
+0.416666666667,0.588235294118,5,Interpretation,12,Suggestions,5
+0.583333333333,0.736842105263,7,Interpretation,12,Help,7
+0.416666666667,0.588235294118,5,Interpretation,12,Screencasts,5
+0.416666666667,0.588235294118,5,Interpretation,12,API / component documentation,5
+0.5,0.666666666667,6,Interpretation,12,Tutorials,6
+0.666666666667,0.8,8,Interpretation,12,Examples,8
+0.5,0.666666666667,6,Interpretation,12,Level 3,6
+0.416666666667,0.588235294118,5,Interpretation,12,Triggers,5
+1,1,12,Interpretation,12,Actions,12
+0.416666666667,0.588235294118,5,Interpretation,12,Branches,5
+0.5,0.666666666667,6,Interpretation,12,Tool-level,6
+0.666666666667,0.8,8,Interpretation,12,Semi-automation,8
+0.583333333333,0.736842105263,7,Interpretation,12,Sharing composites,7
+0.666666666667,0.8,8,Interpretation,12,Data flow present,8
+0.5,0.666666666667,6,Interpretation,12,Application,6
+0.5,0.666666666667,6,Interpretation,12,Webpage/webapp,6
+0.916666666667,0.95652173913,11,Interpretation,12,Component repository,11
+0.5,0.666666666667,6,Interpretation,12,Composite repository,6
+0.5,0.666666666667,6,Interpretation,12,Ad hoc,6
+0.5,0.666666666667,6,Interpretation,12,Fixed,6
+0.666666666667,0.8,8,Interpretation,12,Centralised,8
+0.416666666667,0.588235294118,5,Interpretation,12,Web context,5
+0.75,0.857142857143,9,Interpretation,12,Composite name,9
+0.416666666667,0.588235294118,5,Interpretation,12,Upload/Publish composite,5
+0.666666666667,0.8,8,Interpretation,12,Rename composite,8
+0.75,0.857142857143,9,Interpretation,12,Save composite,9
+0.666666666667,0.8,8,Interpretation,12,Delete composite,8
+0.5,0.666666666667,6,Interpretation,12,Turn on/off composite,6
+0.416666666667,0.588235294118,5,Interpretation,12,Acquire composite,5
+0.416666666667,0.588235294118,5,Interpretation,12,Share composite on SNS,5
+0.75,0.857142857143,9,Interpretation,12,Edit composite,9
+0.416666666667,0.588235294118,5,Interpretation,12,Execute composite,5
+0.833333333333,0.909090909091,10,Interpretation,12,Activate component,10
+1,1,12,Interpretation,12,Set/Edit component parameters,12
+1,1,12,Interpretation,12,Use in composition,12
+0.833333333333,0.909090909091,10,Interpretation,12,Tool documentation,10
+0.416666666667,0.588235294118,5,Interpretation,12,Multiple atomic I&Os,5
+0.75,0.857142857143,9,Interpretation,12,Browse list,9
+0.6,0.75,6,Dialog / form,8,Public,8
+0.333333333333,0.5,4,Dialog / form,8,PbEM,8
+0.5,0.666666666667,5,Dialog / form,8,Icon,7
+0.454545454545,0.625,5,Dialog / form,8,Textual,8
+0.6,0.75,6,Dialog / form,8,Explicit control flow,8
+1,1,8,Dialog / form,8,Form,8
+0.555555555556,0.714285714286,5,Dialog / form,8,Average,6
+0.727272727273,0.842105263158,8,Dialog / form,8,Domain expert,11
+0.666666666667,0.8,8,Dialog / form,8,Technical expert,12
+0.666666666667,0.8,8,Dialog / form,8,Consumer/Individual,12
+0.555555555556,0.714285714286,5,Dialog / form,8,Context-specific,6
+0.4,0.571428571429,4,Dialog / form,8,Web,6
+0.444444444444,0.615384615385,4,Dialog / form,8,Suggestions,5
+0.363636363636,0.533333333333,4,Dialog / form,8,Help,7
+0.444444444444,0.615384615385,4,Dialog / form,8,Screencasts,5
+0.4,0.571428571429,4,Dialog / form,8,Tutorials,6
+0.333333333333,0.5,4,Dialog / form,8,Examples,8
+0.4,0.571428571429,4,Dialog / form,8,Level 3,6
+0.444444444444,0.615384615385,4,Dialog / form,8,Triggers,5
+0.666666666667,0.8,8,Dialog / form,8,Actions,12
+0.555555555556,0.714285714286,5,Dialog / form,8,Tool-level,6
+0.6,0.75,6,Dialog / form,8,Semi-automation,8
+0.5,0.666666666667,5,Dialog / form,8,Sharing composites,7
+0.333333333333,0.5,4,Dialog / form,8,Data flow present,8
+0.4,0.571428571429,4,Dialog / form,8,Webpage/webapp,6
+0.583333333333,0.736842105263,7,Dialog / form,8,Component repository,11
+0.4,0.571428571429,4,Dialog / form,8,Composite repository,6
+0.4,0.571428571429,4,Dialog / form,8,Ad hoc,6
+0.4,0.571428571429,4,Dialog / form,8,Fixed,6
+0.6,0.75,6,Dialog / form,8,Centralised,8
+0.444444444444,0.615384615385,4,Dialog / form,8,Web context,5
+0.416666666667,0.588235294118,5,Dialog / form,8,Composite name,9
+0.6,0.75,6,Dialog / form,8,Rename composite,8
+0.545454545455,0.705882352941,6,Dialog / form,8,Save composite,9
+0.6,0.75,6,Dialog / form,8,Delete composite,8
+0.555555555556,0.714285714286,5,Dialog / form,8,Turn on/off composite,6
+0.444444444444,0.615384615385,4,Dialog / form,8,Share composite on SNS,5
+0.545454545455,0.705882352941,6,Dialog / form,8,Edit composite,9
+0.8,0.888888888889,8,Dialog / form,8,Activate component,10
+0.666666666667,0.8,8,Dialog / form,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Dialog / form,8,Use in composition,12
+0.636363636364,0.777777777778,7,Dialog / form,8,Tool documentation,10
+0.416666666667,0.588235294118,5,Dialog / form,8,Browse list,9
+0.454545454545,0.625,5,Drag & drop,5,Domain expert,11
+0.416666666667,0.588235294118,5,Drag & drop,5,Technical expert,12
+0.416666666667,0.588235294118,5,Drag & drop,5,Consumer/Individual,12
+0.333333333333,0.5,3,Drag & drop,5,Help,7
+0.375,0.545454545455,3,Drag & drop,5,Level 3,6
+0.416666666667,0.588235294118,5,Drag & drop,5,Actions,12
+0.428571428571,0.6,3,Drag & drop,5,Branches,5
+0.444444444444,0.615384615385,4,Drag & drop,5,Data flow present,8
+0.454545454545,0.625,5,Drag & drop,5,Component repository,11
+0.375,0.545454545455,3,Drag & drop,5,Ad hoc,6
+0.4,0.571428571429,4,Drag & drop,5,Composite name,9
+0.428571428571,0.6,3,Drag & drop,5,Execute composite,5
+0.416666666667,0.588235294118,5,Drag & drop,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Drag & drop,5,Use in composition,12
+0.363636363636,0.533333333333,4,Drag & drop,5,Tool documentation,10
+0.555555555556,0.714285714286,5,Drag & drop,5,Browse list,9
+0.333333333333,0.5,3,Forum,5,Icon,7
+0.625,0.769230769231,5,Forum,5,Textual,8
+0.444444444444,0.615384615385,4,Forum,5,Explicit control flow,8
+0.375,0.545454545455,3,Forum,5,Average,6
+0.333333333333,0.5,4,Forum,5,Domain expert,11
+0.416666666667,0.588235294118,5,Forum,5,Technical expert,12
+0.416666666667,0.588235294118,5,Forum,5,Consumer/Individual,12
+0.333333333333,0.5,3,Forum,5,Help,7
+0.666666666667,0.8,4,Forum,5,Screencasts,5
+0.666666666667,0.8,4,Forum,5,API / component documentation,5
+0.571428571429,0.727272727273,4,Forum,5,Tutorials,6
+0.375,0.545454545455,3,Forum,5,Level 3,6
+0.416666666667,0.588235294118,5,Forum,5,Actions,12
+0.666666666667,0.8,4,Forum,5,Branches,5
+0.444444444444,0.615384615385,4,Forum,5,Semi-automation,8
+0.333333333333,0.5,3,Forum,5,Sharing composites,7
+0.375,0.545454545455,3,Forum,5,Application,6
+0.454545454545,0.625,5,Forum,5,Component repository,11
+0.375,0.545454545455,3,Forum,5,Composite repository,6
+0.375,0.545454545455,3,Forum,5,Ad hoc,6
+0.555555555556,0.714285714286,5,Forum,5,Composite name,9
+0.428571428571,0.6,3,Forum,5,Upload/Publish composite,5
+0.444444444444,0.615384615385,4,Forum,5,Rename composite,8
+0.555555555556,0.714285714286,5,Forum,5,Save composite,9
+0.625,0.769230769231,5,Forum,5,Delete composite,8
+0.375,0.545454545455,3,Forum,5,Turn on/off composite,6
+0.428571428571,0.6,3,Forum,5,Acquire composite,5
+0.555555555556,0.714285714286,5,Forum,5,Edit composite,9
+0.428571428571,0.6,3,Forum,5,Execute composite,5
+0.5,0.666666666667,5,Forum,5,Activate component,10
+0.416666666667,0.588235294118,5,Forum,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Forum,5,Use in composition,12
+0.363636363636,0.533333333333,4,Forum,5,Tool documentation,10
+0.4,0.571428571429,4,Forum,5,Browse list,9
+0.6,0.75,6,Public,8,PbEM,8
+0.5,0.666666666667,5,Public,8,Icon,7
+0.454545454545,0.625,5,Public,8,Textual,8
+0.454545454545,0.625,5,Public,8,Explicit control flow,8
+0.6,0.75,6,Public,8,Form,8
+0.555555555556,0.714285714286,5,Public,8,Average,6
+0.583333333333,0.736842105263,7,Public,8,Domain expert,11
+0.666666666667,0.8,8,Public,8,Technical expert,12
+0.666666666667,0.8,8,Public,8,Consumer/Individual,12
+0.4,0.571428571429,4,Public,8,Context-specific,6
+0.444444444444,0.615384615385,4,Public,8,Domain-specific,5
+0.75,0.857142857143,6,Public,8,Web,6
+0.625,0.769230769231,5,Public,8,Suggestions,5
+0.5,0.666666666667,5,Public,8,Help,7
+0.555555555556,0.714285714286,5,Public,8,Tutorials,6
+0.6,0.75,6,Public,8,Examples,8
+0.625,0.769230769231,5,Public,8,Triggers,5
+0.666666666667,0.8,8,Public,8,Actions,12
+0.4,0.571428571429,4,Public,8,Tool-level,6
+0.454545454545,0.625,5,Public,8,Semi-automation,8
+0.875,0.933333333333,7,Public,8,Sharing composites,7
+0.454545454545,0.625,5,Public,8,Data flow present,8
+0.75,0.857142857143,6,Public,8,Webpage/webapp,6
+0.583333333333,0.736842105263,7,Public,8,Component repository,11
+0.75,0.857142857143,6,Public,8,Composite repository,6
+0.75,0.857142857143,6,Public,8,Fixed,6
+1,1,8,Public,8,Centralised,8
+0.625,0.769230769231,5,Public,8,Web context,5
+0.416666666667,0.588235294118,5,Public,8,Composite name,9
+0.625,0.769230769231,5,Public,8,Upload/Publish composite,5
+0.454545454545,0.625,5,Public,8,Rename composite,8
+0.545454545455,0.705882352941,6,Public,8,Save composite,9
+0.6,0.75,6,Public,8,Delete composite,8
+0.555555555556,0.714285714286,5,Public,8,Turn on/off composite,6
+0.625,0.769230769231,5,Public,8,Acquire composite,5
+0.625,0.769230769231,5,Public,8,Share composite on SNS,5
+0.545454545455,0.705882352941,6,Public,8,Edit composite,9
+0.8,0.888888888889,8,Public,8,Activate component,10
+0.666666666667,0.8,8,Public,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Public,8,Use in composition,12
+0.5,0.666666666667,6,Public,8,Tool documentation,10
+0.545454545455,0.705882352941,6,Public,8,Browse list,9
+0.666666666667,0.8,6,PbEM,8,Icon,7
+0.6,0.75,6,PbEM,8,Textual,8
+0.6,0.75,6,PbEM,8,Explicit control flow,8
+0.333333333333,0.5,4,PbEM,8,Form,8
+0.555555555556,0.714285714286,5,PbEM,8,Average,6
+0.583333333333,0.736842105263,7,PbEM,8,Domain expert,11
+0.666666666667,0.8,8,PbEM,8,Technical expert,12
+0.666666666667,0.8,8,PbEM,8,Consumer/Individual,12
+0.4,0.571428571429,4,PbEM,8,Context-specific,6
+0.625,0.769230769231,5,PbEM,8,Domain-specific,5
+0.4,0.571428571429,4,PbEM,8,Web,6
+0.444444444444,0.615384615385,4,PbEM,8,Suggestions,5
+0.5,0.666666666667,5,PbEM,8,Help,7
+0.4,0.571428571429,4,PbEM,8,Tutorials,6
+1,1,8,PbEM,8,Examples,8
+0.625,0.769230769231,5,PbEM,8,Triggers,5
+0.666666666667,0.8,8,PbEM,8,Actions,12
+0.444444444444,0.615384615385,4,PbEM,8,Branches,5
+0.555555555556,0.714285714286,5,PbEM,8,Tool-level,6
+0.6,0.75,6,PbEM,8,Semi-automation,8
+0.666666666667,0.8,6,PbEM,8,Sharing composites,7
+0.6,0.75,6,PbEM,8,Data flow present,8
+0.555555555556,0.714285714286,5,PbEM,8,Application,6
+0.4,0.571428571429,4,PbEM,8,Webpage/webapp,6
+0.727272727273,0.842105263158,8,PbEM,8,Component repository,11
+0.75,0.857142857143,6,PbEM,8,Composite repository,6
+0.4,0.571428571429,4,PbEM,8,Ad hoc,6
+0.4,0.571428571429,4,PbEM,8,Fixed,6
+0.6,0.75,6,PbEM,8,Centralised,8
+0.7,0.823529411765,7,PbEM,8,Composite name,9
+0.625,0.769230769231,5,PbEM,8,Upload/Publish composite,5
+0.6,0.75,6,PbEM,8,Rename composite,8
+0.7,0.823529411765,7,PbEM,8,Save composite,9
+0.6,0.75,6,PbEM,8,Delete composite,8
+0.555555555556,0.714285714286,5,PbEM,8,Turn on/off composite,6
+0.625,0.769230769231,5,PbEM,8,Acquire composite,5
+0.625,0.769230769231,5,PbEM,8,Share composite on SNS,5
+0.7,0.823529411765,7,PbEM,8,Edit composite,9
+0.5,0.666666666667,6,PbEM,8,Activate component,10
+0.666666666667,0.8,8,PbEM,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,PbEM,8,Use in composition,12
+0.636363636364,0.777777777778,7,PbEM,8,Tool documentation,10
+0.444444444444,0.615384615385,4,PbEM,8,Multiple atomic I&Os,5
+0.545454545455,0.705882352941,6,PbEM,8,Browse list,9
+0.666666666667,0.8,6,Icon,7,Textual,8
+0.875,0.933333333333,7,Icon,7,Explicit control flow,8
+0.5,0.666666666667,5,Icon,7,Form,8
+0.625,0.769230769231,5,Icon,7,Average,6
+0.5,0.666666666667,6,Icon,7,Domain expert,11
+0.583333333333,0.736842105263,7,Icon,7,Technical expert,12
+0.583333333333,0.736842105263,7,Icon,7,Consumer/Individual,12
+0.625,0.769230769231,5,Icon,7,Context-specific,6
+0.333333333333,0.5,3,Icon,7,Domain-specific,5
+0.5,0.666666666667,4,Icon,7,Suggestions,5
+0.555555555556,0.714285714286,5,Icon,7,Help,7
+0.333333333333,0.5,3,Icon,7,Screencasts,5
+0.333333333333,0.5,3,Icon,7,API / component documentation,5
+0.444444444444,0.615384615385,4,Icon,7,Tutorials,6
+0.666666666667,0.8,6,Icon,7,Examples,8
+0.714285714286,0.833333333333,5,Icon,7,Triggers,5
+0.583333333333,0.736842105263,7,Icon,7,Actions,12
+0.857142857143,0.923076923077,6,Icon,7,Tool-level,6
+0.5,0.666666666667,5,Icon,7,Semi-automation,8
+0.555555555556,0.714285714286,5,Icon,7,Sharing composites,7
+0.363636363636,0.533333333333,4,Icon,7,Data flow present,8
+0.625,0.769230769231,5,Icon,7,Application,6
+0.636363636364,0.777777777778,7,Icon,7,Component repository,11
+0.625,0.769230769231,5,Icon,7,Composite repository,6
+0.444444444444,0.615384615385,4,Icon,7,Ad hoc,6
+0.5,0.666666666667,5,Icon,7,Centralised,8
+0.6,0.75,6,Icon,7,Composite name,9
+0.5,0.666666666667,4,Icon,7,Upload/Publish composite,5
+0.875,0.933333333333,7,Icon,7,Rename composite,8
+0.777777777778,0.875,7,Icon,7,Save composite,9
+0.666666666667,0.8,6,Icon,7,Delete composite,8
+0.857142857143,0.923076923077,6,Icon,7,Turn on/off composite,6
+0.5,0.666666666667,4,Icon,7,Acquire composite,5
+0.714285714286,0.833333333333,5,Icon,7,Share composite on SNS,5
+0.777777777778,0.875,7,Icon,7,Edit composite,9
+0.333333333333,0.5,3,Icon,7,Execute composite,5
+0.545454545455,0.705882352941,6,Icon,7,Activate component,10
+0.583333333333,0.736842105263,7,Icon,7,Set/Edit component parameters,12
+0.583333333333,0.736842105263,7,Icon,7,Use in composition,12
+0.7,0.823529411765,7,Icon,7,Tool documentation,10
+0.333333333333,0.5,3,Icon,7,Multiple atomic I&Os,5
+0.333333333333,0.5,4,Icon,7,Browse list,9
+0.777777777778,0.875,7,Textual,8,Explicit control flow,8
+0.454545454545,0.625,5,Textual,8,Form,8
+0.555555555556,0.714285714286,5,Textual,8,Average,6
+0.583333333333,0.736842105263,7,Textual,8,Domain expert,11
+0.666666666667,0.8,8,Textual,8,Technical expert,12
+0.666666666667,0.8,8,Textual,8,Consumer/Individual,12
+0.4,0.571428571429,4,Textual,8,Context-specific,6
+0.444444444444,0.615384615385,4,Textual,8,Domain-specific,5
+0.4,0.571428571429,4,Textual,8,Web,6
+0.444444444444,0.615384615385,4,Textual,8,Suggestions,5
+0.666666666667,0.8,6,Textual,8,Help,7
+0.625,0.769230769231,5,Textual,8,Screencasts,5
+0.625,0.769230769231,5,Textual,8,API / component documentation,5
+0.555555555556,0.714285714286,5,Textual,8,Tutorials,6
+0.6,0.75,6,Textual,8,Examples,8
+0.555555555556,0.714285714286,5,Textual,8,Level 3,6
+0.444444444444,0.615384615385,4,Textual,8,Triggers,5
+0.666666666667,0.8,8,Textual,8,Actions,12
+0.444444444444,0.615384615385,4,Textual,8,Branches,5
+0.555555555556,0.714285714286,5,Textual,8,Tool-level,6
+0.6,0.75,6,Textual,8,Semi-automation,8
+0.5,0.666666666667,5,Textual,8,Sharing composites,7
+0.6,0.75,6,Textual,8,Data flow present,8
+0.4,0.571428571429,4,Textual,8,Application,6
+0.4,0.571428571429,4,Textual,8,Webpage/webapp,6
+0.727272727273,0.842105263158,8,Textual,8,Component repository,11
+0.555555555556,0.714285714286,5,Textual,8,Composite repository,6
+0.4,0.571428571429,4,Textual,8,Ad hoc,6
+0.4,0.571428571429,4,Textual,8,Fixed,6
+0.454545454545,0.625,5,Textual,8,Centralised,8
+0.7,0.823529411765,7,Textual,8,Composite name,9
+0.444444444444,0.615384615385,4,Textual,8,Upload/Publish composite,5
+0.777777777778,0.875,7,Textual,8,Rename composite,8
+0.888888888889,0.941176470588,8,Textual,8,Save composite,9
+0.777777777778,0.875,7,Textual,8,Delete composite,8
+0.555555555556,0.714285714286,5,Textual,8,Turn on/off composite,6
+0.444444444444,0.615384615385,4,Textual,8,Acquire composite,5
+0.444444444444,0.615384615385,4,Textual,8,Share composite on SNS,5
+0.888888888889,0.941176470588,8,Textual,8,Edit composite,9
+0.625,0.769230769231,5,Textual,8,Execute composite,5
+0.636363636364,0.777777777778,7,Textual,8,Activate component,10
+0.666666666667,0.8,8,Textual,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Textual,8,Use in composition,12
+0.636363636364,0.777777777778,7,Textual,8,Tool documentation,10
+0.444444444444,0.615384615385,4,Textual,8,Multiple atomic I&Os,5
+0.545454545455,0.705882352941,6,Textual,8,Browse list,9
+0.6,0.75,6,Explicit control flow,8,Form,8
+0.555555555556,0.714285714286,5,Explicit control flow,8,Average,6
+0.583333333333,0.736842105263,7,Explicit control flow,8,Domain expert,11
+0.666666666667,0.8,8,Explicit control flow,8,Technical expert,12
+0.666666666667,0.8,8,Explicit control flow,8,Consumer/Individual,12
+0.555555555556,0.714285714286,5,Explicit control flow,8,Context-specific,6
+0.444444444444,0.615384615385,4,Explicit control flow,8,Suggestions,5
+0.5,0.666666666667,5,Explicit control flow,8,Help,7
+0.444444444444,0.615384615385,4,Explicit control flow,8,Screencasts,5
+0.444444444444,0.615384615385,4,Explicit control flow,8,API / component documentation,5
+0.4,0.571428571429,4,Explicit control flow,8,Tutorials,6
+0.6,0.75,6,Explicit control flow,8,Examples,8
+0.4,0.571428571429,4,Explicit control flow,8,Level 3,6
+0.625,0.769230769231,5,Explicit control flow,8,Triggers,5
+0.666666666667,0.8,8,Explicit control flow,8,Actions,12
+0.75,0.857142857143,6,Explicit control flow,8,Tool-level,6
+0.6,0.75,6,Explicit control flow,8,Semi-automation,8
+0.5,0.666666666667,5,Explicit control flow,8,Sharing composites,7
+0.454545454545,0.625,5,Explicit control flow,8,Data flow present,8
+0.555555555556,0.714285714286,5,Explicit control flow,8,Application,6
+0.727272727273,0.842105263158,8,Explicit control flow,8,Component repository,11
+0.555555555556,0.714285714286,5,Explicit control flow,8,Composite repository,6
+0.555555555556,0.714285714286,5,Explicit control flow,8,Ad hoc,6
+0.454545454545,0.625,5,Explicit control flow,8,Centralised,8
+0.7,0.823529411765,7,Explicit control flow,8,Composite name,9
+0.444444444444,0.615384615385,4,Explicit control flow,8,Upload/Publish composite,5
+1,1,8,Explicit control flow,8,Rename composite,8
+0.888888888889,0.941176470588,8,Explicit control flow,8,Save composite,9
+0.777777777778,0.875,7,Explicit control flow,8,Delete composite,8
+0.75,0.857142857143,6,Explicit control flow,8,Turn on/off composite,6
+0.444444444444,0.615384615385,4,Explicit control flow,8,Acquire composite,5
+0.625,0.769230769231,5,Explicit control flow,8,Share composite on SNS,5
+0.888888888889,0.941176470588,8,Explicit control flow,8,Edit composite,9
+0.444444444444,0.615384615385,4,Explicit control flow,8,Execute composite,5
+0.636363636364,0.777777777778,7,Explicit control flow,8,Activate component,10
+0.666666666667,0.8,8,Explicit control flow,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Explicit control flow,8,Use in composition,12
+0.8,0.888888888889,8,Explicit control flow,8,Tool documentation,10
+0.444444444444,0.615384615385,4,Explicit control flow,8,Multiple atomic I&Os,5
+0.416666666667,0.588235294118,5,Explicit control flow,8,Browse list,9
+0.555555555556,0.714285714286,5,Form,8,Average,6
+0.727272727273,0.842105263158,8,Form,8,Domain expert,11
+0.666666666667,0.8,8,Form,8,Technical expert,12
+0.666666666667,0.8,8,Form,8,Consumer/Individual,12
+0.555555555556,0.714285714286,5,Form,8,Context-specific,6
+0.4,0.571428571429,4,Form,8,Web,6
+0.444444444444,0.615384615385,4,Form,8,Suggestions,5
+0.363636363636,0.533333333333,4,Form,8,Help,7
+0.444444444444,0.615384615385,4,Form,8,Screencasts,5
+0.4,0.571428571429,4,Form,8,Tutorials,6
+0.333333333333,0.5,4,Form,8,Examples,8
+0.4,0.571428571429,4,Form,8,Level 3,6
+0.444444444444,0.615384615385,4,Form,8,Triggers,5
+0.666666666667,0.8,8,Form,8,Actions,12
+0.555555555556,0.714285714286,5,Form,8,Tool-level,6
+0.6,0.75,6,Form,8,Semi-automation,8
+0.5,0.666666666667,5,Form,8,Sharing composites,7
+0.333333333333,0.5,4,Form,8,Data flow present,8
+0.4,0.571428571429,4,Form,8,Webpage/webapp,6
+0.583333333333,0.736842105263,7,Form,8,Component repository,11
+0.4,0.571428571429,4,Form,8,Composite repository,6
+0.4,0.571428571429,4,Form,8,Ad hoc,6
+0.4,0.571428571429,4,Form,8,Fixed,6
+0.6,0.75,6,Form,8,Centralised,8
+0.444444444444,0.615384615385,4,Form,8,Web context,5
+0.416666666667,0.588235294118,5,Form,8,Composite name,9
+0.6,0.75,6,Form,8,Rename composite,8
+0.545454545455,0.705882352941,6,Form,8,Save composite,9
+0.6,0.75,6,Form,8,Delete composite,8
+0.555555555556,0.714285714286,5,Form,8,Turn on/off composite,6
+0.444444444444,0.615384615385,4,Form,8,Share composite on SNS,5
+0.545454545455,0.705882352941,6,Form,8,Edit composite,9
+0.8,0.888888888889,8,Form,8,Activate component,10
+0.666666666667,0.8,8,Form,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Form,8,Use in composition,12
+0.636363636364,0.777777777778,7,Form,8,Tool documentation,10
+0.416666666667,0.588235294118,5,Form,8,Browse list,9
+0.545454545455,0.705882352941,6,Average,6,Domain expert,11
+0.5,0.666666666667,6,Average,6,Technical expert,12
+0.5,0.666666666667,6,Average,6,Consumer/Individual,12
+0.5,0.666666666667,4,Average,6,Context-specific,6
+0.375,0.545454545455,3,Average,6,Domain-specific,5
+0.333333333333,0.5,3,Average,6,Web,6
+0.375,0.545454545455,3,Average,6,Suggestions,5
+0.444444444444,0.615384615385,4,Average,6,Help,7
+0.571428571429,0.727272727273,4,Average,6,Screencasts,5
+0.375,0.545454545455,3,Average,6,API / component documentation,5
+0.5,0.666666666667,4,Average,6,Tutorials,6
+0.555555555556,0.714285714286,5,Average,6,Examples,8
+0.333333333333,0.5,3,Average,6,Level 3,6
+0.571428571429,0.727272727273,4,Average,6,Triggers,5
+0.5,0.666666666667,6,Average,6,Actions,12
+0.714285714286,0.833333333333,5,Average,6,Tool-level,6
+0.75,0.857142857143,6,Average,6,Semi-automation,8
+0.625,0.769230769231,5,Average,6,Sharing composites,7
+0.333333333333,0.5,3,Average,6,Application,6
+0.333333333333,0.5,3,Average,6,Webpage/webapp,6
+0.545454545455,0.705882352941,6,Average,6,Component repository,11
+0.714285714286,0.833333333333,5,Average,6,Composite repository,6
+0.333333333333,0.5,3,Average,6,Ad hoc,6
+0.333333333333,0.5,3,Average,6,Fixed,6
+0.555555555556,0.714285714286,5,Average,6,Centralised,8
+0.375,0.545454545455,3,Average,6,Web context,5
+0.5,0.666666666667,5,Average,6,Composite name,9
+0.571428571429,0.727272727273,4,Average,6,Upload/Publish composite,5
+0.555555555556,0.714285714286,5,Average,6,Rename composite,8
+0.666666666667,0.8,6,Average,6,Save composite,9
+0.75,0.857142857143,6,Average,6,Delete composite,8
+0.714285714286,0.833333333333,5,Average,6,Turn on/off composite,6
+0.571428571429,0.727272727273,4,Average,6,Acquire composite,5
+0.571428571429,0.727272727273,4,Average,6,Share composite on SNS,5
+0.666666666667,0.8,6,Average,6,Edit composite,9
+0.375,0.545454545455,3,Average,6,Execute composite,5
+0.6,0.75,6,Average,6,Activate component,10
+0.5,0.666666666667,6,Average,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Average,6,Use in composition,12
+0.454545454545,0.625,5,Average,6,Tool documentation,10
+0.916666666667,0.95652173913,11,Domain expert,11,Technical expert,12
+0.916666666667,0.95652173913,11,Domain expert,11,Consumer/Individual,12
+0.545454545455,0.705882352941,6,Domain expert,11,Context-specific,6
+0.333333333333,0.5,4,Domain expert,11,Domain-specific,5
+0.416666666667,0.588235294118,5,Domain expert,11,Web,6
+0.333333333333,0.5,4,Domain expert,11,Suggestions,5
+0.5,0.666666666667,6,Domain expert,11,Help,7
+0.454545454545,0.625,5,Domain expert,11,Screencasts,5
+0.333333333333,0.5,4,Domain expert,11,API / component documentation,5
+0.416666666667,0.588235294118,5,Domain expert,11,Tutorials,6
+0.583333333333,0.736842105263,7,Domain expert,11,Examples,8
+0.545454545455,0.705882352941,6,Domain expert,11,Level 3,6
+0.333333333333,0.5,4,Domain expert,11,Triggers,5
+0.916666666667,0.95652173913,11,Domain expert,11,Actions,12
+0.333333333333,0.5,4,Domain expert,11,Branches,5
+0.545454545455,0.705882352941,6,Domain expert,11,Tool-level,6
+0.727272727273,0.842105263158,8,Domain expert,11,Semi-automation,8
+0.5,0.666666666667,6,Domain expert,11,Sharing composites,7
+0.583333333333,0.736842105263,7,Domain expert,11,Data flow present,8
+0.416666666667,0.588235294118,5,Domain expert,11,Application,6
+0.416666666667,0.588235294118,5,Domain expert,11,Webpage/webapp,6
+0.833333333333,0.909090909091,10,Domain expert,11,Component repository,11
+0.416666666667,0.588235294118,5,Domain expert,11,Composite repository,6
+0.545454545455,0.705882352941,6,Domain expert,11,Ad hoc,6
+0.416666666667,0.588235294118,5,Domain expert,11,Fixed,6
+0.583333333333,0.736842105263,7,Domain expert,11,Centralised,8
+0.454545454545,0.625,5,Domain expert,11,Web context,5
+0.666666666667,0.8,8,Domain expert,11,Composite name,9
+0.333333333333,0.5,4,Domain expert,11,Upload/Publish composite,5
+0.583333333333,0.736842105263,7,Domain expert,11,Rename composite,8
+0.666666666667,0.8,8,Domain expert,11,Save composite,9
+0.583333333333,0.736842105263,7,Domain expert,11,Delete composite,8
+0.416666666667,0.588235294118,5,Domain expert,11,Turn on/off composite,6
+0.333333333333,0.5,4,Domain expert,11,Acquire composite,5
+0.333333333333,0.5,4,Domain expert,11,Share composite on SNS,5
+0.666666666667,0.8,8,Domain expert,11,Edit composite,9
+0.454545454545,0.625,5,Domain expert,11,Execute composite,5
+0.75,0.857142857143,9,Domain expert,11,Activate component,10
+0.916666666667,0.95652173913,11,Domain expert,11,Set/Edit component parameters,12
+0.916666666667,0.95652173913,11,Domain expert,11,Use in composition,12
+0.75,0.857142857143,9,Domain expert,11,Tool documentation,10
+0.333333333333,0.5,4,Domain expert,11,Multiple atomic I&Os,5
+0.666666666667,0.8,8,Domain expert,11,Browse list,9
+1,1,12,Technical expert,12,Consumer/Individual,12
+0.5,0.666666666667,6,Technical expert,12,Context-specific,6
+0.416666666667,0.588235294118,5,Technical expert,12,Domain-specific,5
+0.5,0.666666666667,6,Technical expert,12,Web,6
+0.416666666667,0.588235294118,5,Technical expert,12,Suggestions,5
+0.583333333333,0.736842105263,7,Technical expert,12,Help,7
+0.416666666667,0.588235294118,5,Technical expert,12,Screencasts,5
+0.416666666667,0.588235294118,5,Technical expert,12,API / component documentation,5
+0.5,0.666666666667,6,Technical expert,12,Tutorials,6
+0.666666666667,0.8,8,Technical expert,12,Examples,8
+0.5,0.666666666667,6,Technical expert,12,Level 3,6
+0.416666666667,0.588235294118,5,Technical expert,12,Triggers,5
+1,1,12,Technical expert,12,Actions,12
+0.416666666667,0.588235294118,5,Technical expert,12,Branches,5
+0.5,0.666666666667,6,Technical expert,12,Tool-level,6
+0.666666666667,0.8,8,Technical expert,12,Semi-automation,8
+0.583333333333,0.736842105263,7,Technical expert,12,Sharing composites,7
+0.666666666667,0.8,8,Technical expert,12,Data flow present,8
+0.5,0.666666666667,6,Technical expert,12,Application,6
+0.5,0.666666666667,6,Technical expert,12,Webpage/webapp,6
+0.916666666667,0.95652173913,11,Technical expert,12,Component repository,11
+0.5,0.666666666667,6,Technical expert,12,Composite repository,6
+0.5,0.666666666667,6,Technical expert,12,Ad hoc,6
+0.5,0.666666666667,6,Technical expert,12,Fixed,6
+0.666666666667,0.8,8,Technical expert,12,Centralised,8
+0.416666666667,0.588235294118,5,Technical expert,12,Web context,5
+0.75,0.857142857143,9,Technical expert,12,Composite name,9
+0.416666666667,0.588235294118,5,Technical expert,12,Upload/Publish composite,5
+0.666666666667,0.8,8,Technical expert,12,Rename composite,8
+0.75,0.857142857143,9,Technical expert,12,Save composite,9
+0.666666666667,0.8,8,Technical expert,12,Delete composite,8
+0.5,0.666666666667,6,Technical expert,12,Turn on/off composite,6
+0.416666666667,0.588235294118,5,Technical expert,12,Acquire composite,5
+0.416666666667,0.588235294118,5,Technical expert,12,Share composite on SNS,5
+0.75,0.857142857143,9,Technical expert,12,Edit composite,9
+0.416666666667,0.588235294118,5,Technical expert,12,Execute composite,5
+0.833333333333,0.909090909091,10,Technical expert,12,Activate component,10
+1,1,12,Technical expert,12,Set/Edit component parameters,12
+1,1,12,Technical expert,12,Use in composition,12
+0.833333333333,0.909090909091,10,Technical expert,12,Tool documentation,10
+0.416666666667,0.588235294118,5,Technical expert,12,Multiple atomic I&Os,5
+0.75,0.857142857143,9,Technical expert,12,Browse list,9
+0.5,0.666666666667,6,Consumer/Individual,12,Context-specific,6
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Domain-specific,5
+0.5,0.666666666667,6,Consumer/Individual,12,Web,6
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Suggestions,5
+0.583333333333,0.736842105263,7,Consumer/Individual,12,Help,7
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Screencasts,5
+0.416666666667,0.588235294118,5,Consumer/Individual,12,API / component documentation,5
+0.5,0.666666666667,6,Consumer/Individual,12,Tutorials,6
+0.666666666667,0.8,8,Consumer/Individual,12,Examples,8
+0.5,0.666666666667,6,Consumer/Individual,12,Level 3,6
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Triggers,5
+1,1,12,Consumer/Individual,12,Actions,12
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Branches,5
+0.5,0.666666666667,6,Consumer/Individual,12,Tool-level,6
+0.666666666667,0.8,8,Consumer/Individual,12,Semi-automation,8
+0.583333333333,0.736842105263,7,Consumer/Individual,12,Sharing composites,7
+0.666666666667,0.8,8,Consumer/Individual,12,Data flow present,8
+0.5,0.666666666667,6,Consumer/Individual,12,Application,6
+0.5,0.666666666667,6,Consumer/Individual,12,Webpage/webapp,6
+0.916666666667,0.95652173913,11,Consumer/Individual,12,Component repository,11
+0.5,0.666666666667,6,Consumer/Individual,12,Composite repository,6
+0.5,0.666666666667,6,Consumer/Individual,12,Ad hoc,6
+0.5,0.666666666667,6,Consumer/Individual,12,Fixed,6
+0.666666666667,0.8,8,Consumer/Individual,12,Centralised,8
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Web context,5
+0.75,0.857142857143,9,Consumer/Individual,12,Composite name,9
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Upload/Publish composite,5
+0.666666666667,0.8,8,Consumer/Individual,12,Rename composite,8
+0.75,0.857142857143,9,Consumer/Individual,12,Save composite,9
+0.666666666667,0.8,8,Consumer/Individual,12,Delete composite,8
+0.5,0.666666666667,6,Consumer/Individual,12,Turn on/off composite,6
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Acquire composite,5
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Share composite on SNS,5
+0.75,0.857142857143,9,Consumer/Individual,12,Edit composite,9
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Execute composite,5
+0.833333333333,0.909090909091,10,Consumer/Individual,12,Activate component,10
+1,1,12,Consumer/Individual,12,Set/Edit component parameters,12
+1,1,12,Consumer/Individual,12,Use in composition,12
+0.833333333333,0.909090909091,10,Consumer/Individual,12,Tool documentation,10
+0.416666666667,0.588235294118,5,Consumer/Individual,12,Multiple atomic I&Os,5
+0.75,0.857142857143,9,Consumer/Individual,12,Browse list,9
+0.375,0.545454545455,3,Context-specific,6,Screencasts,5
+0.4,0.571428571429,4,Context-specific,6,Examples,8
+0.5,0.666666666667,4,Context-specific,6,Level 3,6
+0.375,0.545454545455,3,Context-specific,6,Triggers,5
+0.5,0.666666666667,6,Context-specific,6,Actions,12
+0.714285714286,0.833333333333,5,Context-specific,6,Tool-level,6
+0.4,0.571428571429,4,Context-specific,6,Semi-automation,8
+0.444444444444,0.615384615385,4,Context-specific,6,Sharing composites,7
+0.5,0.666666666667,4,Context-specific,6,Application,6
+0.416666666667,0.588235294118,5,Context-specific,6,Component repository,11
+0.333333333333,0.5,3,Context-specific,6,Composite repository,6
+0.5,0.666666666667,4,Context-specific,6,Ad hoc,6
+0.4,0.571428571429,4,Context-specific,6,Centralised,8
+0.363636363636,0.533333333333,4,Context-specific,6,Composite name,9
+0.555555555556,0.714285714286,5,Context-specific,6,Rename composite,8
+0.5,0.666666666667,5,Context-specific,6,Save composite,9
+0.4,0.571428571429,4,Context-specific,6,Delete composite,8
+0.5,0.666666666667,4,Context-specific,6,Turn on/off composite,6
+0.375,0.545454545455,3,Context-specific,6,Share composite on SNS,5
+0.5,0.666666666667,5,Context-specific,6,Edit composite,9
+0.375,0.545454545455,3,Context-specific,6,Execute composite,5
+0.454545454545,0.625,5,Context-specific,6,Activate component,10
+0.5,0.666666666667,6,Context-specific,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Context-specific,6,Use in composition,12
+0.454545454545,0.625,5,Context-specific,6,Tool documentation,10
+0.363636363636,0.533333333333,4,Context-specific,6,Browse list,9
+0.571428571429,0.727272727273,4,Domain-specific,5,Web,6
+0.428571428571,0.6,3,Domain-specific,5,Suggestions,5
+0.5,0.666666666667,4,Domain-specific,5,Help,7
+0.428571428571,0.6,3,Domain-specific,5,API / component documentation,5
+0.375,0.545454545455,3,Domain-specific,5,Tutorials,6
+0.625,0.769230769231,5,Domain-specific,5,Examples,8
+0.428571428571,0.6,3,Domain-specific,5,Triggers,5
+0.416666666667,0.588235294118,5,Domain-specific,5,Actions,12
+0.428571428571,0.6,3,Domain-specific,5,Branches,5
+0.444444444444,0.615384615385,4,Domain-specific,5,Semi-automation,8
+0.5,0.666666666667,4,Domain-specific,5,Sharing composites,7
+0.625,0.769230769231,5,Domain-specific,5,Data flow present,8
+0.571428571429,0.727272727273,4,Domain-specific,5,Webpage/webapp,6
+0.454545454545,0.625,5,Domain-specific,5,Component repository,11
+0.571428571429,0.727272727273,4,Domain-specific,5,Composite repository,6
+0.571428571429,0.727272727273,4,Domain-specific,5,Fixed,6
+0.444444444444,0.615384615385,4,Domain-specific,5,Centralised,8
+0.428571428571,0.6,3,Domain-specific,5,Web context,5
+0.4,0.571428571429,4,Domain-specific,5,Composite name,9
+0.428571428571,0.6,3,Domain-specific,5,Upload/Publish composite,5
+0.4,0.571428571429,4,Domain-specific,5,Save composite,9
+0.444444444444,0.615384615385,4,Domain-specific,5,Delete composite,8
+0.375,0.545454545455,3,Domain-specific,5,Turn on/off composite,6
+0.428571428571,0.6,3,Domain-specific,5,Acquire composite,5
+0.428571428571,0.6,3,Domain-specific,5,Share composite on SNS,5
+0.4,0.571428571429,4,Domain-specific,5,Edit composite,9
+0.363636363636,0.533333333333,4,Domain-specific,5,Activate component,10
+0.416666666667,0.588235294118,5,Domain-specific,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Domain-specific,5,Use in composition,12
+0.363636363636,0.533333333333,4,Domain-specific,5,Tool documentation,10
+0.666666666667,0.8,4,Domain-specific,5,Multiple atomic I&Os,5
+0.4,0.571428571429,4,Domain-specific,5,Browse list,9
+0.571428571429,0.727272727273,4,Web,6,Suggestions,5
+0.625,0.769230769231,5,Web,6,Help,7
+0.375,0.545454545455,3,Web,6,API / component documentation,5
+0.5,0.666666666667,4,Web,6,Tutorials,6
+0.4,0.571428571429,4,Web,6,Examples,8
+0.333333333333,0.5,3,Web,6,Level 3,6
+0.375,0.545454545455,3,Web,6,Triggers,5
+0.5,0.666666666667,6,Web,6,Actions,12
+0.625,0.769230769231,5,Web,6,Sharing composites,7
+0.555555555556,0.714285714286,5,Web,6,Data flow present,8
+1,1,6,Web,6,Webpage/webapp,6
+0.416666666667,0.588235294118,5,Web,6,Component repository,11
+0.5,0.666666666667,4,Web,6,Composite repository,6
+1,1,6,Web,6,Fixed,6
+0.75,0.857142857143,6,Web,6,Centralised,8
+0.833333333333,0.909090909091,5,Web,6,Web context,5
+0.375,0.545454545455,3,Web,6,Upload/Publish composite,5
+0.363636363636,0.533333333333,4,Web,6,Save composite,9
+0.4,0.571428571429,4,Web,6,Delete composite,8
+0.333333333333,0.5,3,Web,6,Turn on/off composite,6
+0.375,0.545454545455,3,Web,6,Acquire composite,5
+0.375,0.545454545455,3,Web,6,Share composite on SNS,5
+0.363636363636,0.533333333333,4,Web,6,Edit composite,9
+0.6,0.75,6,Web,6,Activate component,10
+0.5,0.666666666667,6,Web,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Web,6,Use in composition,12
+0.333333333333,0.5,4,Web,6,Tool documentation,10
+0.375,0.545454545455,3,Web,6,Multiple atomic I&Os,5
+0.5,0.666666666667,5,Web,6,Browse list,9
+0.5,0.666666666667,4,Suggestions,5,Help,7
+0.571428571429,0.727272727273,4,Suggestions,5,Tutorials,6
+0.444444444444,0.615384615385,4,Suggestions,5,Examples,8
+0.666666666667,0.8,4,Suggestions,5,Triggers,5
+0.416666666667,0.588235294118,5,Suggestions,5,Actions,12
+0.375,0.545454545455,3,Suggestions,5,Tool-level,6
+0.5,0.666666666667,4,Suggestions,5,Sharing composites,7
+0.571428571429,0.727272727273,4,Suggestions,5,Webpage/webapp,6
+0.454545454545,0.625,5,Suggestions,5,Component repository,11
+0.571428571429,0.727272727273,4,Suggestions,5,Composite repository,6
+0.571428571429,0.727272727273,4,Suggestions,5,Fixed,6
+0.625,0.769230769231,5,Suggestions,5,Centralised,8
+0.428571428571,0.6,3,Suggestions,5,Web context,5
+0.428571428571,0.6,3,Suggestions,5,Upload/Publish composite,5
+0.444444444444,0.615384615385,4,Suggestions,5,Rename composite,8
+0.4,0.571428571429,4,Suggestions,5,Save composite,9
+0.444444444444,0.615384615385,4,Suggestions,5,Delete composite,8
+0.571428571429,0.727272727273,4,Suggestions,5,Turn on/off composite,6
+0.428571428571,0.6,3,Suggestions,5,Acquire composite,5
+0.666666666667,0.8,4,Suggestions,5,Share composite on SNS,5
+0.4,0.571428571429,4,Suggestions,5,Edit composite,9
+0.5,0.666666666667,5,Suggestions,5,Activate component,10
+0.416666666667,0.588235294118,5,Suggestions,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Suggestions,5,Use in composition,12
+0.5,0.666666666667,5,Suggestions,5,Tool documentation,10
+0.428571428571,0.6,3,Suggestions,5,Multiple atomic I&Os,5
+0.4,0.571428571429,4,Suggestions,5,Browse list,9
+0.333333333333,0.5,3,Help,7,Screencasts,5
+0.5,0.666666666667,4,Help,7,API / component documentation,5
+0.625,0.769230769231,5,Help,7,Tutorials,6
+0.5,0.666666666667,5,Help,7,Examples,8
+0.444444444444,0.615384615385,4,Help,7,Level 3,6
+0.333333333333,0.5,3,Help,7,Triggers,5
+0.583333333333,0.736842105263,7,Help,7,Actions,12
+0.444444444444,0.615384615385,4,Help,7,Tool-level,6
+0.363636363636,0.533333333333,4,Help,7,Semi-automation,8
+0.4,0.571428571429,4,Help,7,Sharing composites,7
+0.5,0.666666666667,5,Help,7,Data flow present,8
+0.625,0.769230769231,5,Help,7,Webpage/webapp,6
+0.636363636364,0.777777777778,7,Help,7,Component repository,11
+0.444444444444,0.615384615385,4,Help,7,Composite repository,6
+0.625,0.769230769231,5,Help,7,Fixed,6
+0.5,0.666666666667,5,Help,7,Centralised,8
+0.5,0.666666666667,4,Help,7,Web context,5
+0.454545454545,0.625,5,Help,7,Composite name,9
+0.333333333333,0.5,3,Help,7,Upload/Publish composite,5
+0.5,0.666666666667,5,Help,7,Rename composite,8
+0.6,0.75,6,Help,7,Save composite,9
+0.5,0.666666666667,5,Help,7,Delete composite,8
+0.444444444444,0.615384615385,4,Help,7,Turn on/off composite,6
+0.333333333333,0.5,3,Help,7,Acquire composite,5
+0.333333333333,0.5,3,Help,7,Share composite on SNS,5
+0.6,0.75,6,Help,7,Edit composite,9
+0.5,0.666666666667,4,Help,7,Execute composite,5
+0.545454545455,0.705882352941,6,Help,7,Activate component,10
+0.583333333333,0.736842105263,7,Help,7,Set/Edit component parameters,12
+0.583333333333,0.736842105263,7,Help,7,Use in composition,12
+0.545454545455,0.705882352941,6,Help,7,Tool documentation,10
+0.333333333333,0.5,3,Help,7,Multiple atomic I&Os,5
+0.454545454545,0.625,5,Help,7,Browse list,9
+0.428571428571,0.6,3,Screencasts,5,API / component documentation,5
+0.375,0.545454545455,3,Screencasts,5,Tutorials,6
+0.571428571429,0.727272727273,4,Screencasts,5,Level 3,6
+0.416666666667,0.588235294118,5,Screencasts,5,Actions,12
+0.428571428571,0.6,3,Screencasts,5,Branches,5
+0.375,0.545454545455,3,Screencasts,5,Tool-level,6
+0.625,0.769230769231,5,Screencasts,5,Semi-automation,8
+0.333333333333,0.5,3,Screencasts,5,Sharing composites,7
+0.454545454545,0.625,5,Screencasts,5,Component repository,11
+0.375,0.545454545455,3,Screencasts,5,Composite repository,6
+0.375,0.545454545455,3,Screencasts,5,Ad hoc,6
+0.4,0.571428571429,4,Screencasts,5,Composite name,9
+0.444444444444,0.615384615385,4,Screencasts,5,Rename composite,8
+0.555555555556,0.714285714286,5,Screencasts,5,Save composite,9
+0.625,0.769230769231,5,Screencasts,5,Delete composite,8
+0.375,0.545454545455,3,Screencasts,5,Turn on/off composite,6
+0.555555555556,0.714285714286,5,Screencasts,5,Edit composite,9
+0.666666666667,0.8,4,Screencasts,5,Execute composite,5
+0.5,0.666666666667,5,Screencasts,5,Activate component,10
+0.416666666667,0.588235294118,5,Screencasts,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Screencasts,5,Use in composition,12
+0.363636363636,0.533333333333,4,Screencasts,5,Tool documentation,10
+0.4,0.571428571429,4,Screencasts,5,Browse list,9
+0.571428571429,0.727272727273,4,API / component documentation,5,Tutorials,6
+0.375,0.545454545455,3,API / component documentation,5,Level 3,6
+0.416666666667,0.588235294118,5,API / component documentation,5,Actions,12
+0.428571428571,0.6,3,API / component documentation,5,Branches,5
+0.444444444444,0.615384615385,4,API / component documentation,5,Semi-automation,8
+0.333333333333,0.5,3,API / component documentation,5,Sharing composites,7
+0.444444444444,0.615384615385,4,API / component documentation,5,Data flow present,8
+0.375,0.545454545455,3,API / component documentation,5,Webpage/webapp,6
+0.454545454545,0.625,5,API / component documentation,5,Component repository,11
+0.375,0.545454545455,3,API / component documentation,5,Composite repository,6
+0.375,0.545454545455,3,API / component documentation,5,Fixed,6
+0.555555555556,0.714285714286,5,API / component documentation,5,Composite name,9
+0.428571428571,0.6,3,API / component documentation,5,Upload/Publish composite,5
+0.444444444444,0.615384615385,4,API / component documentation,5,Rename composite,8
+0.555555555556,0.714285714286,5,API / component documentation,5,Save composite,9
+0.625,0.769230769231,5,API / component documentation,5,Delete composite,8
+0.375,0.545454545455,3,API / component documentation,5,Turn on/off composite,6
+0.428571428571,0.6,3,API / component documentation,5,Acquire composite,5
+0.555555555556,0.714285714286,5,API / component documentation,5,Edit composite,9
+0.428571428571,0.6,3,API / component documentation,5,Execute composite,5
+0.5,0.666666666667,5,API / component documentation,5,Activate component,10
+0.416666666667,0.588235294118,5,API / component documentation,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,API / component documentation,5,Use in composition,12
+0.363636363636,0.533333333333,4,API / component documentation,5,Tool documentation,10
+0.428571428571,0.6,3,API / component documentation,5,Multiple atomic I&Os,5
+0.4,0.571428571429,4,Tutorials,6,Examples,8
+0.375,0.545454545455,3,Tutorials,6,Triggers,5
+0.5,0.666666666667,6,Tutorials,6,Actions,12
+0.375,0.545454545455,3,Tutorials,6,Branches,5
+0.333333333333,0.5,3,Tutorials,6,Tool-level,6
+0.4,0.571428571429,4,Tutorials,6,Semi-automation,8
+0.444444444444,0.615384615385,4,Tutorials,6,Sharing composites,7
+0.333333333333,0.5,3,Tutorials,6,Application,6
+0.5,0.666666666667,4,Tutorials,6,Webpage/webapp,6
+0.545454545455,0.705882352941,6,Tutorials,6,Component repository,11
+0.5,0.666666666667,4,Tutorials,6,Composite repository,6
+0.5,0.666666666667,4,Tutorials,6,Fixed,6
+0.555555555556,0.714285714286,5,Tutorials,6,Centralised,8
+0.375,0.545454545455,3,Tutorials,6,Web context,5
+0.5,0.666666666667,5,Tutorials,6,Composite name,9
+0.571428571429,0.727272727273,4,Tutorials,6,Upload/Publish composite,5
+0.4,0.571428571429,4,Tutorials,6,Rename composite,8
+0.5,0.666666666667,5,Tutorials,6,Save composite,9
+0.555555555556,0.714285714286,5,Tutorials,6,Delete composite,8
+0.5,0.666666666667,4,Tutorials,6,Turn on/off composite,6
+0.571428571429,0.727272727273,4,Tutorials,6,Acquire composite,5
+0.375,0.545454545455,3,Tutorials,6,Share composite on SNS,5
+0.5,0.666666666667,5,Tutorials,6,Edit composite,9
+0.6,0.75,6,Tutorials,6,Activate component,10
+0.5,0.666666666667,6,Tutorials,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Tutorials,6,Use in composition,12
+0.454545454545,0.625,5,Tutorials,6,Tool documentation,10
+0.363636363636,0.533333333333,4,Tutorials,6,Browse list,9
+0.625,0.769230769231,5,Examples,8,Triggers,5
+0.666666666667,0.8,8,Examples,8,Actions,12
+0.444444444444,0.615384615385,4,Examples,8,Branches,5
+0.555555555556,0.714285714286,5,Examples,8,Tool-level,6
+0.6,0.75,6,Examples,8,Semi-automation,8
+0.666666666667,0.8,6,Examples,8,Sharing composites,7
+0.6,0.75,6,Examples,8,Data flow present,8
+0.555555555556,0.714285714286,5,Examples,8,Application,6
+0.4,0.571428571429,4,Examples,8,Webpage/webapp,6
+0.727272727273,0.842105263158,8,Examples,8,Component repository,11
+0.75,0.857142857143,6,Examples,8,Composite repository,6
+0.4,0.571428571429,4,Examples,8,Ad hoc,6
+0.4,0.571428571429,4,Examples,8,Fixed,6
+0.6,0.75,6,Examples,8,Centralised,8
+0.7,0.823529411765,7,Examples,8,Composite name,9
+0.625,0.769230769231,5,Examples,8,Upload/Publish composite,5
+0.6,0.75,6,Examples,8,Rename composite,8
+0.7,0.823529411765,7,Examples,8,Save composite,9
+0.6,0.75,6,Examples,8,Delete composite,8
+0.555555555556,0.714285714286,5,Examples,8,Turn on/off composite,6
+0.625,0.769230769231,5,Examples,8,Acquire composite,5
+0.625,0.769230769231,5,Examples,8,Share composite on SNS,5
+0.7,0.823529411765,7,Examples,8,Edit composite,9
+0.5,0.666666666667,6,Examples,8,Activate component,10
+0.666666666667,0.8,8,Examples,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Examples,8,Use in composition,12
+0.636363636364,0.777777777778,7,Examples,8,Tool documentation,10
+0.444444444444,0.615384615385,4,Examples,8,Multiple atomic I&Os,5
+0.545454545455,0.705882352941,6,Examples,8,Browse list,9
+0.5,0.666666666667,6,Level 3,6,Actions,12
+0.333333333333,0.5,3,Level 3,6,Tool-level,6
+0.4,0.571428571429,4,Level 3,6,Semi-automation,8
+0.555555555556,0.714285714286,5,Level 3,6,Data flow present,8
+0.333333333333,0.5,3,Level 3,6,Webpage/webapp,6
+0.416666666667,0.588235294118,5,Level 3,6,Component repository,11
+0.333333333333,0.5,3,Level 3,6,Ad hoc,6
+0.333333333333,0.5,3,Level 3,6,Fixed,6
+0.375,0.545454545455,3,Level 3,6,Web context,5
+0.363636363636,0.533333333333,4,Level 3,6,Composite name,9
+0.4,0.571428571429,4,Level 3,6,Rename composite,8
+0.5,0.666666666667,5,Level 3,6,Save composite,9
+0.4,0.571428571429,4,Level 3,6,Delete composite,8
+0.5,0.666666666667,5,Level 3,6,Edit composite,9
+0.833333333333,0.909090909091,5,Level 3,6,Execute composite,5
+0.454545454545,0.625,5,Level 3,6,Activate component,10
+0.5,0.666666666667,6,Level 3,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Level 3,6,Use in composition,12
+0.333333333333,0.5,4,Level 3,6,Tool documentation,10
+0.5,0.666666666667,5,Level 3,6,Browse list,9
+0.416666666667,0.588235294118,5,Triggers,5,Actions,12
+0.571428571429,0.727272727273,4,Triggers,5,Tool-level,6
+0.444444444444,0.615384615385,4,Triggers,5,Semi-automation,8
+0.714285714286,0.833333333333,5,Triggers,5,Sharing composites,7
+0.375,0.545454545455,3,Triggers,5,Application,6
+0.375,0.545454545455,3,Triggers,5,Webpage/webapp,6
+0.454545454545,0.625,5,Triggers,5,Component repository,11
+0.833333333333,0.909090909091,5,Triggers,5,Composite repository,6
+0.375,0.545454545455,3,Triggers,5,Fixed,6
+0.625,0.769230769231,5,Triggers,5,Centralised,8
+0.4,0.571428571429,4,Triggers,5,Composite name,9
+0.666666666667,0.8,4,Triggers,5,Upload/Publish composite,5
+0.625,0.769230769231,5,Triggers,5,Rename composite,8
+0.555555555556,0.714285714286,5,Triggers,5,Save composite,9
+0.625,0.769230769231,5,Triggers,5,Delete composite,8
+0.833333333333,0.909090909091,5,Triggers,5,Turn on/off composite,6
+0.666666666667,0.8,4,Triggers,5,Acquire composite,5
+1,1,5,Triggers,5,Share composite on SNS,5
+0.555555555556,0.714285714286,5,Triggers,5,Edit composite,9
+0.5,0.666666666667,5,Triggers,5,Activate component,10
+0.416666666667,0.588235294118,5,Triggers,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Triggers,5,Use in composition,12
+0.5,0.666666666667,5,Triggers,5,Tool documentation,10
+0.428571428571,0.6,3,Triggers,5,Multiple atomic I&Os,5
+0.416666666667,0.588235294118,5,Actions,12,Branches,5
+0.5,0.666666666667,6,Actions,12,Tool-level,6
+0.666666666667,0.8,8,Actions,12,Semi-automation,8
+0.583333333333,0.736842105263,7,Actions,12,Sharing composites,7
+0.666666666667,0.8,8,Actions,12,Data flow present,8
+0.5,0.666666666667,6,Actions,12,Application,6
+0.5,0.666666666667,6,Actions,12,Webpage/webapp,6
+0.916666666667,0.95652173913,11,Actions,12,Component repository,11
+0.5,0.666666666667,6,Actions,12,Composite repository,6
+0.5,0.666666666667,6,Actions,12,Ad hoc,6
+0.5,0.666666666667,6,Actions,12,Fixed,6
+0.666666666667,0.8,8,Actions,12,Centralised,8
+0.416666666667,0.588235294118,5,Actions,12,Web context,5
+0.75,0.857142857143,9,Actions,12,Composite name,9
+0.416666666667,0.588235294118,5,Actions,12,Upload/Publish composite,5
+0.666666666667,0.8,8,Actions,12,Rename composite,8
+0.75,0.857142857143,9,Actions,12,Save composite,9
+0.666666666667,0.8,8,Actions,12,Delete composite,8
+0.5,0.666666666667,6,Actions,12,Turn on/off composite,6
+0.416666666667,0.588235294118,5,Actions,12,Acquire composite,5
+0.416666666667,0.588235294118,5,Actions,12,Share composite on SNS,5
+0.75,0.857142857143,9,Actions,12,Edit composite,9
+0.416666666667,0.588235294118,5,Actions,12,Execute composite,5
+0.833333333333,0.909090909091,10,Actions,12,Activate component,10
+1,1,12,Actions,12,Set/Edit component parameters,12
+1,1,12,Actions,12,Use in composition,12
+0.833333333333,0.909090909091,10,Actions,12,Tool documentation,10
+0.416666666667,0.588235294118,5,Actions,12,Multiple atomic I&Os,5
+0.75,0.857142857143,9,Actions,12,Browse list,9
+0.444444444444,0.615384615385,4,Branches,5,Semi-automation,8
+0.333333333333,0.5,3,Branches,5,Sharing composites,7
+0.444444444444,0.615384615385,4,Branches,5,Data flow present,8
+0.375,0.545454545455,3,Branches,5,Application,6
+0.454545454545,0.625,5,Branches,5,Component repository,11
+0.375,0.545454545455,3,Branches,5,Composite repository,6
+0.375,0.545454545455,3,Branches,5,Ad hoc,6
+0.555555555556,0.714285714286,5,Branches,5,Composite name,9
+0.428571428571,0.6,3,Branches,5,Upload/Publish composite,5
+0.4,0.571428571429,4,Branches,5,Save composite,9
+0.444444444444,0.615384615385,4,Branches,5,Delete composite,8
+0.428571428571,0.6,3,Branches,5,Acquire composite,5
+0.4,0.571428571429,4,Branches,5,Edit composite,9
+0.363636363636,0.533333333333,4,Branches,5,Activate component,10
+0.416666666667,0.588235294118,5,Branches,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Branches,5,Use in composition,12
+0.363636363636,0.533333333333,4,Branches,5,Tool documentation,10
+0.428571428571,0.6,3,Branches,5,Multiple atomic I&Os,5
+0.555555555556,0.714285714286,5,Branches,5,Browse list,9
+0.555555555556,0.714285714286,5,Tool-level,6,Semi-automation,8
+0.444444444444,0.615384615385,4,Tool-level,6,Sharing composites,7
+0.5,0.666666666667,4,Tool-level,6,Application,6
+0.545454545455,0.705882352941,6,Tool-level,6,Component repository,11
+0.5,0.666666666667,4,Tool-level,6,Composite repository,6
+0.5,0.666666666667,4,Tool-level,6,Ad hoc,6
+0.4,0.571428571429,4,Tool-level,6,Centralised,8
+0.5,0.666666666667,5,Tool-level,6,Composite name,9
+0.375,0.545454545455,3,Tool-level,6,Upload/Publish composite,5
+0.75,0.857142857143,6,Tool-level,6,Rename composite,8
+0.666666666667,0.8,6,Tool-level,6,Save composite,9
+0.555555555556,0.714285714286,5,Tool-level,6,Delete composite,8
+0.714285714286,0.833333333333,5,Tool-level,6,Turn on/off composite,6
+0.375,0.545454545455,3,Tool-level,6,Acquire composite,5
+0.571428571429,0.727272727273,4,Tool-level,6,Share composite on SNS,5
+0.666666666667,0.8,6,Tool-level,6,Edit composite,9
+0.375,0.545454545455,3,Tool-level,6,Execute composite,5
+0.454545454545,0.625,5,Tool-level,6,Activate component,10
+0.5,0.666666666667,6,Tool-level,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Tool-level,6,Use in composition,12
+0.6,0.75,6,Tool-level,6,Tool documentation,10
+0.5,0.666666666667,5,Semi-automation,8,Sharing composites,7
+0.454545454545,0.625,5,Semi-automation,8,Data flow present,8
+0.4,0.571428571429,4,Semi-automation,8,Application,6
+0.727272727273,0.842105263158,8,Semi-automation,8,Component repository,11
+0.555555555556,0.714285714286,5,Semi-automation,8,Composite repository,6
+0.555555555556,0.714285714286,5,Semi-automation,8,Ad hoc,6
+0.454545454545,0.625,5,Semi-automation,8,Centralised,8
+0.7,0.823529411765,7,Semi-automation,8,Composite name,9
+0.444444444444,0.615384615385,4,Semi-automation,8,Upload/Publish composite,5
+0.6,0.75,6,Semi-automation,8,Rename composite,8
+0.7,0.823529411765,7,Semi-automation,8,Save composite,9
+0.777777777778,0.875,7,Semi-automation,8,Delete composite,8
+0.555555555556,0.714285714286,5,Semi-automation,8,Turn on/off composite,6
+0.444444444444,0.615384615385,4,Semi-automation,8,Acquire composite,5
+0.444444444444,0.615384615385,4,Semi-automation,8,Share composite on SNS,5
+0.7,0.823529411765,7,Semi-automation,8,Edit composite,9
+0.444444444444,0.615384615385,4,Semi-automation,8,Execute composite,5
+0.636363636364,0.777777777778,7,Semi-automation,8,Activate component,10
+0.666666666667,0.8,8,Semi-automation,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Semi-automation,8,Use in composition,12
+0.636363636364,0.777777777778,7,Semi-automation,8,Tool documentation,10
+0.444444444444,0.615384615385,4,Semi-automation,8,Multiple atomic I&Os,5
+0.416666666667,0.588235294118,5,Semi-automation,8,Browse list,9
+0.5,0.666666666667,5,Sharing composites,7,Data flow present,8
+0.625,0.769230769231,5,Sharing composites,7,Webpage/webapp,6
+0.5,0.666666666667,6,Sharing composites,7,Component repository,11
+0.857142857143,0.923076923077,6,Sharing composites,7,Composite repository,6
+0.625,0.769230769231,5,Sharing composites,7,Fixed,6
+0.875,0.933333333333,7,Sharing composites,7,Centralised,8
+0.5,0.666666666667,4,Sharing composites,7,Web context,5
+0.454545454545,0.625,5,Sharing composites,7,Composite name,9
+0.714285714286,0.833333333333,5,Sharing composites,7,Upload/Publish composite,5
+0.5,0.666666666667,5,Sharing composites,7,Rename composite,8
+0.6,0.75,6,Sharing composites,7,Save composite,9
+0.666666666667,0.8,6,Sharing composites,7,Delete composite,8
+0.625,0.769230769231,5,Sharing composites,7,Turn on/off composite,6
+0.714285714286,0.833333333333,5,Sharing composites,7,Acquire composite,5
+0.714285714286,0.833333333333,5,Sharing composites,7,Share composite on SNS,5
+0.6,0.75,6,Sharing composites,7,Edit composite,9
+0.7,0.823529411765,7,Sharing composites,7,Activate component,10
+0.583333333333,0.736842105263,7,Sharing composites,7,Set/Edit component parameters,12
+0.583333333333,0.736842105263,7,Sharing composites,7,Use in composition,12
+0.416666666667,0.588235294118,5,Sharing composites,7,Tool documentation,10
+0.333333333333,0.5,3,Sharing composites,7,Multiple atomic I&Os,5
+0.454545454545,0.625,5,Sharing composites,7,Browse list,9
+0.555555555556,0.714285714286,5,Data flow present,8,Webpage/webapp,6
+0.583333333333,0.736842105263,7,Data flow present,8,Component repository,11
+0.4,0.571428571429,4,Data flow present,8,Composite repository,6
+0.555555555556,0.714285714286,5,Data flow present,8,Fixed,6
+0.454545454545,0.625,5,Data flow present,8,Centralised,8
+0.444444444444,0.615384615385,4,Data flow present,8,Web context,5
+0.545454545455,0.705882352941,6,Data flow present,8,Composite name,9
+0.454545454545,0.625,5,Data flow present,8,Rename composite,8
+0.545454545455,0.705882352941,6,Data flow present,8,Save composite,9
+0.454545454545,0.625,5,Data flow present,8,Delete composite,8
+0.545454545455,0.705882352941,6,Data flow present,8,Edit composite,9
+0.444444444444,0.615384615385,4,Data flow present,8,Execute composite,5
+0.5,0.666666666667,6,Data flow present,8,Activate component,10
+0.666666666667,0.8,8,Data flow present,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Data flow present,8,Use in composition,12
+0.5,0.666666666667,6,Data flow present,8,Tool documentation,10
+0.625,0.769230769231,5,Data flow present,8,Multiple atomic I&Os,5
+0.7,0.823529411765,7,Data flow present,8,Browse list,9
+0.545454545455,0.705882352941,6,Application,6,Component repository,11
+0.333333333333,0.5,3,Application,6,Composite repository,6
+0.714285714286,0.833333333333,5,Application,6,Ad hoc,6
+0.666666666667,0.8,6,Application,6,Composite name,9
+0.375,0.545454545455,3,Application,6,Upload/Publish composite,5
+0.555555555556,0.714285714286,5,Application,6,Rename composite,8
+0.5,0.666666666667,5,Application,6,Save composite,9
+0.4,0.571428571429,4,Application,6,Delete composite,8
+0.5,0.666666666667,4,Application,6,Turn on/off composite,6
+0.375,0.545454545455,3,Application,6,Acquire composite,5
+0.375,0.545454545455,3,Application,6,Share composite on SNS,5
+0.5,0.666666666667,5,Application,6,Edit composite,9
+0.333333333333,0.5,4,Application,6,Activate component,10
+0.5,0.666666666667,6,Application,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Application,6,Use in composition,12
+0.6,0.75,6,Application,6,Tool documentation,10
+0.363636363636,0.533333333333,4,Application,6,Browse list,9
+0.416666666667,0.588235294118,5,Webpage/webapp,6,Component repository,11
+0.5,0.666666666667,4,Webpage/webapp,6,Composite repository,6
+1,1,6,Webpage/webapp,6,Fixed,6
+0.75,0.857142857143,6,Webpage/webapp,6,Centralised,8
+0.833333333333,0.909090909091,5,Webpage/webapp,6,Web context,5
+0.375,0.545454545455,3,Webpage/webapp,6,Upload/Publish composite,5
+0.363636363636,0.533333333333,4,Webpage/webapp,6,Save composite,9
+0.4,0.571428571429,4,Webpage/webapp,6,Delete composite,8
+0.333333333333,0.5,3,Webpage/webapp,6,Turn on/off composite,6
+0.375,0.545454545455,3,Webpage/webapp,6,Acquire composite,5
+0.375,0.545454545455,3,Webpage/webapp,6,Share composite on SNS,5
+0.363636363636,0.533333333333,4,Webpage/webapp,6,Edit composite,9
+0.6,0.75,6,Webpage/webapp,6,Activate component,10
+0.5,0.666666666667,6,Webpage/webapp,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Webpage/webapp,6,Use in composition,12
+0.333333333333,0.5,4,Webpage/webapp,6,Tool documentation,10
+0.375,0.545454545455,3,Webpage/webapp,6,Multiple atomic I&Os,5
+0.5,0.666666666667,5,Webpage/webapp,6,Browse list,9
+0.545454545455,0.705882352941,6,Component repository,11,Composite repository,6
+0.545454545455,0.705882352941,6,Component repository,11,Ad hoc,6
+0.416666666667,0.588235294118,5,Component repository,11,Fixed,6
+0.583333333333,0.736842105263,7,Component repository,11,Centralised,8
+0.333333333333,0.5,4,Component repository,11,Web context,5
+0.818181818182,0.9,9,Component repository,11,Composite name,9
+0.454545454545,0.625,5,Component repository,11,Upload/Publish composite,5
+0.727272727273,0.842105263158,8,Component repository,11,Rename composite,8
+0.818181818182,0.9,9,Component repository,11,Save composite,9
+0.727272727273,0.842105263158,8,Component repository,11,Delete composite,8
+0.545454545455,0.705882352941,6,Component repository,11,Turn on/off composite,6
+0.454545454545,0.625,5,Component repository,11,Acquire composite,5
+0.454545454545,0.625,5,Component repository,11,Share composite on SNS,5
+0.818181818182,0.9,9,Component repository,11,Edit composite,9
+0.454545454545,0.625,5,Component repository,11,Execute composite,5
+0.75,0.857142857143,9,Component repository,11,Activate component,10
+0.916666666667,0.95652173913,11,Component repository,11,Set/Edit component parameters,12
+0.916666666667,0.95652173913,11,Component repository,11,Use in composition,12
+0.909090909091,0.952380952381,10,Component repository,11,Tool documentation,10
+0.454545454545,0.625,5,Component repository,11,Multiple atomic I&Os,5
+0.666666666667,0.8,8,Component repository,11,Browse list,9
+0.5,0.666666666667,4,Composite repository,6,Fixed,6
+0.75,0.857142857143,6,Composite repository,6,Centralised,8
+0.375,0.545454545455,3,Composite repository,6,Web context,5
+0.5,0.666666666667,5,Composite repository,6,Composite name,9
+0.833333333333,0.909090909091,5,Composite repository,6,Upload/Publish composite,5
+0.555555555556,0.714285714286,5,Composite repository,6,Rename composite,8
+0.666666666667,0.8,6,Composite repository,6,Save composite,9
+0.75,0.857142857143,6,Composite repository,6,Delete composite,8
+0.714285714286,0.833333333333,5,Composite repository,6,Turn on/off composite,6
+0.833333333333,0.909090909091,5,Composite repository,6,Acquire composite,5
+0.833333333333,0.909090909091,5,Composite repository,6,Share composite on SNS,5
+0.666666666667,0.8,6,Composite repository,6,Edit composite,9
+0.6,0.75,6,Composite repository,6,Activate component,10
+0.5,0.666666666667,6,Composite repository,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Composite repository,6,Use in composition,12
+0.454545454545,0.625,5,Composite repository,6,Tool documentation,10
+0.375,0.545454545455,3,Composite repository,6,Multiple atomic I&Os,5
+0.363636363636,0.533333333333,4,Composite repository,6,Browse list,9
+0.666666666667,0.8,6,Ad hoc,6,Composite name,9
+0.555555555556,0.714285714286,5,Ad hoc,6,Rename composite,8
+0.5,0.666666666667,5,Ad hoc,6,Save composite,9
+0.4,0.571428571429,4,Ad hoc,6,Delete composite,8
+0.333333333333,0.5,3,Ad hoc,6,Turn on/off composite,6
+0.5,0.666666666667,5,Ad hoc,6,Edit composite,9
+0.375,0.545454545455,3,Ad hoc,6,Execute composite,5
+0.333333333333,0.5,4,Ad hoc,6,Activate component,10
+0.5,0.666666666667,6,Ad hoc,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Ad hoc,6,Use in composition,12
+0.6,0.75,6,Ad hoc,6,Tool documentation,10
+0.363636363636,0.533333333333,4,Ad hoc,6,Browse list,9
+0.75,0.857142857143,6,Fixed,6,Centralised,8
+0.833333333333,0.909090909091,5,Fixed,6,Web context,5
+0.375,0.545454545455,3,Fixed,6,Upload/Publish composite,5
+0.363636363636,0.533333333333,4,Fixed,6,Save composite,9
+0.4,0.571428571429,4,Fixed,6,Delete composite,8
+0.333333333333,0.5,3,Fixed,6,Turn on/off composite,6
+0.375,0.545454545455,3,Fixed,6,Acquire composite,5
+0.375,0.545454545455,3,Fixed,6,Share composite on SNS,5
+0.363636363636,0.533333333333,4,Fixed,6,Edit composite,9
+0.6,0.75,6,Fixed,6,Activate component,10
+0.5,0.666666666667,6,Fixed,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Fixed,6,Use in composition,12
+0.333333333333,0.5,4,Fixed,6,Tool documentation,10
+0.375,0.545454545455,3,Fixed,6,Multiple atomic I&Os,5
+0.5,0.666666666667,5,Fixed,6,Browse list,9
+0.625,0.769230769231,5,Centralised,8,Web context,5
+0.416666666667,0.588235294118,5,Centralised,8,Composite name,9
+0.625,0.769230769231,5,Centralised,8,Upload/Publish composite,5
+0.454545454545,0.625,5,Centralised,8,Rename composite,8
+0.545454545455,0.705882352941,6,Centralised,8,Save composite,9
+0.6,0.75,6,Centralised,8,Delete composite,8
+0.555555555556,0.714285714286,5,Centralised,8,Turn on/off composite,6
+0.625,0.769230769231,5,Centralised,8,Acquire composite,5
+0.625,0.769230769231,5,Centralised,8,Share composite on SNS,5
+0.545454545455,0.705882352941,6,Centralised,8,Edit composite,9
+0.8,0.888888888889,8,Centralised,8,Activate component,10
+0.666666666667,0.8,8,Centralised,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Centralised,8,Use in composition,12
+0.5,0.666666666667,6,Centralised,8,Tool documentation,10
+0.545454545455,0.705882352941,6,Centralised,8,Browse list,9
+0.5,0.666666666667,5,Web context,5,Activate component,10
+0.416666666667,0.588235294118,5,Web context,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Web context,5,Use in composition,12
+0.4,0.571428571429,4,Web context,5,Browse list,9
+0.555555555556,0.714285714286,5,Composite name,9,Upload/Publish composite,5
+0.7,0.823529411765,7,Composite name,9,Rename composite,8
+0.8,0.888888888889,8,Composite name,9,Save composite,9
+0.7,0.823529411765,7,Composite name,9,Delete composite,8
+0.5,0.666666666667,5,Composite name,9,Turn on/off composite,6
+0.555555555556,0.714285714286,5,Composite name,9,Acquire composite,5
+0.4,0.571428571429,4,Composite name,9,Share composite on SNS,5
+0.8,0.888888888889,8,Composite name,9,Edit composite,9
+0.4,0.571428571429,4,Composite name,9,Execute composite,5
+0.583333333333,0.736842105263,7,Composite name,9,Activate component,10
+0.75,0.857142857143,9,Composite name,9,Set/Edit component parameters,12
+0.75,0.857142857143,9,Composite name,9,Use in composition,12
+0.727272727273,0.842105263158,8,Composite name,9,Tool documentation,10
+0.4,0.571428571429,4,Composite name,9,Multiple atomic I&Os,5
+0.5,0.666666666667,6,Composite name,9,Browse list,9
+0.444444444444,0.615384615385,4,Upload/Publish composite,5,Rename composite,8
+0.555555555556,0.714285714286,5,Upload/Publish composite,5,Save composite,9
+0.625,0.769230769231,5,Upload/Publish composite,5,Delete composite,8
+0.571428571429,0.727272727273,4,Upload/Publish composite,5,Turn on/off composite,6
+1,1,5,Upload/Publish composite,5,Acquire composite,5
+0.666666666667,0.8,4,Upload/Publish composite,5,Share composite on SNS,5
+0.555555555556,0.714285714286,5,Upload/Publish composite,5,Edit composite,9
+0.5,0.666666666667,5,Upload/Publish composite,5,Activate component,10
+0.416666666667,0.588235294118,5,Upload/Publish composite,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Upload/Publish composite,5,Use in composition,12
+0.363636363636,0.533333333333,4,Upload/Publish composite,5,Tool documentation,10
+0.888888888889,0.941176470588,8,Rename composite,8,Save composite,9
+0.777777777778,0.875,7,Rename composite,8,Delete composite,8
+0.75,0.857142857143,6,Rename composite,8,Turn on/off composite,6
+0.444444444444,0.615384615385,4,Rename composite,8,Acquire composite,5
+0.625,0.769230769231,5,Rename composite,8,Share composite on SNS,5
+0.888888888889,0.941176470588,8,Rename composite,8,Edit composite,9
+0.444444444444,0.615384615385,4,Rename composite,8,Execute composite,5
+0.636363636364,0.777777777778,7,Rename composite,8,Activate component,10
+0.666666666667,0.8,8,Rename composite,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Rename composite,8,Use in composition,12
+0.8,0.888888888889,8,Rename composite,8,Tool documentation,10
+0.444444444444,0.615384615385,4,Rename composite,8,Multiple atomic I&Os,5
+0.416666666667,0.588235294118,5,Rename composite,8,Browse list,9
+0.888888888889,0.941176470588,8,Save composite,9,Delete composite,8
+0.666666666667,0.8,6,Save composite,9,Turn on/off composite,6
+0.555555555556,0.714285714286,5,Save composite,9,Acquire composite,5
+0.555555555556,0.714285714286,5,Save composite,9,Share composite on SNS,5
+1,1,9,Save composite,9,Edit composite,9
+0.555555555556,0.714285714286,5,Save composite,9,Execute composite,5
+0.727272727273,0.842105263158,8,Save composite,9,Activate component,10
+0.75,0.857142857143,9,Save composite,9,Set/Edit component parameters,12
+0.75,0.857142857143,9,Save composite,9,Use in composition,12
+0.727272727273,0.842105263158,8,Save composite,9,Tool documentation,10
+0.4,0.571428571429,4,Save composite,9,Multiple atomic I&Os,5
+0.5,0.666666666667,6,Save composite,9,Browse list,9
+0.75,0.857142857143,6,Delete composite,8,Turn on/off composite,6
+0.625,0.769230769231,5,Delete composite,8,Acquire composite,5
+0.625,0.769230769231,5,Delete composite,8,Share composite on SNS,5
+0.888888888889,0.941176470588,8,Delete composite,8,Edit composite,9
+0.444444444444,0.615384615385,4,Delete composite,8,Execute composite,5
+0.8,0.888888888889,8,Delete composite,8,Activate component,10
+0.666666666667,0.8,8,Delete composite,8,Set/Edit component parameters,12
+0.666666666667,0.8,8,Delete composite,8,Use in composition,12
+0.636363636364,0.777777777778,7,Delete composite,8,Tool documentation,10
+0.444444444444,0.615384615385,4,Delete composite,8,Multiple atomic I&Os,5
+0.416666666667,0.588235294118,5,Delete composite,8,Browse list,9
+0.571428571429,0.727272727273,4,Turn on/off composite,6,Acquire composite,5
+0.833333333333,0.909090909091,5,Turn on/off composite,6,Share composite on SNS,5
+0.666666666667,0.8,6,Turn on/off composite,6,Edit composite,9
+0.6,0.75,6,Turn on/off composite,6,Activate component,10
+0.5,0.666666666667,6,Turn on/off composite,6,Set/Edit component parameters,12
+0.5,0.666666666667,6,Turn on/off composite,6,Use in composition,12
+0.6,0.75,6,Turn on/off composite,6,Tool documentation,10
+0.375,0.545454545455,3,Turn on/off composite,6,Multiple atomic I&Os,5
+0.666666666667,0.8,4,Acquire composite,5,Share composite on SNS,5
+0.555555555556,0.714285714286,5,Acquire composite,5,Edit composite,9
+0.5,0.666666666667,5,Acquire composite,5,Activate component,10
+0.416666666667,0.588235294118,5,Acquire composite,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Acquire composite,5,Use in composition,12
+0.363636363636,0.533333333333,4,Acquire composite,5,Tool documentation,10
+0.555555555556,0.714285714286,5,Share composite on SNS,5,Edit composite,9
+0.5,0.666666666667,5,Share composite on SNS,5,Activate component,10
+0.416666666667,0.588235294118,5,Share composite on SNS,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Share composite on SNS,5,Use in composition,12
+0.5,0.666666666667,5,Share composite on SNS,5,Tool documentation,10
+0.428571428571,0.6,3,Share composite on SNS,5,Multiple atomic I&Os,5
+0.555555555556,0.714285714286,5,Edit composite,9,Execute composite,5
+0.727272727273,0.842105263158,8,Edit composite,9,Activate component,10
+0.75,0.857142857143,9,Edit composite,9,Set/Edit component parameters,12
+0.75,0.857142857143,9,Edit composite,9,Use in composition,12
+0.727272727273,0.842105263158,8,Edit composite,9,Tool documentation,10
+0.4,0.571428571429,4,Edit composite,9,Multiple atomic I&Os,5
+0.5,0.666666666667,6,Edit composite,9,Browse list,9
+0.363636363636,0.533333333333,4,Execute composite,5,Activate component,10
+0.416666666667,0.588235294118,5,Execute composite,5,Set/Edit component parameters,12
+0.416666666667,0.588235294118,5,Execute composite,5,Use in composition,12
+0.363636363636,0.533333333333,4,Execute composite,5,Tool documentation,10
+0.4,0.571428571429,4,Execute composite,5,Browse list,9
+0.833333333333,0.909090909091,10,Activate component,10,Set/Edit component parameters,12
+0.833333333333,0.909090909091,10,Activate component,10,Use in composition,12
+0.666666666667,0.8,8,Activate component,10,Tool documentation,10
+0.363636363636,0.533333333333,4,Activate component,10,Multiple atomic I&Os,5
+0.583333333333,0.736842105263,7,Activate component,10,Browse list,9
+1,1,12,Set/Edit component parameters,12,Use in composition,12
+0.833333333333,0.909090909091,10,Set/Edit component parameters,12,Tool documentation,10
+0.416666666667,0.588235294118,5,Set/Edit component parameters,12,Multiple atomic I&Os,5
+0.75,0.857142857143,9,Set/Edit component parameters,12,Browse list,9
+0.833333333333,0.909090909091,10,Use in composition,12,Tool documentation,10
+0.416666666667,0.588235294118,5,Use in composition,12,Multiple atomic I&Os,5
+0.75,0.857142857143,9,Use in composition,12,Browse list,9
+0.5,0.666666666667,5,Tool documentation,10,Multiple atomic I&Os,5
+0.583333333333,0.736842105263,7,Tool documentation,10,Browse list,9
+0.4,0.571428571429,4,Multiple atomic I&Os,5,Browse list,9

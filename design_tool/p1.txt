@@ -1,0 +1,85 @@
+Design Tool Export for Participant 1
+
+104 clicks
+Options
+
+ 
+No specification [141]	Functional property	(solves Specification)
+Rationale
+hello
+ 
+Customisation of grouping [251]	Functional property	(solves Grouping)
+Rationale
+hello
+ 
+Browse list [154]	Functional property	(solves Browsing)
+Rationale
+hello
+ 
+Components [5]	Functional property	(solves Discoverable entities)
+Rationale
+Added automatically due to: Browse list
+ 
+Recommendations from friends [259]	Functional property	(solves Suggestions)
+Rationale
+hello
+ 
+Interpretation [17]	Functional property	(solves Annotation / deployment)
+Rationale
+hello
+ 
+Spreadsheet [19]	Non-functional property	(solves Non-language)
+Rationale
+gello
+ 
+Spreadsheet representation [126]	Non-functional property	(solves Composition)
+Rationale
+Added automatically due to: Spreadsheet
+ 
+Text editor [146]	Non-functional property	(solves Composition)
+Rationale
+no
+ 
+Medium learning curve [241]	Non-functional property	(solves Learning curve)
+Rationale
+hello
+Custom options
+
+first custom
+Description
+first custom
+Rationale
+test
+another custom
+Description
+test
+Rationale
+test
+No Options Unchosen
+
+No Un-chosen Custom Options
+
+JSON Output
+
+
+Options[{"id":"option141","name":"No specification","rationale":"hello","description":"There is no specification of the composite before the component discovery stage. ","ds":"Functional","dsCode":"fxn","addedFrom":null,"toolView":null,"optionView":null,"optionViewProportion":0,"decision":"Specification"},{"id":"option251","name":"Customisation of grouping","rationale":"hello","description":"Grouping of services should be customisable by the user of the tool.","ds":"Functional","dsCode":"fxn","addedFrom":null,"toolView":null,"optionView":null,"optionViewProportion":0,"decision":"Grouping"},{"id":"option154","name":"Browse list","rationale":"hello","description":"Component discovery is performed by browsing through a list.","ds":"Functional","dsCode":"fxn","addedFrom":null,"toolView":null,"optionView":null,"optionViewProportion":0,"decision":"Browsing"},{"id":"option5","name":"Components","rationale":"","description":"Users can discover components and use them in composition.","ds":"Functional","dsCode":"fxn","addedFrom":"Browse list","toolView":null,"optionView":null,"optionViewProportion":0,"decision":"Discoverable entities"},{"id":"option259","name":"Recommendations from friends","rationale":"hello","description":"The user can get recommendations of which services to use from their friends.","ds":"Functional","dsCode":"fxn","addedFrom":null,"toolView":null,"optionView":null,"optionViewProportion":0,"decision":"Suggestions"},{"id":"option17","name":"Interpretation","rationale":"hello","description":"The tool interprets the output of the composition process.","ds":"Functional","dsCode":"fxn","addedFrom":null,"toolView":null,"optionView":null,"optionViewProportion":0,"decision":"Annotation / deployment"},{"id":"option19","name":"Spreadsheet","rationale":"gello","description":"The user interacts with the composition process by manipulating a spreadsheet.","ds":"Non-functional","dsCode":"nfxn","addedFrom":null,"toolView":null,"optionView":null,"optionViewProportion":0,"decision":"Non-language"},{"id":"option126","name":"Spreadsheet representation","rationale":"","description":"The composition process within the tool is represented by way of a spreadsheet.","ds":"Non-functional","dsCode":"nfxn","addedFrom":"Spreadsheet","toolView":null,"optionView":null,"optionViewProportion":0,"decision":"Composition"},{"id":"option146","name":"Text editor","rationale":"no","description":"The user interacts with the composition process in a text editor.","ds":"Non-functional","dsCode":"nfxn","addedFrom":null,"toolView":null,"optionView":null,"optionViewProportion":0,"decision":"Composition"},{"id":"option241","name":"Medium learning curve","rationale":"hello","description":"The learning curve for the tool is average.","ds":"Non-functional","dsCode":"nfxn","addedFrom":null,"toolView":null,"optionView":null,"optionViewProportion":0,"decision":"Learning curve"}]
+Un-chosen Options[]
+Custom options[{"id":-1,"name":"first custom","rationale":"test","description":"first custom","ds":"Custom Option","dsCode":"custom","addedFrom":null,"toolView":null,"optionView":null,"optionViewProportion":0,"decision":null},{"id":-1,"name":"another custom","rationale":"test","description":"test","ds":"Custom Option","dsCode":"custom","addedFrom":null,"toolView":null,"optionView":null,"optionViewProportion":0,"decision":null}]
+Custom Un-chosen options[]
+SQL Output
+
+INSERT INTO `participant_has_option` VALUES('', 1,141, "hello", "","","",0,0)
+INSERT INTO `participant_has_option` VALUES('', 1,251, "hello", "","","",0,0)
+INSERT INTO `participant_has_option` VALUES('', 1,154, "hello", "","","",0,0)
+INSERT INTO `participant_has_option` VALUES('', 1,5, "", "Browse list","","",0,0)
+INSERT INTO `participant_has_option` VALUES('', 1,259, "hello", "","","",0,0)
+INSERT INTO `participant_has_option` VALUES('', 1,17, "hello", "","","",0,0)
+INSERT INTO `participant_has_option` VALUES('', 1,19, "gello", "","","",0,0)
+INSERT INTO `participant_has_option` VALUES('', 1,126, "", "Spreadsheet","","",0,0)
+INSERT INTO `participant_has_option` VALUES('', 1,146, "no", "","","",0,0)
+INSERT INTO `participant_has_option` VALUES('', 1,241, "hello", "","","",0,0)
+
+
+INSERT INTO `participant_has_custom` VALUES('', 1,"first custom", "first custom", "test", 0)
+INSERT INTO `participant_has_custom` VALUES('', 1,"another custom", "test", "test", 0)
+

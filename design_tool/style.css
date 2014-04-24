@@ -1,0 +1,163 @@
+body {
+  padding-top: 60px;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+#overlay_container
+{
+	background-color: rgba(220, 200, 200, 0.5);
+	display: none;
+}
+
+#overlay_title
+{
+	display: inline;
+	padding-right: 10px;
+}
+
+.overlay_label
+{
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+	cursor: default;
+}
+
+.rationale_text
+{
+	width: 98%;
+}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+#sub_nav
+{
+	margin-bottom: 10px;
+}
+
+.choice_label
+{
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+p
+{
+	margin: 10px 0 2px 0;
+}
+
+.ds_canvas
+{
+	display: none;
+}
+
+.label_purple
+{
+	background-color: #7D0541;
+}
+
+.li_ds
+{
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.li_ds .unselectable
+{
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.li_ds span
+{
+	font-size: 12px;
+}
+
+.li_contents
+{
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: relative;
+}
+
+.li_category
+{
+	
+}
+
+.li_decision
+{
+
+}
+
+.contents_decision
+{
+	margin-bottom: 10px;
+}
+
+.contents_category
+{
+	background-color: #8df2b6;
+	margin-bottom: 10px;
+}
+
+.li_option
+{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.li_option:hover
+{
+	border: 1px solid #ccc;
+}
+
+.li_active
+{
+
+}
+
+.ds_ul
+{
+	list-style: none;
+	margin-left: 0px;
+}
+
+.hidden_kids
+{
+	color: #888;
+	margin-left: 40px;
+}
+
+.parent_name
+{
+	color: #888;
+	font-size: 9pt;
+	position: absolute;
+	top: 2px;
+	right: 10px;
+}
+
+.slider-selection {
+	background: #BABABA;
+}

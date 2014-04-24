@@ -1,0 +1,757 @@
+var ds2 = {
+	id: 2,
+	name: "Non-functional DS",
+	data: {
+		type: "category"
+	},
+	children: [{
+	id: 12,
+	name: "Interaction technique",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 13,
+	name: "Non-language",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 19,
+	name: "Spreadsheet",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 20,
+	name: "Dialog/form",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 21,
+	name: "WYSIWYG",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 22,
+	name: "PbD",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 23,
+	name: "Drag & drop",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 14,
+	name: "Language",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 15,
+	name: "DSL",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 42,
+	name: "Visual DSL",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 25,
+	name: "Textual DSL",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 26,
+	name: "Full language",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 16,
+	name: "Collaboration",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 17,
+	name: "Community",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 18,
+	name: "Community support",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 27,
+	name: "Forum",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 28,
+	name: "Wiki",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 226,
+	name: "SNS support",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 143,
+	name: "Blog",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 19,
+	name: "Online access",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 29,
+	name: "Public",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 30,
+	name: "Private",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]},{
+	id: 31,
+	name: "PbEM",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 32,
+	name: "Blackboard",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]},{
+	id: 74,
+	name: "Representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 20,
+	name: "Composition Representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 75,
+	name: "Component representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 127,
+	name: "WYSIWYG representation",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 34,
+	name: "Textual",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 33,
+	name: "Icon",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 223,
+	name: "Form element",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 35,
+	name: "Flow diagram component",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 22,
+	name: "Flow representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 23,
+	name: "Control flow representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 36,
+	name: "Explicit control flow",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 37,
+	name: "Implicit control flow",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 24,
+	name: "Data flow representation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 130,
+	name: "Explicit data flow",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 131,
+	name: "Implicit data flow",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]},{
+	id: 25,
+	name: "Component links",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 27,
+	name: "Graphical links",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 40,
+	name: "Wires",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 41,
+	name: "Non-wire graphics",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 132,
+	name: "Visual DSL representation",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 26,
+	name: "Textual links",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 128,
+	name: "Textual DSL representation",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 129,
+	name: "Full language representation",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 145,
+	name: "No link",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 7,
+	name: "Composition",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 43,
+	name: "Flow diagram",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 126,
+	name: "Spreadsheet representation",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 44,
+	name: "Form",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 45,
+	name: "Page flow",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 225,
+	name: "Plain list",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 146,
+	name: "Text editor",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 95,
+	name: "Abstraction",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 30,
+	name: "Abstraction level",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 46,
+	name: "High",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 47,
+	name: "Average",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 48,
+	name: "Low",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 147,
+	name: "No abstraction",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]}
+]},{
+	id: 94,
+	name: "Aesthetics",
+	data: {
+		type: "decision"
+	},
+	children: [
+]}
+]},{
+	id: 31,
+	name: "Target user",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 32,
+	name: "User expertise",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 91,
+	name: "Technical expertise",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 51,
+	name: "Technical expert",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 244,
+	name: "Non-technical",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 93,
+	name: "Programming expertise",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 246,
+	name: "Non-programmer",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 247,
+	name: "Programmer",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 92,
+	name: "Domain expertise",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 50,
+	name: "Domain expert",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 245,
+	name: "Domain newbie",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]},{
+	id: 33,
+	name: "User context",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 53,
+	name: "Consumer/Individual",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 54,
+	name: "Enterprise/Organisation",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 90,
+	name: "Learning curve",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 240,
+	name: "Low learning curve",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 241,
+	name: "Medium learning curve",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 242,
+	name: "High learning curve",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]},{
+	id: 36,
+	name: "Domain specificity",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 60,
+	name: "Generic",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 61,
+	name: "Context-specific",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 62,
+	name: "Domain-specific",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 63,
+	name: "Specialised",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 37,
+	name: "Execution context",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 134,
+	name: "Mobile context",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 135,
+	name: "Desktop context",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 136,
+	name: "Web context",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 38,
+	name: "Usability",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 39,
+	name: "Prompts/Suggestions",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 67,
+	name: "Incompatibility prompts",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 68,
+	name: "Suggestions",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 40,
+	name: "Internal help systems",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 69,
+	name: "Help",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 70,
+	name: "User goal/requirement mapping",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 71,
+	name: "VCS",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 41,
+	name: "External aides",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 42,
+	name: "Documentation",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 72,
+	name: "Screencasts",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 73,
+	name: "API/component documentation",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 163,
+	name: "Tool documentation",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 74,
+	name: "Tutorials",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 75,
+	name: "Discussion forums",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 144,
+	name: "External help/FAQ",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 43,
+	name: "Re-use",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 79,
+	name: "Examples",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]}
+]}

@@ -1,0 +1,575 @@
+var ds4 = {
+	id: 4,
+	name: "Service DS",
+	data: {
+		type: "category"
+	},
+	children: [{
+	id: 76,
+	name: "Service interactions",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 79,
+	name: "Service attributes",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 84,
+	name: "Component attributes",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 85,
+	name: "Component popularity attributes",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 205,
+	name: "Component num downloads",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 204,
+	name: "Component num SNS shares",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 203,
+	name: "Component age",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 202,
+	name: "Component num uses",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 221,
+	name: "Component num users",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 222,
+	name: "Component num ratings",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 206,
+	name: "Component reviews",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 207,
+	name: "Component ratings",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 86,
+	name: "Component other attributes",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 198,
+	name: "Component related actions",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 196,
+	name: "Component version",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 208,
+	name: "Component copyright",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 209,
+	name: "Component creator",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 212,
+	name: "Component notes",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 213,
+	name: "Component location",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 87,
+	name: "Component functional attributes",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 220,
+	name: "Component type",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 191,
+	name: "Component example usage",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 190,
+	name: "Component options",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 189,
+	name: "Component output(s)/result(s)",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 188,
+	name: "Component input(s)",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 187,
+	name: "Component requirements/prerequisites",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 211,
+	name: "Component icon",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 217,
+	name: "Component categories",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 214,
+	name: "Component tags",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 215,
+	name: "Component description",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 216,
+	name: "Component name",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]},{
+	id: 82,
+	name: "Composite attributes",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 80,
+	name: "Composite Popularity attributes",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 227,
+	name: "Composite num ratings",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 182,
+	name: "Composite num uses",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 181,
+	name: "Composite age",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 180,
+	name: "Composite num SNS shares",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 156,
+	name: "Composite num downloads",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 150,
+	name: "Composite reviews",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 77,
+	name: "Composite ratings",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 231,
+	name: "Composite num users",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 83,
+	name: "Composite Other attributes",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 197,
+	name: "Composite copyright",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 195,
+	name: "Composite creator",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 194,
+	name: "Composite properties",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 201,
+	name: "Composite icon",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 199,
+	name: "Composite notes",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 200,
+	name: "Composite location",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 228,
+	name: "Composite version",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 81,
+	name: "Composite Functional attributes",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 192,
+	name: "Component icons",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 193,
+	name: "Component descriptions",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 186,
+	name: "Composite categories",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 185,
+	name: "Composite Tags",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 184,
+	name: "Composite description",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 183,
+	name: "Composite name",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 218,
+	name: "Component names",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]}
+]},{
+	id: 78,
+	name: "Composite interactions",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 234,
+	name: "Review composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 233,
+	name: "Rate composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 219,
+	name: "Assign tags to composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 179,
+	name: "Upload/Publish composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 178,
+	name: "Copy composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 177,
+	name: "Export composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 176,
+	name: "Rename composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 175,
+	name: "Save composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 173,
+	name: "Delete composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 172,
+	name: "Turn on/off composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 171,
+	name: "Acquire composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 170,
+	name: "Set/Edit composite parameters",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 169,
+	name: "Share composite on SNS",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 168,
+	name: "Edit composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 167,
+	name: "Execute composite",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]},{
+	id: 77,
+	name: "Component interactions",
+	data: {
+		type: "decision"
+	},
+	children: [{
+	id: 235,
+	name: "Rate component",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 166,
+	name: "Activate component",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 165,
+	name: "Set/Edit component parameters",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 164,
+	name: "Use in composition",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 229,
+	name: "View example usage",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 230,
+	name: "Import component",
+	data: {
+		type: "option"
+	},
+	children: [
+]},{
+	id: 236,
+	name: "Review component",
+	data: {
+		type: "option"
+	},
+	children: [
+]}
+]}
+]}
+]}

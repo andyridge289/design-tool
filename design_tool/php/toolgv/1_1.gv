@@ -1,0 +1,42 @@
+digraph output {node [color="#FFFFFF",fillcolor="#FFFFFF",style=filled, fontcolor="#000000" fontsize="22"];
+"IFTTT (Website)"
+
+node [color="047b35",fillcolor="#8df2b6",style=filled fontsize="20"];
+"Functional DS"
+
+node[shape=box,color="#004a63",fillcolor=lightblue2,style=filled fontsize="15"];
+"SC Lifecycle Activities","Specification","Discovery","Discovery mechanism","Suggestions","Discoverable entities","Composition stage","Annotation / deployment","Execution"
+
+node [color="#888888", style="filled", shape=rect, fontcolor="#888888", fillcolor="#CCCCCC"];
+"Request","Search","Browsing","Grouping","Grouping metrics","UI composition method","Verification / validation","Testing","Creation and Publication"
+
+node [color="#222222", style="rounded,filled", shape=rect, fontcolor="#000000", fillcolor="#CC99CC"];
+"No specification","Context-specific suggestions","Other recommendations","Components","Composites","Process composition","Data composition","Interpretation","In-app execution"
+
+node [color="#AAAAAA", style="rounded,filled", shape=rect, fontcolor="#AAAAAA", fillcolor="#EEEEEE"];
+"Group by function","Group by location","Group by cost","Group by service provider","Group by rating","Group by recently used","Customisation of grouping","Manual grouping","Browse + filter/search","Browse list","Tagging","Recommendations from friends","Matching components","Text entry","Automatic UI generation","Webpage composition","Visual UI composition","Textual UI composition","UI composition","Dummy test data","Simulate testing of triggers","Test mode for components","Debugging","Code generation","Compilation","Create new app"
+
+
+"Functional DS"->"SC Lifecycle Activities" [arrowhead=none]
+"SC Lifecycle Activities"->"Specification","Request","Discovery","Composition stage","Verification / validation","Annotation / deployment","Execution","Creation and Publication" [arrowhead=none]
+"Specification"->"No specification" [arrowhead=none]
+"Request"->"Search" [arrowhead=none]
+"Discovery"->"Discovery mechanism","Discoverable entities" [arrowhead=none]
+"Discovery mechanism"->"Browsing","Suggestions" [arrowhead=none]
+"Discovery mechanism"->"Text entry" [arrowhead=none]
+"Browsing"->"Grouping" [arrowhead=none]
+"Browsing"->"Browse + filter/search"->"Browse list"->"Tagging" [arrowhead=none]
+"Grouping"->"Grouping metrics" [arrowhead=none]
+"Grouping"->"Customisation of grouping"->"Manual grouping" [arrowhead=none]
+"Grouping metrics"->"Group by function"->"Group by location"->"Group by cost"->"Group by service provider"->"Group by rating"->"Group by recently used" [arrowhead=none]
+"Suggestions"->"Context-specific suggestions"->"Other recommendations"->"Recommendations from friends"->"Matching components" [arrowhead=none]
+"Discoverable entities"->"Components"->"Composites" [arrowhead=none]
+"Composition stage"->"UI composition method" [arrowhead=none]
+"Composition stage"->"Process composition"->"Data composition"->"UI composition" [arrowhead=none]
+"UI composition method"->"Automatic UI generation"->"Webpage composition"->"Visual UI composition"->"Textual UI composition" [arrowhead=none]
+"Verification / validation"->"Testing" [arrowhead=none]
+"Verification / validation"->"Debugging" [arrowhead=none]
+"Testing"->"Dummy test data"->"Simulate testing of triggers"->"Test mode for components" [arrowhead=none]
+"Annotation / deployment"->"Code generation"->"Interpretation"->"Compilation" [arrowhead=none]
+"Execution"->"In-app execution"->"Create new app" [arrowhead=none]
+}

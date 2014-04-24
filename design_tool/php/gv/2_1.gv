@@ -1,0 +1,36 @@
+digraph output {
+
+
+node [color="047b35",fillcolor="#8df2b6",style=filled fontsize="20"];
+"Non-functional DS"
+
+node[shape=box,color="#004a63",fillcolor=lightblue2,style=filled fontsize="15"];
+"Interaction technique","Non-language","Language","DSL","Collaboration","Community","Community support","Online access","Representation","Composition Representation","Abstraction","Abstraction level","Aesthetics","Execution context"
+
+node [color="#888888", style="filled,dashed", shape=rect, fontcolor="#888888", fillcolor="#FFFFFF"];
+"Usability","Target user","Domain specificity"
+
+node [color="#222222", style="rounded,filled", shape=rect, fontcolor="#000000", fillcolor="#CC99CC"];
+"Spreadsheet","Dialog / form","WYSIWYG","PbD","Drag & drop","Visual DSL","Textual DSL","Full language","Forum","Wiki","SNS support","Blog","Public","Private","PbEM","Blackboard","High","Average","Low","Metaphor","Colour","Visual","Mobile context","Desktop context","Web context"
+
+
+"Non-functional DS"->"Usability","Target user","Domain specificity" [style=dashed,arrowhead=none]
+"Non-functional DS"->"Interaction technique","Representation","Execution context" [arrowhead=none]
+"Interaction technique"->"Non-language","Language","Collaboration" [arrowhead=none]
+"Non-language"->"Spreadsheet"->"Dialog / form"->"WYSIWYG"->"PbD"->"Drag & drop" [arrowhead=none]
+"Language"->"DSL" [arrowhead=none]
+"Language"->"Full language" [arrowhead=none]
+"DSL"->"Visual DSL"->"Textual DSL" [arrowhead=none]
+"Collaboration"->"Community" [arrowhead=none]
+"Collaboration"->"PbEM"->"Blackboard" [arrowhead=none]
+"Community"->"Community support","Online access" [arrowhead=none]
+"Community support"->"Forum"->"Wiki"->"SNS support"->"Blog" [arrowhead=none]
+"Online access"->"Public"->"Private" [arrowhead=none]
+"Representation"->"Composition Representation","Aesthetics" [arrowhead=none]
+"Composition Representation"->"Abstraction" [arrowhead=none]
+"Abstraction"->"Abstraction level" [arrowhead=none]
+"Abstraction"->"Metaphor" [arrowhead=none]
+"Abstraction level"->"High"->"Average"->"Low" [arrowhead=none]
+"Aesthetics"->"Colour"->"Visual" [arrowhead=none]
+"Execution context"->"Mobile context"->"Desktop context"->"Web context" [arrowhead=none]
+}
