@@ -403,19 +403,20 @@ function addSource()
 		sourceType = "literature";
 
 	$.ajax({
-		url: "php/add_source.php",
+		url: "../lib/add_source.php",
 		type: "post",
 		data:
 		{
 			name: sourceName,
 			author: sourceAuthor,
-			type: sourceType
+			type: sourceType,
+			ds: DS_ID
 		}
 	}).done(function(msg){
 
 		if(msg == "win")
 		{
-			statusText("Success", "New source \"" + thingName + "\" added successfully", "success");
+			statusText("Success", "New source \"" + sourceName + "\" added successfully", "success");
 
 			$("#source_name").val("");
 			$("#source_author").val("");

@@ -56,6 +56,7 @@
 					<div id="radio_container">
 						Adding profile information for tool:
 						<div id="radiogroup"></div>
+						<button id="show_source_button" type="button" style="margin-top:5px;" onclick="$('#source_modal').modal();">Add Tool</button>
 					</div>
 
 					<div id="check_container">
@@ -98,6 +99,27 @@
 						<div id="structural_canvas" class="ds_canvas"></div>
 						<div id="service_canvas" class="ds_canvas"></div>	
 					</div>
+
+					<div id="source_modal" class="modal hide fade" tabindex="-1" role="dialog"
+					aria_labelledby="source_modal_title" aria-hidden="true">
+
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+						<h4 id="add_modal_title">Add Source</h4>
+					</div>
+
+					<div class="modal-body">
+
+						<table>
+						<tr><td>Name:</td><td><input id="source_name" type="text"></input></td></tr>
+					</table>
+					</div>
+
+					<div class="modal-footer">
+						<div id="btn_close" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">Close</div>
+						<div id="btn_update" class="btn btn-primary" onclick="addSource()">Add</div>
+					</div>
+			</div>
 					
 					
 			</div> <!-- end row fluid -->

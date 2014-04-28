@@ -594,3 +594,37 @@ function getJSON(number)
 		
 	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});
 }
+
+function addSource()
+{
+	var sourceName = $("#source_name").val();
+	var sourceType = "tool";
+	if($("#source_lit").attr("class") == "btn active")
+		sourceType = "literature";
+
+	$.ajax({
+		url: "../lib/add_source.php",
+		type: "post",
+		data:
+		{
+			name: sourceName,
+			author: "",
+			type: "tool",
+			ds: DS_ID
+		}
+	}).done(function(msg){
+
+		if(msg == "win")
+		{
+			statusText("Success", "New source \"" + sourceName + "\" added successfully", "success");
+
+			$("#source_name").val("");
+			$("#add_modal").modal("hide");
+		}
+		else
+		{
+			alert(msg);
+		}
+
+	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});;
+}
