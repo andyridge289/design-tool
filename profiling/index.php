@@ -52,9 +52,9 @@
 		
 				<div id="nav_span" class="span3">
 
-					<h4>Tools</h4>
+					<h4>Applications</h4>
 					<div id="radio_container">
-						Adding profile information for tool:
+						Adding profile information for application:
 						<div id="radiogroup"></div>
 						<button id="show_source_button" type="button" style="margin-top:5px;" onclick="$('#source_modal').modal();">Add Tool</button>
 					</div>

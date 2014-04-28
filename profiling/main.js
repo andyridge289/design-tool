@@ -620,6 +620,7 @@ function addSource()
 
 			$("#source_name").val("");
 			$("#add_modal").modal("hide");
+			location.reload();
 		}
 		else
 		{
