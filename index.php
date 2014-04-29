@@ -25,10 +25,9 @@
 			function add(event)
 			{
 				var dsName = $("#new_text").val();
-				// console.log(name);
 
 				$.ajax({
-					url: "add_ds.php",
+					url: "lib/add_ds.php",
 					type: "post",
 				 	data: { 
 				 		name: dsName
