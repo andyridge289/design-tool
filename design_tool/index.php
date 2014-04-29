@@ -55,7 +55,7 @@
 					<h5>Other Decision</h5>
 					
 					<fieldset>
-						<input id="custom_option" type="text" placeholder="Add other decision" onkeypress="customKeyDown(event)"><br />
+						<input id="custom_option" type="text" placeholder="Add custom solution:" onkeypress="customKeyDown(event)"><br />
 						<button onclick="addCustom()" class="btn">Add</button>
 					</fieldset>
 					
@@ -159,7 +159,10 @@
 						<br /><br /><b>Rationale</b><br />
 						<p>Enter the rationale for choosing <i id="rationale_name"></i></p>
 						<textarea id="rationale_text" class="rationale_text" rows="5" columns="160"></textarea>
-						<p>Note that your rationale will be augmented with any potential links to other decisions you've made</p>
+											
+						<p id="link_text">Link to decision</p>
+						<div id="link_placeholder"></div>
+
 					</div>
 					
 					<div class="modal-footer">
@@ -241,14 +244,15 @@
 			";
 		?>
 
-		<script src="jquery-2.0.0.js"></script>
+		<script src="js/jquery-2.0.0.js"></script>
 		<script src="js/bootstrap.js"></script>
 		
-		<script src="jit.js"></script>
-		<script src="lib.js"></script>		
-		<script src="main.js"></script>
-		<script src="designoption.js"></script>
+		<script src="js/jit.js"></script>
+		<script src="js/lib.js"></script>		
+		<script src="js/main.js"></script>
+		<script src="js/designoption.js"></script>
 		<script type='text/javascript' src='../lib/bootstrap-slider.js'></script>
+		<script type='text/javascript' src='../lib/TextCombo.js'></script>
 		
 		
 	</body>
