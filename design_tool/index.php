@@ -89,6 +89,8 @@
 				  			<button id="subnav_struct" class="btn" onClick="setDS(STRUCTURAL, this)">Structural</button>
 				  			<button id="subnav_serv" class="btn" onClick="setDS(SERVICE, this)">Service</button>
 						</span>
+
+						<button id="heatmap" class="btn" onClick="heatmap(this)" style="margin-left:20px;margin-bottom:10px;">Show heat map</button>
 						
 					</div>
 					
@@ -213,6 +215,8 @@
 
 						<h5 id="tag_rationale_heading">Rationale</h5>
 						<textarea id="tag_rationale_text"></textarea>
+
+						<p id="tag_link">Linked to decision:<span id="link_label" class="label"></span></p>
 						
 						<p id="tag_prior_heading">Added automatically by <b id="tag_prior"></b>
 						</p>
