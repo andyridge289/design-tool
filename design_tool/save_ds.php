@@ -18,10 +18,6 @@ $time = floor($stuff->time);
 $options = $stuff->options;
 $unchosen = $stuff->unChosenOptions;
 
-$q = "INSERT INTO participant_metrics VALUES('',$participant,$clicks,$time)";
-$ret = $db->q($q);
-if(!$ret) { echo "Fail $q<br />"; return; }
-
 $queries = makeSQL($options, false);
 $unChosenQueries = makeSQL($unchosen, true);
 

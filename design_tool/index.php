@@ -35,11 +35,8 @@
 					</span>
 					
 					<ul id="nav" class="nav">
-						
-						<li><a id="nav_export" href="#export_modal" onclick="exportDS()">Export Design</a></li>
+						<li><a id="nav_export" href="#export_modal" onclick="exportDesign()">Export Design</a></li>
 						<li><a id="nav_clear" href="#clear_save" onclick="clearData();">Clear Data</a></li>
-						<li style="padding:10px;"><div id="slider"></div></li>
-						<li style="padding:10px;color:#eee;">Showing: <b id="sliderValue" style="color:white;">All decisions &amp; options</b></li>
 					</ul>
 				
 				</div>
@@ -51,6 +48,14 @@
 			<div  class="row-fluid">
 		
 				<div id="nav_span" class="span3">
+						
+					<h4>DS Information</h4>
+					<p>Decisions showing:&nbsp;<b id="decision_value">100%</b></p>
+					<div id="decision_slider"></div>
+					<p>Options showing:&nbsp;<b id="option_value">100%</b></p>
+					<div id="option_slider"></div>
+					<div id="slider_value"></div>
+
 					<h4>Options</h4>
 					<h5>Other Decision</h5>
 					
@@ -90,7 +95,7 @@
 				  			<button id="subnav_serv" class="btn" onClick="setDS(SERVICE, this)">Service</button>
 						</span>
 
-						<button id="heatmap" class="btn" onClick="heatmap(this)" style="margin-left:20px;margin-bottom:10px;">Show heat map</button>
+						<!-- <button id="heatmap" class="btn" onClick="heatmap(this)" style="margin-left:20px;margin-bottom:10px;">Show heat map</button> -->
 						
 					</div>
 					
