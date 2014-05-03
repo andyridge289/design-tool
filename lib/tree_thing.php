@@ -32,18 +32,38 @@ class TreeThing
 		array_push($this->children, $child);
 	}
 
-	function makeString()
+	function makeString($dsId)
 	{
+		$dsCode = "serv";
+		$ds = "Entity";
+		
+		switch ($dsId) 
+		{
+			case 1:
+				$dsCode = "fxn";
+				$ds = "Functional";
+				break;
+			
+			case 2:
+				$dsCode = "nfxn";
+				$ds = "Non-Functional";
+				break;
+
+			case 3:
+				$dsCode = "struct";
+				$ds = "Structural";
+				break;
+		}
+
 		$ret = "{
 				id: $this->id,
 				" .
-				// "name: \"$this->step: $this->name\"	.			"
 				"name: \"$this->name\"" .
 				",data: {
 					type: \"$this->type\",
 					description: \"" . addslashes($this->description) . "\",
-					ds: \"$this->ds\",
-					dsCode: \"$this->dsCode\",
+					ds: \"$ds\",
+					dsCode: \"$dsCode\",
 					step: \"$this->step\",
 					pCount: $this->pCount,
 					parent: \"";
@@ -61,7 +81,7 @@ class TreeThing
 				$ret .= ",";
 	
 			$kids = $this->children;
-			$ret .= $kids[$i]->makeString();
+			$ret .= $kids[$i]->makeString($dsId);
 		}
 		
 		$ret .= "

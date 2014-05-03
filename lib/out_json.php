@@ -20,35 +20,9 @@ setToolInfo($newRoot);
 
 $cat = isset($_GET["c"]) ? $_GET["c"]: 1;
 $first = $newRoot->children[$cat - 1];
-addToArrays($first);
 
 echo "ds$cat = ";
 
-function addToArrays($node)
-{
-	global $categories, $options, $decisions, $relations;
-
-	if(strcmp($node->type, "category") == 0)
-	{
-		array_push($categories, $node->name);
-	}
-	else if(strcmp($node->type, "decision") == 0)
-	{
-		array_push($decisions, $node->name);
-	}
-	else
-	{
-		array_push($options, $node->name);
-	}
-
-	for($i = 0; $i < count($node->children); $i++)
-	{
-		$kid = $node->children[$i];
-		array_push($relations, "\"" . $node->name . "\"->\"" . $kid->name . "\"");
-		addToArrays($kid);
-	}
-}
-
-echo $first->makeString();
+echo $first->makeString($cat);
 
 ?>

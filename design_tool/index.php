@@ -72,7 +72,7 @@
 						<div id="nfxn_options"></div>
 						<p>Structural</p>
 						<div id="struct_options"></div>
-						<p>Service</p>
+						<p>Entity</p>
 						<div id="serv_options"></div>
 						<p>Custom</p>
 						<div id="custom_options"></div>
@@ -92,7 +92,7 @@
 				  			<button id="subnav_fxn" class="btn" onClick="setDS(FUNCTIONAL, this)">Functional</button>
 				  			<button id="subnav_nfxn" class="btn" onClick="setDS(NONFUNCTIONAL, this)">Non-Functional</button>
 				  			<button id="subnav_struct" class="btn" onClick="setDS(STRUCTURAL, this)">Structural</button>
-				  			<button id="subnav_serv" class="btn" onClick="setDS(SERVICE, this)">Service</button>
+				  			<button id="subnav_serv" class="btn" onClick="setDS(SERVICE, this)">Entity</button>
 						</span>
 
 						<!-- <button id="heatmap" class="btn" onClick="heatmap(this)" style="margin-left:20px;margin-bottom:10px;">Show heat map</button> -->
