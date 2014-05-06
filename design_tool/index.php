@@ -27,7 +27,8 @@
 			<div class="navbar-inner">
 				<div class="container-fluid">
 					
-					<a class="brand" href="#">Design Tool</a>
+					<a class="navbar-btn brand" href="..">&larr;</a>
+					<a class="brand" href="#" style="font-weight:bold;colour;white;">Design Generation</a>
 
 					<span class="brand" style="padding-bottom:0px;padding-top:4px;">
 						<a id="participant_num" class="brand" href="#" style="padding-top:6px;padding-bottom:0px;" onclick="participant()">Design 1</a>
@@ -129,7 +130,6 @@
 							<div id="overlay_related"></div>
 							<h5 id="overlay_tools_header" class="overlay_sub">Tools:</h5>
 							<div id="overlay_tools"></div>
-							
 						</div>
 						
 						<div id="button_container" class="modal-footer">
