@@ -52,6 +52,7 @@ function init()
 		}
 	}).done(function(msg){
 
+		console.log(msg);
 		eval(msg);
 
 		if(stages.length > 0)
@@ -66,9 +67,10 @@ function init()
 		else
 		{
 			// Prompt them that they will need to create one
+			$("#stage_name").html("None")
 		}
 
-	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});;
+	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});
 
 
 }
@@ -534,20 +536,24 @@ function stageAddNew()
 
 	$.ajax({
 		url: "php/add_stage.php",
-		type: "post",
+		type: "get",
 		data:
 		{
 			name: stageName,
-			ds_id: DS_ID
+			ds: DS_ID
 		}
 	}).done(function( msg )
 	{
-		eval(msg);
-
 		currentStage = newStage.id;
 		$("#stage_num").html(currentStage);
 		$("#stage_name").html(newStage.name);
 		$("#stage_modal").modal("hide");
+
+		if(stages.length > 0)
+		{
+			// Then we just pick the first one because this will be the latest stage
+			stageList = stages;
+		}
 
 	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});
 }
@@ -557,30 +563,39 @@ function showStageModal()
 	var ul = $("#stage_list");
 	ul.empty();
 
-	for(var i = 0; i < stageList.length; i++)
+	if(stageList == null)
 	{
-		var li = $("<li>" + stageList[i].name + "</li>");
-		li.css({ 
-			"border-bottom": "1px solid #eee", 
-			"cursor": "pointer"
-		});
+		$("#old_stage_container").css({ "display": "none" });
+	}
+	else
+	{
+		$("#old_stage_container").css({ "display": "block" });
 
-		li.attr({
-			"class": "unselected",
-			"stage_num": stageList[i].id
-		})
-
-		li.click(function()
+		for(var i = 0; i < stageList.length; i++)
 		{
-			for(var j = 0; j < ul.children().length; j++)
+			var li = $("<li>" + stageList[i].name + "</li>");
+			li.css({ 
+				"border-bottom": "1px solid #eee", 
+				"cursor": "pointer"
+			});
+
+			li.attr({
+				"class": "unselected",
+				"stage_num": stageList[i].id
+			})
+
+			li.click(function()
 			{
-				$(ul.children()[j]).attr({ "class": "unselected" });
-			}
+				for(var j = 0; j < ul.children().length; j++)
+				{
+					$(ul.children()[j]).attr({ "class": "unselected" });
+				}
 
-			$(this).attr({ "class": "selected" });
-		});
+				$(this).attr({ "class": "selected" });
+			});
 
-		ul.append(li);
+			ul.append(li);
+		}
 	}
 
 	$('#stage_modal').modal();

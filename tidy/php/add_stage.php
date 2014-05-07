@@ -4,8 +4,8 @@ header('Content-type: text/javascript');
 
 require_once "../../lib/database.php";
 
-$ds = isset($_POST["ds"]) ? $_POST["ds"] : 1;
-$name = isset($_POST["name"]) ? addslashes($_POST["name"]) : "a new name";
+$ds = isset($_GET["ds"]) ? $_GET["ds"] : 1;
+$name = isset($_GET["name"]) ? addslashes($_GET["name"]) : "a new name";
 
 $q = "SELECT * FROM `ds_has_stage` WHERE ds_id = $ds";
 $ret = $db->q($q);
@@ -22,7 +22,7 @@ while($r = mysqli_fetch_array($ret))
 }
 usort($stages, "cmp");
 
-$nextStage = $stages[0]->id + 1;
+$nextStage = count($stages) > 0 ? $stages[0]->id + 1 : 1;
 
 
 // The first one is the largest
@@ -42,7 +42,25 @@ if(!$ret)
 
 $r = mysqli_fetch_array($ret);
 
-echo "var newStage = " . json_encode(new Thing($r["stage_num"], $r["stage_name"]));
+echo "var newStage = " . json_encode(new Thing($r["stage_num"], $r["stage_name"])) . ";";
+
+$q = "SELECT * FROM `ds_has_stage` WHERE ds_id = $ds";
+$ret = $db->q($q);
+if(!$ret)
+{
+	echo "fail: $q<br />";
+	return;
+}
+
+$stages = array();
+while($r = mysqli_fetch_array($ret))
+{
+	array_push($stages, new Thing($r["stage_num"], $r["stage_name"]));
+}
+usort($stages, "cmp");
+
+echo "var stages = " . json_encode($stages) . ";";
+
 
 
 

@@ -204,14 +204,14 @@
 					</div>
 
 					<div class="modal-body" style="display:block;">
-						<div style="width:100%;">
-							<p>Old</p>
-							<div style="display:inline;width:50%;">
+						<div style="width:500px;position:relative;">
+							<div id="old_stage_container" style="display:inline;width:50%;float:left;">
+								<p>Old</p>
 								<ul id="stage_list" style="border:1px solid #aaa;max-height:200px;overflow:scroll;">
 								</ul><br />
 								<button onclick="stageChooseOld()">Choose Old Stage</button>
 							</div>
-							<div style="display:inline;width:50%;">
+							<div style="display:inline;width:50%;left:50%;float:right;">
 								<p>New</p>
 								Name:&nbsp;<input type="text" id="new_stage_name"></input>
 								<button onclick="stageAddNew()">Add New Stage</button>
