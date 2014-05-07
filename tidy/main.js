@@ -425,7 +425,7 @@ function addSource()
 			$("#source_lit").attr({ "class": "btn" });
 			$("#source_lit").attr({ "class": "btn active" });
 
-			$("#add_modal").modal("hide");
+			$("#source_modal").modal("hide");
 		}
 		else
 		{
