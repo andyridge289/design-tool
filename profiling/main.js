@@ -180,7 +180,10 @@ function makeOutput()
 	var ids = $('input[name=toolCheck]:checked', '#checkgroup');
 
 	if(ids.length == 0)
+	{
+		alert("You didn't choose any tools to export the profile for!");
 		return;
+	}
 
 	var list = [];
 	for(var i = 0; i < ids.length; i++)
@@ -202,22 +205,7 @@ function makeOutput()
 
 	console.log(outputUrl);
 
-	// How do we make them download a file with JavaScript?
-
 	window.open(outputUrl, '_blank');
-
-	// $.ajax({
-	// 	url: outputUrl,
-	// 	type: "get",
-	//  	data: { 
-	//  		ds: DS_ID,
-	//  		r: outputTop,
-	//  		t: strList
-	//  	}
-	// }).done(function( msg )
-	// {
-
-	// }).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});
 }
 
 function setDS(ds, thing)

@@ -53,7 +53,7 @@
 					<h4>DS Information</h4>
 					<p>Decisions showing:&nbsp;<b id="decision_value">100%</b></p>
 					<div id="decision_slider"></div>
-					<p>Options showing:&nbsp;<b id="option_value">100%</b></p>
+					<p>Solutions showing:&nbsp;<b id="option_value">100%</b></p>
 					<div id="option_slider"></div>
 					<div id="slider_value"></div>
 

@@ -389,7 +389,7 @@ function getOptionFromArray(id, array)
 {
 	for(var i = 0; i < array.length; i++)
 	{
-		if(array[i].id === id)
+		if(array[i].id == id)
 			return array[i];
 	}
 	
@@ -400,7 +400,7 @@ function getOptionIndexFromArray(id, array)
 {
 	for(var i = 0; i < array.length; i++)
 	{
-		if(array[i].id === id)
+		if(array[i].id == id)
 			return i;
 	}
 

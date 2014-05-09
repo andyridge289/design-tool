@@ -170,7 +170,7 @@ function init()
 			{
 				console.log("Local storage options not an array, what have you done...");
 			}
-			else
+			else if(DS_ID in dsList)
 			{
 				options = dsList[DS_ID];
 
@@ -204,7 +204,7 @@ function init()
 			{
 				console.log("Local storage options not an array, what have you done...");
 			}
-			else
+			else if(DS_ID in dsList)
 			{
 				unChosenOptions = dsList[DS_ID];
 
@@ -235,7 +235,7 @@ function init()
 			{
 				console.log("Local storage options not an array, what have you done...");
 			}
-			else
+			else if(DS_ID in dsList)
 			{
 				customOptions = dsList[DS_ID];
 
@@ -984,8 +984,6 @@ function unmakeDecision(option)
 function tagInfo(e, list)
 {
 	var tag = $(e.target);
-	
-	// var thing = findAcrossDS(tag.attr("tagId"));
 	var option = getOptionFromArray(tag.attr("tagId"), list);
 
 	if(tag.attr("tagId") == -1)
