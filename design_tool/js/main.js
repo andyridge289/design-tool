@@ -164,89 +164,102 @@ function init()
 	{	
 		if(localStorage.options)
 		{
-			options = JSON.parse(localStorage.options);
+			var dsList = JSON.parse(localStorage.options);
 
-			// Put them in the options list on the right
-			for(var i = 0; i < options.length; i++)
+			if(Object.prototype.toString.call(dsList) !== "[object Array]")
 			{
-				var option = options[i];
-				
-				var optionSpan = $(optionSpanText + option.name + "</span>");
-		
-				optionSpan.attr({
-					"id": "tag_" + option.id,
-					"class": "label label-important choice_label unselectable",
-					"active": "true", 
-					"tagId": option.id,
-					"tagDs": option.ds,
-					"tagRationale": option.rationale
-				});
+				console.log("Local storage options not an array, what have you done...");
+			}
+			else
+			{
+				options = dsList[DS_ID];
+
+				for(var i = 0; i < options.length; i++)
+				{
+					var option = options[i];
+					
+					var optionSpan = $(optionSpanText + option.name + "</span>");
+			
+					optionSpan.attr({
+						"id": "tag_" + option.id,
+						"class": "label label-important choice_label unselectable",
+						"active": "true", 
+						"tagId": option.id,
+						"tagDs": option.ds,
+						"tagRationale": option.rationale
+					});
 
 
-				
-				$("#" + option.dsCode + "_options").append(optionSpan);
+					
+					$("#" + option.dsCode + "_options").append(optionSpan);
+				}
 			}
 		}
 
 		if(localStorage.unChosenOptions)
 		{
-			unChosenOptions = JSON.parse(localStorage.unChosenOptions);
+			var dsList = JSON.parse(localStorage.unChosenOptions);
 
-			for(var i = 0; i < unChosenOptions.length; i++)
+			if(Object.prototype.toString.call(dsList) !== "[object Array]")
 			{
-				var o = unChosenOptions[i];
-				var optionSpan = $(unchosenSpanText + o.name + "</span>");
-				optionSpan.attr({
-					"id": "tag_" + o.id,
-					"class": "label label-warning choice_label unselectable",
-					"active": "true", 
-					"tagId": o.id,
-					"tagDs": o.ds,
-					"tagRationale": o.rationale
-				});
+				console.log("Local storage options not an array, what have you done...");
+			}
+			else
+			{
+				unChosenOptions = dsList[DS_ID];
 
-				$("#unChosen").append(optionSpan);
+				for(var i = 0; i < unChosenOptions.length; i++)
+				{
+					var o = unChosenOptions[i];
+					var optionSpan = $(unchosenSpanText + o.name + "</span>");
+					optionSpan.attr({
+						"id": "tag_" + o.id,
+						"class": "label label-warning choice_label unselectable",
+						"active": "true", 
+						"tagId": o.id,
+						"tagDs": o.ds,
+						"tagRationale": o.rationale
+					});
+
+					$("#unChosen").append(optionSpan);
+				}
 			}
 		}
+
 
 		if(localStorage.customOptions)
 		{
-			// TODO This needs putting back
+			var dsList = JSON.parse(localStorage.customOptions);
 
-			customOptions = JSON.parse(localStorage.customOptions);
-
-			for(var i = 0; i < customOptions.length; i++)
+			if(Object.prototype.toString.call(dsList) !== "[object Array]")
 			{
-				var option = customOptions[i];
-				var optionSpan = $(customSpanText + option.name + "</span>");
-			
-				optionSpan.attr({
-					"id": "tag_" + option.id,
-					"class": "label label-success choice_label unselectable",
-					"active": "true", 
-					"tagId": option.id,
-					"tagDs": option.ds,
-					"tagRationale": option.rationale
-				});
+				console.log("Local storage options not an array, what have you done...");
+			}
+			else
+			{
+				customOptions = dsList[DS_ID];
 
-				$("#custom_options").append(optionSpan);
+				for(var i = 0; i < customOptions.length; i++)
+				{
+					var option = customOptions[i];
+					var optionSpan = $(customSpanText + option.name + "</span>");
+				
+					optionSpan.attr({
+						"id": "tag_" + option.id,
+						"class": "label label-success choice_label unselectable",
+						"active": "true", 
+						"tagId": option.id,
+						"tagDs": option.ds,
+						"tagRationale": option.rationale
+					});
+
+					$("#custom_options").append(optionSpan);
+				}
 			}
 		}
 	}
 
-	$("#participant_num").html("Design " + participantNum);
 	
-	if(!HEURISTICS)
-	{
-		// Make all the tool things invisible
-		$("overlay_related_header").css({ "display": "none" });
-		$("overlay_related").css({ "display": "none" });
-		
-		// Make the button for viewing the heuristics invisible
-		$("btn_preview").css({ "display": "none" }); 
-	}
-
-	redraw();
 }
 
 function heatmap(btn)
@@ -327,52 +340,6 @@ function trimElement(elem, dValue, oValue, parent)
 					i--;
 				}
 			}
-		}
-	}
-}
-
-function importJSON()
-{
-	var pNum = $("#import_pid").val();
-
-	$.ajax({ 
-		url: importURL + pNum 
-	}).done(function(data)
-	{
-		if(SAVE)
-		{
-			localStorage.customOptions = data;
-			init();
-		}
-	});
-}
-
-function timer(e)
-{
-	var seconds = new Date().getTime() / 1000;
-	
-	if(startTime == -1)
-	{
-		startTime = seconds;
-		$(e.target).html("Stop Timer")
-
-		if(SAVE)
-		{
-			localStorage.startTime = startTime;
-		}
-	}
-	else
-	{
-		if(timeTaken == -1)
-			timeTaken = seconds - startTime;
-		else
-			timeTaken += (seconds - startTime);
-
-		$(e.target).html("Start Timer");
-
-		if(SAVE)
-		{
-			localStorage.timeTaken = timeTaken;
 		}
 	}
 }
@@ -576,9 +543,7 @@ function updateRationale()
 	currentOption.rationale = $("#tag_rationale_text").val();
 
 	if(SAVE)
-	{
-		localStorage.options = JSON.stringify(options);
-	}
+		saveAll();
 
 	// Close the modal
 	$("#tag_modal").modal("hide");
@@ -599,28 +564,14 @@ function setParticipant(event)
 
 	participantText.css({ "display": "block" });
 	textbox.css({ "display": "none" });
-
-	if(SAVE)
-	{
-		localStorage.participantNum = participantNum;
-		localStorage.clickCount = 0;
-	}
 }
 
 function clearData()
 {
-	localStorage.options = "";
-	localStorage.unChosenOptions = "";
-
-	localStorage.customOptions = "";
-	localStorage.unChosenCustomOptions = "";
-
-	localStorage.toolName = "";
-	localStorage.optionName = "";
-	localStorage.optionId = -1;
-
-	localStorage.clickCount = 0;
-
+	options = [];
+	unChosenOptions = [];
+	customOptions = [];
+	saveAll();
 	location.reload();
 }
 
@@ -904,12 +855,7 @@ function remake()
 	$("#tag_modal").modal("hide");
 
 	if(SAVE)
-	{
-		localStorage.options = JSON.stringify(options);
-		localStorage.unChosenOptions = JSON.stringify(unChosenOptions);
-		localStorage.customOptions = JSON.stringify(customOptions);
-		localStorage.unChosenCustomOptions = JSON.stringify(unChosenCustomOptions);
-	}
+		saveAll();
 
 	redraw();
 }
@@ -938,12 +884,7 @@ function tagUnmake(e)
 	}
 
 	if(SAVE)
-	{
-		localStorage.options = JSON.stringify(options);
-		localStorage.unChosenOptions = JSON.stringify(unChosenOptions);
-		localStorage.customOptions = JSON.stringify(customOptions);
-		localStorage.unChosenCustomOptions = JSON.stringify(unChosenCustomOptions);
-	}
+		saveAll();
 }
 
 function customUnmake(e)
@@ -958,28 +899,52 @@ function customUnmake(e)
 	unChosenCustomOptions.push(bob);
 
 	if(SAVE)
-	{
-		localStorage.unChosenCustomOptions = JSON.stringify(unChosenCustomOptions);
-		localStorage.customOptions = JSON.stringify(customOptions);
-	}
+		saveAll();
 
 	tag.remove();
 }
 
+function saveAll()
+{
+	if(options == null || options == "") options = [];
+	if(unChosenOptions == null || options == "") unChosenOptions = [];
+	if(customOptions == null  || options == "") customOptions = [];
+
+
+	if(localStorage.options) {
+		var list = JSON.parse(localStorage.options);
+		list[DS_ID] = options;
+		localStorage.options = JSON.stringify(list);
+	} else {
+		var list = [];
+		list[DS_ID] = options;
+		localStorage.options = JSON.stringify(list);
+	}
+
+	if(localStorage.unChosenOptions) {
+		var list = JSON.parse(localStorage.unChosenOptions);
+		list[DS_ID] = unChosenOptions;
+		localStorage.unChosenOptions = JSON.stringify(list);
+	} else {
+		var list = [];
+		list[DS_ID] = unChosenOptions;
+		localStorage.unChosenOptions = JSON.stringify(list);
+	}
+
+	if(localStorage.customOptions) {
+		var list = JSON.parse(localStorage.customOptions);
+		list[DS_ID] = customOptions;
+		localStorage.customOptions = JSON.stringify(list);
+	} else {
+		var list = [];
+		list[DS_ID] = customOptions;
+		localStorage.customOptions = JSON.stringify(list);
+	}
+}
+
 function tagDoubleClick(e)
 {
-	// var tag = $(e.target);
-	// var tagId = tag.attr("tagId");
-	// var option = getOptionFromArray(tagId, options);
-
-	// // This shouldn't really be a problem.....
-	// if(option !== null)
-	// {
-	// 	unmakeDecision(option);
-	// 	tag.remove();
-	// }
-
-	// redraw();
+	// Do nothing
 }
 
 // This one unmakes the decision under the hood, we then need to reflect this in the UI
@@ -990,10 +955,8 @@ function unmakeDecision(option)
 		var index = getIndexFromCustom(option.name);
 		options.splice(index, 1);
 
-		if(SAVE)
-		{
-			localStorage.customOptions = customOptions;
-		}
+		if(SAVE) 
+			saveAll();
 	}
 	else
 	{
@@ -1013,11 +976,8 @@ function unmakeDecision(option)
 
 		$("#unChosen").append(optionSpan);
 
-		if(SAVE)
-		{
-			localStorage.options = JSON.stringify(options);
-			localStorage.unChosenOptions = JSON.stringify(unChosenOptions);
-		}
+		if(SAVE) 
+			saveAll();
 	}
 }
 
@@ -1206,21 +1166,6 @@ function setOverlay(node)
 			showRationale(node);
 		});
 
-		// choose.css({ "display": "inline" });
-		
-		// if(HEURISTICS)
-		// {
-		// 	preview.click(function(){
-		// 		lookup(node);
-		// 		$("#overlay").modal("hide");
-		// 	});
-			
-		// 	preview.css({ "display": "inline" });
-		// }
-		// else
-		// {
-		// 	preview.css({ "display": "none" });
-		// }
 	}
 	else
 	{
@@ -1237,9 +1182,7 @@ function addToOptions(option, addLinked)
 		customOptions.push(option);
 
 		if(SAVE)
-		{
-			localStorage.customOptions = JSON.stringify(customOptions);
-		}
+			saveAll();
 
 		var optionSpan = $(customSpanText + option.name + "</span>");
 		
@@ -1269,12 +1212,13 @@ function addToOptions(option, addLinked)
 			// TODO Need to get that value out of the jaccard index 
 		}
 
+		if(options == null || options == "")
+			options = [];
+
 		options.push(option);
 		
 		if(SAVE)
-		{
-			localStorage.options = JSON.stringify(options);
-		}
+			saveAll();
 		
 		if(addLinked && HEURISTICS)
 			addLinkedOptions(option);
@@ -1545,69 +1489,6 @@ function lookupForTool(event)
 	});
 }
 
-function setStatus(type, name, id)
-{
-	if(type == PREVIEW_TOOL)
-	{
-		lookupTool = name;
-		$("#status_text").html("Showing design decisions for <b>" + name + "</b>");
-
-		if(SAVE)
-		{
-			localStorage.toolName = name;
-
-			var bob = new Array();
-			for(key in colours)
-			{
-				bob.push("[\"" + key + "\",\"" + colours[key] + "\"]");
-			}
-
-			localStorage.colours = JSON.stringify(bob);
-		}
-	}
-	else if(type == PREVIEW_OPTION)
-	{
-		lookupOption = name;
-		lookupOptionId = id;
-
-		$("#status_text").html("Showing related design options to <b>" + name + "</b>");
-
-		if(SAVE)
-		{
-			localStorage.optionName = name;
-			localStorage.optionId = id;
-
-			var bob = new Array();
-			for(key in colours)
-			{
-				bob.push("[\"" + key + "\",\"" + colours[key] + "\"]");
-			}
-
-			localStorage.colours = JSON.stringify(bob);
-		}
-	}
-		
-	$("#status_bar").css({ "display": "block" });
-}
-
-function clearStatus()
-{
-	if(SAVE)
-	{
-		localStorage.toolName = "";
-		localStorage.optionName = "";
-	}
-
-	$("#status_bar").css({ "display": "none" });
-	
-	// clearing the colours array
-	colours = new Array();
-	lookupTool = "";
-	lookupOption = "";
-	lookupOptionId = -1;
-	redraw();
-}
-
 function lookupTools(node)
 {
 	console.log(node.id);
@@ -1642,14 +1523,6 @@ function lookupTools(node)
 				// toolSpan.click({ toolId: t[i][0], toolName: t[i][1] }, lookupForTool);
 				container.append(toolSpan);
 			}
-			
-			// for(var i = 0; i < tNot.length; i++)
-			// {
-			// 	var toolSpan = $("<span id='tool" + tNot[i][0] + "' name='" + tNot[i][1] + "' class='label choice_label'>" + tNot[i][1] + "</span>");
-			// 	toolSpan.click({ toolId: tNot[i][0], toolName: tNot[i][1]}, lookupForTool);
-				
-			// 	container.append(toolSpan);
-			// }
 		}
 	});
 }

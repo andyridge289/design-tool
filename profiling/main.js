@@ -109,12 +109,15 @@ function getSources()
 {
 	$.ajax({
 		url: "../lib/get_sources.php",
-		type: "post",
+		type: "get",
 	 	data: { 
-	 		ds: DS_ID
+	 		ds: DS_ID,
+	 		to: "1"
 	 	}
 	}).done(function( msg )
 	{
+		console.log("Sources = " + msg);
+
 		if(msg.substring(0, 4) == "Fail")
 		{
 			alert(msg);

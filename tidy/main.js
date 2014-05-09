@@ -313,9 +313,13 @@ function showAddModal()
 {
 	$.ajax({
 		url: "../lib/get_sources.php",
-		type: "get"
+		type: "get",
+		data: {
+			ds: DS_ID
+		}
 	}).done(function(msg){
 
+		console.log("Sources: " + msg);
 		eval("var sources = " + msg);
 
 		var data = [];
@@ -837,6 +841,11 @@ function actuallyAddIncoming()
 
 function actuallyAdd(parentId, childId)
 {
+	if(parentId == childId)
+	{
+		alert("Can't link a node with itself!");
+	}
+
 	$.ajax({
 		url: "php/link.php",
 		type: "post",

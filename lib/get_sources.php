@@ -3,8 +3,9 @@
 require_once "database.php";
 
 $ds = isset($_GET["ds"]) ? $_GET["ds"] : 1;
+$toolsOnly = isset($_GET["to"]) ? " AND type = 'tool'" : "";
 
-$q = "SELECT * FROM `source` WHERE ds_id = $ds AND type = 'tool'";
+$q = "SELECT * FROM `source` WHERE ds_id = $ds $toolsOnly";
 
 // echo $q;
 
