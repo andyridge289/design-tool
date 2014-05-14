@@ -50,22 +50,31 @@
 				<div class="container-fluid">
 					<a class="navbar-btn brand" href="..">&larr;</a>
 					<a class="brand" href="#" style="font-weight:bold;colour;white;">Design Space Creation and Manipulation</a>
-					<!-- This needs to be the name of the thing -->
 				</div>
 			</div>
 		</div>
 
-		<div id="content" class="container-fluid" style="margin-top:50px;">
+		<div id="content" class="container-fluid">
 
 			<div class="row-fluid">
-				<div id="status" class="alert alert-warning alert-dismissable" style="display:none;">
-				 	<button type="button" class="close" onclick="$('status').css({'display':'none'});">&times;</button>
-				  	<strong id="status_title"></strong>:&nbsp;&nbsp;<span id="status_text"></span>
-				</div>
+
 				<div>
-					<strong>Stage:</strong>&nbsp;[<span id="stage_num"></span>]:<span id="stage_name"></span>
-					<button type="button" onclick="showStageModal()" style="float:right;">Change Stage</button>
+					<div id="added_container" style="display:none;">
+						<div id="num_added" onclick="showAdded();" style="cursor:pointer;"><span id="num_added_num"></span> added to DS but not linked</div>
+						<div id="num_added_things" style='display:none'></div>
+					</div>
+
+					<div id="status" class="alert alert-warning alert-dismissable" style="display:none;">
+					 	<button type="button" class="close" onclick="$('status').css({'display':'none'});">&times;</button>
+					  	<strong id="status_title"></strong>:&nbsp;&nbsp;<span id="status_text"></span>
+					</div>
+
+					<div>
+						<strong>Stage:</strong>&nbsp;[<span id="stage_num"></span>]:<span id="stage_name"></span>
+						<button type="button" onclick="showStageModal()" style="float:right;">Change Stage</button>
+					</div>
 				</div>
+
 			</div>
 
 			<div  class="row-fluid">

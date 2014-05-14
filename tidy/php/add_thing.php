@@ -1,41 +1,46 @@
 <?php 
 
 require_once "../../lib/database.php";
+require_once "../../lib/tree_thing.php";
 
-$q = "INSERT INTO `thing` VALUES('', '" . addslashes($_POST["name"]) . 
-	 "', '$_POST[type]', '$_POST[category]', $_POST[stage], -1, '" . addslashes($_POST["description"]) . "', $_POST[ds_id])";
-
-// echo $q;
-
-$ret = $db->q($q);
-if(!$ret)
+if(isset($_POST["name"]))
 {
-	echo "Fail: $q<br />";
-	return;
-}
 
-if($_POST["source"] != -1)
-{
-	$q = "SELECT * FROM `thing` WHERE name = '" . addslashes($_POST["name"]) . "' AND type = '$_POST[type]' AND "
-		. "category = '$_POST[category]' AND description = '" . addslashes($_POST["description"]) . "'";
+	$q = "INSERT INTO `thing` VALUES('', '" . addslashes($_POST["name"]) . 
+		 "', '$_POST[type]', '$_POST[category]', $_POST[stage], -1, '" . addslashes($_POST["description"]) . "', $_POST[ds_id])";
+
+	// echo $q;
+
 	$ret = $db->q($q);
 	if(!$ret)
 	{
-		echo "Fail $q";
+		echo "Fail: $q<br />";
 		return;
 	}
 
-	$r = mysqli_fetch_array($ret);
-
-	$q = "INSERT INTO `thing_has_source` VALUES('', $r[id], $_POST[source])";
-	$ret = $db->q($q);
-	if(!$ret)
+	if($_POST["source"] != -1)
 	{
-		echo "Fail $q";
-		return;
-	}
-}
+		$q = "SELECT * FROM `thing` WHERE name = '" . addslashes($_POST["name"]) . "' AND type = '$_POST[type]' AND "
+			. "category = '$_POST[category]' AND description = '" . addslashes($_POST["description"]) . "'";
+		$ret = $db->q($q);
+		if(!$ret)
+		{
+			echo "Fail $q";
+			return;
+		}
 
-echo "win";
+		$r = mysqli_fetch_array($ret);
+
+		$q = "INSERT INTO `thing_has_source` VALUES('', $r[id], $_POST[source])";
+		$ret = $db->q($q);
+		if(!$ret)
+		{
+			echo "Fail $q";
+			return;
+		}
+	}
+
+	echo "var addStatus = true;";
+}
 
 ?>

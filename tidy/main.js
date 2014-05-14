@@ -20,6 +20,8 @@ var addCombo = null;
 var addIncomingCombo = null;
 var addOutgoingCombo = null;
 
+var showingUnlinked = false;
+
 function init()
 {
   	$jit.ST.Plot.NodeTypes.implement(
@@ -73,6 +75,7 @@ function init()
 	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});
 
 
+	lookupUnlinked();
 }
 
 function setDS(ds, thing)
@@ -477,7 +480,10 @@ function addNew()
 		}
 	}).done(function( msg )
 	{
-		if(msg == "win")
+		console.log(msg);
+		eval(msg);
+
+		if(addStatus)
 		{
 			// That's fine, show a hover thing that says it was added successfully
 			// Clear all the fields and hide the box
@@ -496,10 +502,8 @@ function addNew()
 
 			$("#add_modal").modal("hide");
 		}
-		else
-		{
-			alert(msg);
-		}
+		
+		lookupUnlinked();
 
 	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});
 }
@@ -790,6 +794,8 @@ function addIncoming()
 		var button = $("<button type='button' onclick='actuallyAddIncoming()'>Add</button>");
 		$("#incoming_container").append(button)
 
+		location.reload()
+
 	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});
 }
 
@@ -820,7 +826,10 @@ function addOutgoing()
 		$("#outgoing_container").append(addOutgoingCombo.container);
 
 		var button = $("<button type='button' onclick='actuallyAddOutgoing()'>Add</button>");
-		$("#outgoing_container").append(button)
+		$("#outgoing_container").append(button);
+
+		location.reload();
+
 	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});
 }
 
@@ -965,6 +974,64 @@ function setType(type)
 	});
 }
 
+function lookupUnlinked()
+{
+	$.ajax({
+		url: "php/get_unlinked.php",
+		type: "get",
+		data:
+		{
+			ds_id: DS_ID
+		}
+	}).done(function( msg )
+	{
+		console.log(msg);
+		eval(msg);
+
+		if(unThings.length == 0)
+		{
+			$("#added_container").css({ "display": "none"});
+			$("#num_added_things").css({ "display": "none"});
+		}
+		else
+		{
+			$("#added_container").css({ "display": "block"});
+			
+
+			$("#num_added_num").html(unThings.length);
+			var cont = $("#num_added_things");
+
+			// And now add the resultant stuff
+			$("#num_added_things").empty();
+			for(var i = 0; i < unThings.length; i++)
+			{
+				var thingSpan = $("<span class='label' thing_id='" + unThings[i].id + "' style='margin-left:10px;cursor:pointer;'>" + unThings[i].name + "</span>");
+				thingSpan.click(function(e)
+				{
+					var thingId = $(this).attr("thing_id");
+					var fred = {};
+					fred.id = thingId;
+					lookup(fred);
+
+				});
+				cont.append(thingSpan);
+
+			}
+		}
+
+	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});
+}
+
+function showAdded()
+{
+	if(!showingUnlinked) {
+		$("#num_added_things").css({ "display": "block" });
+		showingUnlinked = true;
+	} else {
+		$("#num_added_things").css({ "display": "none" });
+		showingUnlinked = false;
+	}
+}
 
 
 
