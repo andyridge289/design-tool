@@ -30,9 +30,11 @@
 					<a class="brand" href="#" style="font-weight:bold;colour;white;">Design Space Profiling</a>
 					
 					<div class="btn-group btn-grou-lg">
-					  <button id="btn_add" type="button" class="btn btn-default" onclick='setMode(MODE_ADD)'>Add to Profile</button>
-					  <button id="btn_out" type="button" class="btn btn-default" onclick='setMode(MODE_OUT)'>Output profile</button>
+					  <button id="btn_add" type="button" class="btn btn-default" onclick='setMode(MODE_ADD)'>Profile</button>
+					  <button id="btn_out" type="button" class="btn btn-default" onclick='setMode(MODE_OUT)'>Export</button>
 					</div>
+
+					<a class="brand" href="#" style="float:right;" onclick="$('#help_modal').modal()">Help</a>
 
 
 				</div>
@@ -56,11 +58,11 @@
 					<div id="radio_container">
 						Adding profile information for application:
 						<div id="radiogroup"></div>
-						<button id="show_source_button" type="button" style="margin-top:5px;" onclick="$('#source_modal').modal();">Add Tool</button>
+						<button id="show_source_button" type="button" style="margin-top:5px;" onclick="$('#source_modal').modal();">Add Application</button>
 					</div>
 
 					<div id="check_container">
-						Choose tools to show profile output:
+						Choose applications to show profile output:
 						<div id="checkgroup"></div>
 						<div><br /><b>Root:</b> <span id="root_name">none</span></div>
 
@@ -74,7 +76,7 @@
 						  <label><input type="radio" name="typeRadio" id="tableRadio" value="table"> Table (.csv)</label>
 						</div>
 		
-						<button class="btn" type="button" onclick="makeOutput()">Create Output</button>
+						<button class="btn" type="button" onclick="makeOutput()">Export</button>
 					</div>
 					
 				</div>
@@ -93,6 +95,8 @@
 			  			<button id="subnav_serv" class="btn" onClick="setDS(4, this)">Entity</button>
 					</span>
 
+					<div><b>Status:&nbsp;</b><span id="doing_span"></span><span id="application_span"></span></div>
+
 					<div id="canvas" class="well" style="padding:0px;overflow:hidden;">
 						<div id="functional_canvas" class="ds_canvas"></div>
 						<div id="nonfunctional_canvas" class="ds_canvas"></div>
@@ -101,25 +105,44 @@
 					</div>
 
 					<div id="source_modal" class="modal hide fade" tabindex="-1" role="dialog"
-					aria_labelledby="source_modal_title" aria-hidden="true">
+						aria_labelledby="source_modal_title" aria-hidden="true">
 
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-						<h4 id="add_modal_title">Add Source</h4>
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+							<h4 id="add_modal_title">Add Application Source</h4>
+						</div>
+
+						<div class="modal-body">
+
+							<table>
+							<tr><td>Name:</td><td><input id="source_name" type="text"></input></td></tr>
+						</table>
+						</div>
+
+						<div class="modal-footer">
+							<div id="btn_close" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">Close</div>
+							<div id="btn_update" class="btn btn-primary" onclick="addSource()">Add</div>
+						</div>
 					</div>
 
-					<div class="modal-body">
+					<div id="help_modal" class="modal hide fade" tabindex="-1" role="dialog"
+						aria_labelledby="help_modal_title" aria-hidden="true">
 
-						<table>
-						<tr><td>Name:</td><td><input id="source_name" type="text"></input></td></tr>
-					</table>
-					</div>
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+							<h4 id="help_modal_title">Help</h4>
+						</div>
 
-					<div class="modal-footer">
-						<div id="btn_close" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">Close</div>
-						<div id="btn_update" class="btn btn-primary" onclick="addSource()">Add</div>
+						<div class="modal-body">
+							<p>In profiling mode, click elements to add them to the profile.</p>
+							<p>In export mode, click elements to choose them as the root of your exported output.
+							<p>To export .gv files, you need to download <a href="http://www.graphviz.org/">GraphViz</a></p>
+						</div>
+
+						<div class="modal-footer">
+							<div id="btn_close" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">Close</div>
+						</div>
 					</div>
-			</div>
 					
 					
 			</div> <!-- end row fluid -->

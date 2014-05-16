@@ -566,6 +566,11 @@ function setParticipant(event)
 	textbox.css({ "display": "none" });
 }
 
+function clearAreYouSure()
+{
+	$("#delete_modal").modal();
+}
+
 function clearData()
 {
 	options = [];
@@ -1461,6 +1466,8 @@ function lookupForTool(event)
 		url: jc
 	}).done(function(data)
 	{
+		console.log("Look up for tool " + data);
+
 		if(data == "-1")
 		{
 			// Do nothing		
@@ -1503,6 +1510,8 @@ function lookupTools(node)
 		}
 	}) .done(function(data)
 	{
+		console.log("Look up for tool " + data);
+
 		if(data == "-1")
 		{
 			// Do nothing

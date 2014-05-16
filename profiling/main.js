@@ -22,6 +22,8 @@ var MODE = MODE_ADD;
 
 var outputTop = -1;
 
+var sources;
+
 function init()
 {
   	$jit.ST.Plot.NodeTypes.implement(
@@ -124,7 +126,7 @@ function getSources()
 		}
 		else
 		{
-			eval("var sources = " + msg);
+			eval("sources = " + msg);
 
 			var radioContainer = $("#radiogroup");
 			var checkContainer = $("#checkgroup");
@@ -172,6 +174,62 @@ function getSources()
 			getJSON(DS_MODE);
 		}
 	}).fail(function ( jqXHR, textStatus, errorThrown ){ alert("Fail " + textStatus + ", " + errorThrown)});
+}
+
+function updateCurrentStatus()
+{
+	if(MODE == MODE_ADD)
+	{
+		var id = $('input[name=toolRadio]:checked', '#radiogroup').val();
+
+		if(id == null)
+		{
+			$("#doing_span").html("Nothing selected, choose an application!");			
+		}
+		else
+		{
+			$("#doing_span").html("Adding profile data for ");
+
+
+			for(var i = 0; i < sources.length; i++)
+			{
+				if(sources[i].id == id) {
+					$("#application_span").html(sources[i].name);
+					break;
+				}
+			}
+		}
+	}
+	else
+	{
+		var ids = $('input[name=toolCheck]:checked', '#checkgroup');
+
+		if(ids.length == 0)
+		{
+			$("#doing_span").html("Nothing selected, choose an application!");			
+		}
+		else
+		{
+			$("#doing_span").html("Viewing profile data for ");
+
+			var toolString = "";
+			for(var i = 0; i < ids.length; i++)
+			{
+				var id = $(ids[i]).val();
+				if(i > 0) toolString += ", ";
+
+				for(var j = 0; j < sources.length; j++)
+				{
+					if(sources[j].id == id) {
+						toolString += sources[j].name;
+						break;
+					}
+				}
+			}
+
+			$("#application_span").html(toolString);
+		}
+	}
 }
 
 function makeOutput()
@@ -563,7 +621,9 @@ function set()
 	currentST.compute();
 	currentST.onClick(currentST.root);
 
-	redrawGraph(); 
+	redrawGraph();
+
+	updateCurrentStatus();
 }
 
 function getJSON(number)

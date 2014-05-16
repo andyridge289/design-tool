@@ -192,7 +192,7 @@
 						<tr><td>Name:</td><td><input id="source_name" type="text"></input></td></tr>
 						<tr><td>Author:</td><td><input id="source_author" type="text"></input></td></tr>
 						<tr><td>Source type:</td><td><div class="btn-group">
-							<button id="source_tool" class="btn active" onclick="changeSourceType(this)">Tool</button>
+							<button id="source_tool" class="btn active" onclick="changeSourceType(this)">Application</button>
 			  				<button id="source_lit" class="btn" onclick="changeSourceType(this)">Literature</button>
 			  			</div></td></tr>
 					</table>

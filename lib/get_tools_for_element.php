@@ -26,9 +26,10 @@ if(count($tools) == 0)
 {
 	echo "-1";
 }
-
-echo "var t = ";
-echo json_encode($tools);
-
+else
+{
+	echo "var t = ";
+	echo json_encode($tools);
+}
  
 ?>

@@ -37,9 +37,11 @@
 					
 					<ul id="nav" class="nav">
 						<li><a id="nav_export" href="#export_modal" onclick="exportDesign()">Export Design</a></li>
-						<li><a id="nav_clear" href="#clear_save" onclick="clearData();">Clear Data</a></li>
+						<li><a id="nav_clear" href="#clear_save" onclick="clearAreYouSure();">Clear Data</a></li>
 					</ul>
 				
+
+					<a class="brand" href="#" style="float:right;" onclick="$('#help_modal').modal()">Help</a>
 				</div>
 			</div>
 		</div>
@@ -57,15 +59,15 @@
 					<div id="option_slider"></div>
 					<div id="slider_value"></div>
 
-					<h4>Options</h4>
-					<h5>Other Decision</h5>
+					<h4>Solutions</h4>
+					<h5>Custom solution</h5>
 					
 					<fieldset>
 						<input id="custom_option" type="text" placeholder="Add custom solution:" onkeypress="customKeyDown(event)"><br />
 						<button onclick="addCustom()" class="btn">Add</button>
 					</fieldset>
 					
-					<h5>Other options</h5>
+					<h5>Chosen solutions</h5>
 					<div id="options" class="well sidebar-nav">
 						<p>Functional</p>
 						<div id="fxn_options" ></div>
@@ -80,7 +82,7 @@
 					</div>
 
 					<div>
-						<p style="font-style:italic;color:#AAA;cursor:pointer" class="unselectable" onclick="unmade()">Un-Chosen Options</p>
+						<p style="font-style:italic;color:#AAA;cursor:pointer" class="unselectable" onclick="unmade()">Un-Chosen Solutions</p>
 						<div id="unChosen" class="well sidebar-nav" style="display:none;"></div>
 					</div>
 				</div>
@@ -101,7 +103,8 @@
 					</div>
 					
 					<div id="status_bar" class="alert" style="display:none;">
-						<span id="status_text"></span>
+						<span id="status_text">hello</span>
+						<button id="choose_button" onclick="chooseCurrent()">Choose</button>
 						<button type="button" class="close" onclick="clearStatus()">&times;</button>
 					</div>
 
@@ -238,6 +241,42 @@
 					</div>
 						
 				</div>
+
+				<div id="help_modal" class="modal hide fade" tabindex="-1" role="dialog"
+						aria_labelledby="help_modal_title" aria-hidden="true">
+
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+							<h4 id="help_modal_title">Help</h4>
+						</div>
+
+						<div class="modal-body">
+							<p>Click design elements to add them to your design</p>
+							<p>Right click elements to find more information about them</p>
+						</div>
+
+						<div class="modal-footer">
+							<div id="btn_close" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">Close</div>
+						</div>
+					</div>
+
+					<div id="delete_modal" class="modal hide fade" tabindex="-1" role="dialog"
+						aria_labelledby="delete_modal_title" aria-hidden="true">
+
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+							<h4 id="delete_modal_title">Are you sure?</h4>
+						</div>
+
+						<div class="modal-body">
+							Are you sure you want to delete all the data for your design?
+						</div>
+
+						<div class="modal-footer">
+							<div id="btn_close" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">No</div>
+							<div id="btn_delete" class="btn btn-primary" onclick="clearData()">Yes</div>
+						</div>
+					</div>
 					
 			</div> <!-- end row fluid -->
 			
